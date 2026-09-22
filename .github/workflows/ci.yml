@@ -1,0 +1,67 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: quant-system-ingesta/qs
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # (M-10) historia completa: el test de igualdad de _differ_core usa
+                                #  f73504d (worktree) como ORACULO viejo; con checkout shallow no existiria
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-test.txt -c requirements-lock.txt
+      # (mesa 2026-08-25) `!cancelled()` en TODOS los pasos de verificacion, y es el arreglo de un
+      # defecto real: los pasos nuevos iban DESPUES del arnes del libro, que llevaba tres dias en
+      # rojo, asi que GitHub los habria OMITIDO — cableados al CI y sin hablar NUNCA. Es el mismo
+      # patron que este proyecto lleva dos dias catalogando: un control que existe y no informa.
+      # Cada verificacion tiene que dar su veredicto de forma INDEPENDIENTE de las anteriores.
+      #
+      # `!cancelled()` y no `always()`: `always()` tambien corre cuando el job se CANCELA, y entonces
+      # el runner intenta arrancar arneses de minutos sobre un job que ya se va — ruido, no senal.
+      - run: python -m pytest tests/ -q
+        if: ${{ !cancelled() }}
+      # V2 lote 3: libro y gate salen con la campaña y sus arneses exclusivos.
+      # (mesa 2026-08-27, dictamen §8) ARNES DE MUTACION DEL GUARDIA DE REFERENCIA INVALIDA. Los 60
+      # tests focales acreditan que el guardia hace lo que dice cuando se le llama; no acreditan que
+      # sea EL guardia quien los mantiene verdes. En su primera corrida este arnes encontro dos
+      # defectos en la maquinaria COMPARTIDA — la regex `_FALLO` no capturaba nodos parametrizados y
+      # `_juzgar` los contaba como colaterales — que dejaban al arnes del gate ciego a cualquier fila
+      # parametrizada. Un instrumento que no se corre no descubre lo que le pasa a el mismo.
+      - run: python tools/mutacion_ref_valida.py
+        if: ${{ !cancelled() }}
+      # (2026-08-27) GUARDIA DOCUMENTAL. Dos defectos de estos dias eran puramente MECANICOS y aun
+      # asi los cazo un humano leyendo: un documento titulado PREREG escrito DESPUES de ver el
+      # resultado (E-42) y una especificacion prometiendo campos que el codigo descartaba (E-45).
+      # Corre en milisegundos, no abre un npz y no toca la red. Los prerregistros anteriores a la
+      # regla estan EXIMIDOS uno a uno: un guardia que pone rojo el build por historia antigua se
+      # desactiva en una semana, y entonces no guarda nada.
+      - run: python tools/guardia_documental.py
+        if: ${{ !cancelled() }}
+      # (mesa 2026-08-28, 4a reauditoria) CENSO DE COMPLETITUD. De sus seis objeciones esta era la
+      # UNICA que importaba de verdad: «no corre en CI ni tiene pruebas propias». Un guardia que no
+      # corre en ningun sitio no tiene poder de veto, asi que sus puntos ciegos no dejaban pasar nada
+      # — no habia compuerta. Nada mas enchufarlo encontro el agujero del eco (dos productores
+      # escribiendo npz sin manifiesto) y una compuerta que no dominaba a su productor.
+      # Vigila `analysis/` Y `tools/`, por AST con alias resueltos, con exenciones por CALLSITE.
+      - run: python tools/guardia_completitud.py
+        if: ${{ !cancelled() }}
+      # (mesa 2026-08-28, cierre minimo) REGISTRO DE LA SONDA: id -> funcion IMPORTABLE e INVOCABLE.
+      # La declaracion por AST del prerregistro acredita que existe un simbolo con ese nombre; no que
+      # el modulo importe ni que alguien lo llame. Hoy el registro esta VACIO y eso es correcto: la
+      # sonda no esta implementada y `--exigir` devuelve rc=2. Cuando se registre la primera regla,
+      # este job comprueba que resuelve de verdad.
+      - run: python tools/registro_sonda.py
+        if: ${{ !cancelled() }}
+      # (mesa 2026-08-25, dictamen §4) El recuento del registro del metodo se REGENERA desde las
+      # tablas y aqui se comprueba que no esta rancio. Publico «34 = 25 + 9» teniendo 44 filas porque
+      # la herramienta existia y nadie la reejecuto tras anadir diez entradas. Ahora el build lo dice.
+      - run: python tools/recuento_auditoria.py --check
+        if: ${{ !cancelled() }}

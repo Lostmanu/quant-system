@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-09-05T15:19:44.626431+00:00",
+  "head": "7df52803b6db3777b23be85409ef998f879909a8",
+  "scope": {
+    "symbol": "LIT",
+    "day": "2026-03-06",
+    "start_ms": 1772755200000,
+    "end_ms": 1772841600000,
+    "limit": 1,
+    "pages_max": 1,
+    "retries": 0,
+    "budget_credits": 80
+  },
+  "request_url": "https://api.0xarchive.io/v1/lighter/l3orderbook/LIT/history?start=1772755200000&end=1772841600000&limit=1",
+  "pricing_url": "https://docs.0xarchive.io/core-concepts/credits",
+  "documented_data_request_cost_credits": 1,
+  "pricing_basis": "Lighter L3: max(1, ceil(rows_returned/1000)); limit=1 snapshot",
+  "balance_before": 50000,
+  "source_sha256": {
+    "<USER_HOME>\\OneDrive\\Documents\\Laboratorio\\i5_sonda_20260905.py": "41bf6a01d5e14f237a3ce89dccc7a0cb480d3df025ab495e110f699bcd72930e",
+    "<USER_HOME>\\OneDrive\\Documents\\Laboratorio\\i5_preflight_20260905.py": "0cb22b4dc6d70468c34503f5ab1a3a41daf6b733058515112e31a03c77a2958b",
+    "<USER_HOME>\\Desktop\\quant-system\\quant-system-ingesta\\qs\\tools\\etapa0_validador.py": "a3f6060608da9c7c6a9ffd43a6cf1ffe8c00da238a36d621a7b496ea0bd6ed4c"
+  },
+  "data_response": {
+    "http_status": 403,
+    "received_utc": "2026-09-05T15:19:44.989352+00:00",
+    "body_bytes": 448,
+    "body_sha256": "a091d81c7ed3d79409fb0d027518c6ae58630d7be59aff725b0ca4afa9728789",
+    "headers": {
+      "Date": "Sat, 05 Sep 2026 15:19:45 GMT",
+      "x-credits-used": "10",
+      "x-credits-remaining": "49990",
+      "x-request-id": "75433a3e-000f-438c-9f28-94830bb885d6"
+    }
+  },
+  "response_keys": [
+    "code",
+    "error",
+    "error_code",
+    "request_id"
+  ],
+  "state": "INDETERMINADO",
+  "reason": "HTTP 403: no acredita ausencia de datos",
+  "error": {
+    "error": "Your plan includes the most recent 30 days of history: this request starts at 2026-03-06T00:00:00Z, before the earliest allowed timestamp 2026-08-06T15:19:45Z. Requests cannot be chunked across the age boundary. Build and above include the full retained archive, or purchase the range once via the Data Catalog (dashboard -> Exports).",
+    "code": 403
+  },
+  "usage_after": {
+    "http_status": 200,
+    "time_utc": "2026-09-05T15:19:45.354715+00:00",
+    "body_sha256": "6eecfc1653fd6b073357a1de642e8c125b9fbcfa34a6e9e01f7b52bfc0483e71",
+    "credits_remaining": 49999,
+    "credits_used": 1,
+    "headers": {
+      "Date": "Sat, 05 Sep 2026 15:19:45 GMT",
+      "x-credits-used": "1",
+      "x-credits-remaining": "49999",
+      "x-request-id": "7bd05ba5-b369-4124-87e2-33e64cc19eb5"
+    }
+  },
+  "balance_delta_credits": 1,
+  "finished_utc": "2026-09-05T15:19:45.354741+00:00",
+  "limits": "Una página mínima; no acredita cobertura del día ni de los 79 días. Sin markouts."
+}

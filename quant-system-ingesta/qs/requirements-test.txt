@@ -1,0 +1,13 @@
+# Dependencias para correr la SUITE COMPLETA de tests (y la ruta de infra/vendor).
+# El CORE estadístico (cv, overfit, haircut, screen, book, toxicity, regime…) corre solo con
+# requirements.txt (numpy + pyarrow). Estos extras son de la ruta de infra/vendor y de sus tests:
+#   - pandas: el SDK de CryptoHFTData devuelve DataFrames; los tests de adapters construyen fixtures
+#     DataFrame. Sin pandas, esos tests SE SALTAN (pytest.importorskip), no rompen.
+#   - zstandard: el colector de tick (infra/lighter_collector) y su test.
+# CI instala ESTE fichero para ejercitar todo. Un auditor que solo quiera el core: `pip install -r
+# requirements.txt`. Un auditor que quiera reproducir TODO: `pip install -r requirements-test.txt`.
+# Para reproducir exactamente el entorno verde de CI (Python 3.12 / Ubuntu 24.04), usar ademas:
+# `pip install -r requirements-test.txt -c requirements-lock.txt`.
+-r requirements.txt
+pandas>=2
+zstandard>=0.22

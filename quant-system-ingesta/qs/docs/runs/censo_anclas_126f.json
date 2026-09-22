@@ -1,0 +1,2680 @@
+{
+ "alcance": {
+  "filas": 706490194,
+  "n_ficheros": 126,
+  "patrones": [
+   "data_hist/cryptohft/*/*/*_orderbook.parquet",
+   "data_hist/cryptohft/*/*_orderbook.parquet"
+  ]
+ },
+ "anclas": [
+  {
+   "L": 10449920166176.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1777649863110,
+   "fila_fin": 897788,
+   "fila_ini": 895789,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/ATOMUSDT/2026-05-01_orderbook.parquet",
+   "sha256_fichero": "3a37bf17ad8fbfee32fa8547a66c22410f3ecd457bbef437af099408ed244782",
+   "sucesor": {
+    "U": 10449920166176,
+    "pu": 10449920154874,
+    "u": 10449920170958
+   }
+  },
+  {
+   "L": 10788495601759.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246455413,
+   "fila_fin": 882021,
+   "fila_ini": 880022,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fffd6a6266ef32d598d3e9d69deea855bb7f457c51ea0f2b4cfe5f65c8ab0fe2",
+   "sucesor": {
+    "U": 10788495619784,
+    "pu": 10788495601759,
+    "u": 10788495619784
+   }
+  },
+  {
+   "L": 10790133264302.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263102977,
+   "fila_fin": 1357137,
+   "fila_ini": 1355138,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fffd6a6266ef32d598d3e9d69deea855bb7f457c51ea0f2b4cfe5f65c8ab0fe2",
+   "sucesor": {
+    "U": 10790133309828,
+    "pu": 10790133264302,
+    "u": 10790133309828
+   }
+  },
+  {
+   "L": 10797872400146.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348906631,
+   "fila_fin": 886979,
+   "fila_ini": 884980,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "46abe4fd13b7f444eb073742b0d7e0687f84b829e69cafcfee06df12ae2eb9b8",
+   "sucesor": {
+    "U": 10797872494968,
+    "pu": 10797872400146,
+    "u": 10797872494968
+   }
+  },
+  {
+   "L": 10800601757012.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781384910633,
+   "fila_fin": 1461341,
+   "fila_ini": 1459342,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "46abe4fd13b7f444eb073742b0d7e0687f84b829e69cafcfee06df12ae2eb9b8",
+   "sucesor": {
+    "U": 10800601762485,
+    "pu": 10800601757012,
+    "u": 10800601762630
+   }
+  },
+  {
+   "L": 10805519615797.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452122199,
+   "fila_fin": 965316,
+   "fila_ini": 963317,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e8551e61cdb1f3080df35a833c1033adc403dbd6c78c44d524c378c58be62e62",
+   "sucesor": {
+    "U": 10805519632694,
+    "pu": 10805519615797,
+    "u": 10805519633195
+   }
+  },
+  {
+   "L": 10813474731509.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537878539,
+   "fila_fin": 1112927,
+   "fila_ini": 1110928,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "8087d9e174787393b85bda0a06a03187a8dcc2d8d0be86b9c074789f8db4bfea",
+   "sucesor": {
+    "U": 10813474759651,
+    "pu": 10813474731509,
+    "u": 10813474759651
+   }
+  },
+  {
+   "L": 10821772511405.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623680120,
+   "fila_fin": 1206796,
+   "fila_ini": 1204797,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "f7efe17138de06074ca23053ca4e0260baaed9b02d227f4c6315dce2ad9f533b",
+   "sucesor": {
+    "U": 10821772542866,
+    "pu": 10821772511405,
+    "u": 10821772545610
+   }
+  },
+  {
+   "L": 10830040248634.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781709483568,
+   "fila_fin": 1116681,
+   "fila_ini": 1114682,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "85526e23864c3cd847a819bae5df18cc3414fe2c315000343fbc0e11bd3e65e2",
+   "sucesor": {
+    "U": 10830040362731,
+    "pu": 10830040248634,
+    "u": 10830040362731
+   }
+  },
+  {
+   "L": 10831295700306.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781720043630,
+   "fila_fin": 1394885,
+   "fila_ini": 1392886,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "85526e23864c3cd847a819bae5df18cc3414fe2c315000343fbc0e11bd3e65e2",
+   "sucesor": {
+    "U": 10831295713228,
+    "pu": 10831295700306,
+    "u": 10831295713228
+   }
+  },
+  {
+   "L": 10840462599023.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805846453,
+   "fila_fin": 1754512,
+   "fila_ini": 1752513,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "5939c585f8ca16ecd0af86aadfcc70904a6f9f4a58d105633e1d06ca652af3d4",
+   "sucesor": {
+    "U": 10840462615080,
+    "pu": 10840462599023,
+    "u": 10840462615080
+   }
+  },
+  {
+   "L": 10843278473706.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781838921572,
+   "fila_fin": 208589,
+   "fila_ini": 207590,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": null
+  },
+  {
+   "L": 10843278732898.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781838922339,
+   "fila_fin": 209589,
+   "fila_ini": 208590,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": null
+  },
+  {
+   "L": 10843279659101.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781838924758,
+   "fila_fin": 211589,
+   "fila_ini": 209590,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": {
+    "U": 10843279665246,
+    "pu": 10843279659101,
+    "u": 10843279688055
+   }
+  },
+  {
+   "L": 10850642770333.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781924724457,
+   "fila_fin": 193293,
+   "fila_ini": 191294,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "af59b390a4069de6d54dc3e08b5709c56eacb3cd7ed17e428baf278afb161e41",
+   "sucesor": {
+    "U": 10850642778495,
+    "pu": 10850642770333,
+    "u": 10850642778628
+   }
+  },
+  {
+   "L": 10856927932268.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782010527779,
+   "fila_fin": 147287,
+   "fila_ini": 145288,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1f93a03de58ba8ee1cdc3d20aa9326f67de9a9eedcd8c3bf6d71528f16d76ea9",
+   "sucesor": {
+    "U": 10856927954902,
+    "pu": 10856927932268,
+    "u": 10856927954902
+   }
+  },
+  {
+   "L": 10862169641302.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782082624205,
+   "fila_fin": 1081192,
+   "fila_ini": 1079209,
+   "n_filas": 1984,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1f93a03de58ba8ee1cdc3d20aa9326f67de9a9eedcd8c3bf6d71528f16d76ea9",
+   "sucesor": {
+    "U": 10862169716675,
+    "pu": 10862169641302,
+    "u": 10862169716839
+   }
+  },
+  {
+   "L": 10869949379733.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782168428816,
+   "fila_fin": 1382844,
+   "fila_ini": 1380845,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "af2e7e6b0ffed1c47717ce871bd276e86041a7bbc1d64ce553fb23c4275ad57d",
+   "sucesor": {
+    "U": 10869949397471,
+    "pu": 10869949379733,
+    "u": 10869949398908
+   }
+  },
+  {
+   "L": 10877695740020.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782254231210,
+   "fila_fin": 1505447,
+   "fila_ini": 1503454,
+   "n_filas": 1994,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "aa2bdacbe211a5f3b609bfbef9e6fd948945c31eb6c763cbbb6c3ab19ab25dc4",
+   "sucesor": {
+    "U": 10877695753154,
+    "pu": 10877695740020,
+    "u": 10877695753154
+   }
+  },
+  {
+   "L": 10879052489998.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269598100,
+   "fila_fin": 144952,
+   "fila_ini": 142973,
+   "n_filas": 1980,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "40135a044a84ac55e16b53efb72c8f62bf2748b097266042309adc3a5547a1ed",
+   "sucesor": {
+    "U": 10879052536219,
+    "pu": 10879052489998,
+    "u": 10879052536863
+   }
+  },
+  {
+   "L": 10887519416946.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782355401554,
+   "fila_fin": 191628,
+   "fila_ini": 189719,
+   "n_filas": 1910,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "6cb6f9e2159115cfc26dbb2dda8e91da26a55a5b6b812f7736b75c93405c6112",
+   "sucesor": {
+    "U": 10887519417196,
+    "pu": 10887519416946,
+    "u": 10887519418587
+   }
+  },
+  {
+   "L": 10894251227155.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782418191660,
+   "fila_fin": 1850929,
+   "fila_ini": 1849102,
+   "n_filas": 1828,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "6cb6f9e2159115cfc26dbb2dda8e91da26a55a5b6b812f7736b75c93405c6112",
+   "sucesor": {
+    "U": 10894251229069,
+    "pu": 10894251227155,
+    "u": 10894251229069
+   }
+  },
+  {
+   "L": 10788502181799.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246515528,
+   "fila_fin": 1434846,
+   "fila_ini": 1432847,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "91e7dde0ef4b19cf87143f8b25ff7c05fb91831021446ac1a61a234375041043",
+   "sucesor": {
+    "U": 10788502184344,
+    "pu": 10788502181799,
+    "u": 10788502184960
+   }
+  },
+  {
+   "L": 10790132998075.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263099269,
+   "fila_fin": 2462661,
+   "fila_ini": 2460662,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "91e7dde0ef4b19cf87143f8b25ff7c05fb91831021446ac1a61a234375041043",
+   "sucesor": {
+    "U": 10790133001745,
+    "pu": 10790132998075,
+    "u": 10790133002767
+   }
+  },
+  {
+   "L": 10797872077148.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348902382,
+   "fila_fin": 1892305,
+   "fila_ini": 1890306,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b86478f75e96054a8d91330ea17ca64b3189eedff9cbe1b4b81b1a8a418f683d",
+   "sucesor": {
+    "U": 10797872077111,
+    "pu": 10797872070539,
+    "u": 10797872078288
+   }
+  },
+  {
+   "L": 10804119610686.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781434705237,
+   "fila_fin": 1534530,
+   "fila_ini": 1532531,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "142b4f10b243990351221059cb8a948a26318dc6bc14977f28886eaf08371ab8",
+   "sucesor": {
+    "U": 10804119607386,
+    "pu": 10804119603634,
+    "u": 10804119611242
+   }
+  },
+  {
+   "L": 10805519694352.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452123783,
+   "fila_fin": 2413123,
+   "fila_ini": 2411124,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "142b4f10b243990351221059cb8a948a26318dc6bc14977f28886eaf08371ab8",
+   "sucesor": {
+    "U": 10805519694352,
+    "pu": 10805519691279,
+    "u": 10805519694696
+   }
+  },
+  {
+   "L": 10813481032610.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537925013,
+   "fila_fin": 4349964,
+   "fila_ini": 4347965,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "af23b5020d61e393af82496cabdce8fb77a0b98ff4812ed68bac586b28a2cbac",
+   "sucesor": {
+    "U": 10813481032230,
+    "pu": 10813481032086,
+    "u": 10813481047219
+   }
+  },
+  {
+   "L": 10821778019681.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623724052,
+   "fila_fin": 4209693,
+   "fila_ini": 4207694,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "1838da0d431c30e29d68368ad822e74436b0187fb7ff74f6a06ca71dc7b73df7",
+   "sucesor": {
+    "U": 10821778031805,
+    "pu": 10821778019681,
+    "u": 10821778031805
+   }
+  },
+  {
+   "L": 10829779378425.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707654939,
+   "fila_fin": 4034359,
+   "fila_ini": 4033360,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": null
+  },
+  {
+   "L": 10829780058818.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707657127,
+   "fila_fin": 4035359,
+   "fila_ini": 4034360,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": null
+  },
+  {
+   "L": 10829780668535.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781707659030,
+   "fila_fin": 4037359,
+   "fila_ini": 4035360,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": {
+    "U": 10829780666605,
+    "pu": 10829780663435,
+    "u": 10829780681045
+   }
+  },
+  {
+   "L": 10831286974976.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781719987633,
+   "fila_fin": 5388906,
+   "fila_ini": 5386907,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": {
+    "U": 10831286990371,
+    "pu": 10831286974976,
+    "u": 10831286990373
+   }
+  },
+  {
+   "L": 10840456490786.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805791093,
+   "fila_fin": 5769313,
+   "fila_ini": 5767314,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "d181774e8424de27b8cb7aaebaf5f19d997cf7c0f03f41733847dc1146bc196e",
+   "sucesor": {
+    "U": 10840456501818,
+    "pu": 10840456490786,
+    "u": 10840456501890
+   }
+  },
+  {
+   "L": 10841591092931.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781817725951,
+   "fila_fin": 6659410,
+   "fila_ini": 6657411,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "d181774e8424de27b8cb7aaebaf5f19d997cf7c0f03f41733847dc1146bc196e",
+   "sucesor": {
+    "U": 10841591094480,
+    "pu": 10841591092931,
+    "u": 10841591094480
+   }
+  },
+  {
+   "L": 10849097224212.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781903528354,
+   "fila_fin": 8464965,
+   "fila_ini": 8462966,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "3d1e1dd26a0d3b4b97843643998ff22e209d1e9988383580771454f094133581",
+   "sucesor": {
+    "U": 10849097230363,
+    "pu": 10849097224212,
+    "u": 10849097230573
+   }
+  },
+  {
+   "L": 10855512672686.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781989331007,
+   "fila_fin": 6678873,
+   "fila_ini": 6676874,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "e7a82ebccddbc5a2b8314016070f5003e905dd1fefca84d8f5a3757d1f23da64",
+   "sucesor": {
+    "U": 10855512672368,
+    "pu": 10855512671589,
+    "u": 10855512673486
+   }
+  },
+  {
+   "L": 10861554485901.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782075134930,
+   "fila_fin": 5294926,
+   "fila_ini": 5292927,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "499fc219273f55f6a9db48a4467e6b384113d75ac6745f9d6fbb0a318c988b14",
+   "sucesor": {
+    "U": 10861554489033,
+    "pu": 10861554485901,
+    "u": 10861554489211
+   }
+  },
+  {
+   "L": 10869403519187.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782160937487,
+   "fila_fin": 6573762,
+   "fila_ini": 6571763,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b3901fc9399f791cb6a28363cb49415c9cd06768c6b10625d29b0acac34e41a1",
+   "sucesor": {
+    "U": 10869403519187,
+    "pu": 10869403516840,
+    "u": 10869403520621
+   }
+  },
+  {
+   "L": 10877185774883.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782246739065,
+   "fila_fin": 7612407,
+   "fila_ini": 7610408,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "ff0f42320cafb0d0cc037fbabbbde176ab6e78f5509719a712389a8b6e97e832",
+   "sucesor": {
+    "U": 10877185777355,
+    "pu": 10877185774883,
+    "u": 10877185778337
+   }
+  },
+  {
+   "L": 10879045839790.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269476854,
+   "fila_fin": 1041061,
+   "fila_ini": 1039062,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "df799c5d9d0ec5074eba9f83d8329c324506c746943507a437326946885db3e2",
+   "sucesor": {
+    "U": 10879045843393,
+    "pu": 10879045839790,
+    "u": 10879045845092
+   }
+  },
+  {
+   "L": 10879055771144.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269654924,
+   "fila_fin": 1043328,
+   "fila_ini": 1041329,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "df799c5d9d0ec5074eba9f83d8329c324506c746943507a437326946885db3e2",
+   "sucesor": {
+    "U": 10879055773233,
+    "pu": 10879055771144,
+    "u": 10879055774805
+   }
+  },
+  {
+   "L": 10887568833749.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782356009165,
+   "fila_fin": 752188,
+   "fila_ini": 750189,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "f7d87eb662c0f573ee1b0f5785fb91b855a80f5153884ebcec0524b9dfb23300",
+   "sucesor": {
+    "U": 10887568851219,
+    "pu": 10887568833749,
+    "u": 10887568851560
+   }
+  },
+  {
+   "L": 10788502178971.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246515479,
+   "fila_fin": 966502,
+   "fila_ini": 964503,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "62e3598e7449d76e235d7da36c7980d756df9ec95b66738fb568538ad2eaf4dc",
+   "sucesor": {
+    "U": 10788502183120,
+    "pu": 10788502178971,
+    "u": 10788502183120
+   }
+  },
+  {
+   "L": 10790133001397.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263099323,
+   "fila_fin": 1667517,
+   "fila_ini": 1665518,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "62e3598e7449d76e235d7da36c7980d756df9ec95b66738fb568538ad2eaf4dc",
+   "sucesor": {
+    "U": 10790133001397,
+    "pu": 10790132998885,
+    "u": 10790133002510
+   }
+  },
+  {
+   "L": 10797872076632.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348902377,
+   "fila_fin": 1795541,
+   "fila_ini": 1793544,
+   "n_filas": 1998,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "d1eb4ce1cb39ed6dea9de753850233d6d46dfafa445a55a6d8ab780677fe59d0",
+   "sucesor": {
+    "U": 10797872090206,
+    "pu": 10797872076632,
+    "u": 10797872090206
+   }
+  },
+  {
+   "L": 10804119611014.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781434705236,
+   "fila_fin": 1529840,
+   "fila_ini": 1527877,
+   "n_filas": 1964,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "ddce9e65c2f5c820a936d10a23dd62aae499eae8d081a1217cd124a370085bc0",
+   "sucesor": {
+    "U": 10804119608797,
+    "pu": 10804119607251,
+    "u": 10804119611148
+   }
+  },
+  {
+   "L": 10805519985915.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452128921,
+   "fila_fin": 2206181,
+   "fila_ini": 2204248,
+   "n_filas": 1934,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "ddce9e65c2f5c820a936d10a23dd62aae499eae8d081a1217cd124a370085bc0",
+   "sucesor": {
+    "U": 10805519996258,
+    "pu": 10805519985915,
+    "u": 10805519996258
+   }
+  },
+  {
+   "L": 10813480890978.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537923910,
+   "fila_fin": 2688502,
+   "fila_ini": 2686503,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "3d23c7936a17b8f409360804c88a52def37b34f02a6093885ab480e135511031",
+   "sucesor": {
+    "U": 10813480893911,
+    "pu": 10813480890978,
+    "u": 10813480894600
+   }
+  },
+  {
+   "L": 10821778026001.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623724127,
+   "fila_fin": 2420377,
+   "fila_ini": 2418402,
+   "n_filas": 1976,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "4e5d31671d3c184c24c867d0580f34daff565a99bcbc7a482b8e06046f8e0c0c",
+   "sucesor": {
+    "U": 10821778026001,
+    "pu": 10821778021324,
+    "u": 10821778026646
+   }
+  },
+  {
+   "L": 10829779888208.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707656653,
+   "fila_fin": 2550897,
+   "fila_ini": 2549910,
+   "n_filas": 988,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": null
+  },
+  {
+   "L": 10829780664011.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781707659022,
+   "fila_fin": 2552871,
+   "fila_ini": 2550898,
+   "n_filas": 1974,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": {
+    "U": 10829780669136,
+    "pu": 10829780664011,
+    "u": 10829780683317
+   }
+  },
+  {
+   "L": 10831286983128.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781719987718,
+   "fila_fin": 3333570,
+   "fila_ini": 3331571,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": {
+    "U": 10831286983128,
+    "pu": 10831286978843,
+    "u": 10831286983273
+   }
+  },
+  {
+   "L": 10840456493426.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805791051,
+   "fila_fin": 3434736,
+   "fila_ini": 3432849,
+   "n_filas": 1888,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "6ea7dbb3b6de8fbb19b218a6f39c720fc4d5c2f89e5f1fc7ea75a39196e39e21",
+   "sucesor": {
+    "U": 10840456500664,
+    "pu": 10840456493426,
+    "u": 10840456500852
+   }
+  },
+  {
+   "L": 10841591091510.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781817725921,
+   "fila_fin": 3981504,
+   "fila_ini": 3979593,
+   "n_filas": 1912,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "6ea7dbb3b6de8fbb19b218a6f39c720fc4d5c2f89e5f1fc7ea75a39196e39e21",
+   "sucesor": {
+    "U": 10841591096367,
+    "pu": 10841591091510,
+    "u": 10841591096367
+   }
+  },
+  {
+   "L": 10849097227024.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781903528416,
+   "fila_fin": 3287049,
+   "fila_ini": 3285166,
+   "n_filas": 1884,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "c74ec46edf5db05d323c20bbf222966e9310c29bc6c2feb1c52476a451430297",
+   "sucesor": {
+    "U": 10849097226084,
+    "pu": 10849097224626,
+    "u": 10849097227557
+   }
+  },
+  {
+   "L": 10855512672485.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781989331006,
+   "fila_fin": 2508826,
+   "fila_ini": 2506939,
+   "n_filas": 1888,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "5535010a1fc63d94eaa27df15038e004502f3e8807c006353d98eea45765c936",
+   "sucesor": {
+    "U": 10855512676640,
+    "pu": 10855512672485,
+    "u": 10855512677272
+   }
+  },
+  {
+   "L": 10861554419925.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782075133613,
+   "fila_fin": 2268666,
+   "fila_ini": 2266783,
+   "n_filas": 1884,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1bdd3ad65c54c2f636efea4ff4bb5eb4b3e9046f369e60e6f5d0d12d45b1fc37",
+   "sucesor": {
+    "U": 10861554425268,
+    "pu": 10861554419925,
+    "u": 10861554425810
+   }
+  },
+  {
+   "L": 10869403470525.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782160936645,
+   "fila_fin": 3133350,
+   "fila_ini": 3131465,
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "211f8ad29777c020eeda02e03277787b949c9f37772b901cac408338c6e2a64b",
+   "sucesor": {
+    "U": 10869403475019,
+    "pu": 10869403470525,
+    "u": 10869403475492
+   }
+  },
+  {
+   "L": 10877185772095.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782246739010,
+   "fila_fin": 3355421,
+   "fila_ini": 3353604,
+   "n_filas": 1818,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "b221c73fe7e67f49784056391bcd7112052c512b9fd5973502e01ebbf8de87bd",
+   "sucesor": {
+    "U": 10877185785490,
+    "pu": 10877185772095,
+    "u": 10877185785490
+   }
+  },
+  {
+   "L": 10879045660571.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269474871,
+   "fila_fin": 374618,
+   "fila_ini": 371853,
+   "n_filas": 2766,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "6d859220376c1d6218c9ae12e82b0a1002dfe48ed4222e46388410da68b2e655",
+   "sucesor": {
+    "U": 10879045666168,
+    "pu": 10879045660571,
+    "u": 10879045667434
+   }
+  },
+  {
+   "L": 10879056169123.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269659799,
+   "fila_fin": 376624,
+   "fila_ini": 374781,
+   "n_filas": 1844,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "6d859220376c1d6218c9ae12e82b0a1002dfe48ed4222e46388410da68b2e655",
+   "sucesor": {
+    "U": 10879056170938,
+    "pu": 10879056169123,
+    "u": 10879056171915
+   }
+  },
+  {
+   "L": 10887520199389.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782355408865,
+   "fila_fin": 335173,
+   "fila_ini": 333352,
+   "n_filas": 1822,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "8a51d4a755feac34d82bf9b8d77ac2a398d9e69eca3d503c10a84f8c3c55cda3",
+   "sucesor": {
+    "U": 10887520205845,
+    "pu": 10887520199389,
+    "u": 10887520205845
+   }
+  },
+  {
+   "L": 10887568827757.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782356009137,
+   "fila_fin": 342770,
+   "fila_ini": 340947,
+   "n_filas": 1824,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "8a51d4a755feac34d82bf9b8d77ac2a398d9e69eca3d503c10a84f8c3c55cda3",
+   "sucesor": {
+    "U": 10887568844008,
+    "pu": 10887568827757,
+    "u": 10887568847839
+   }
+  },
+  {
+   "L": 10788502182015.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246515524,
+   "fila_fin": 841939,
+   "fila_ini": 840098,
+   "n_filas": 1842,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "d17c5eb37a73aea83cf4dea3409ce5bf3f549f68daff453bb8a98c0b2ea29260",
+   "sucesor": {
+    "U": 10788502182015,
+    "pu": 10788502179326,
+    "u": 10788502182870
+   }
+  },
+  {
+   "L": 10790133114191.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263100749,
+   "fila_fin": 1473761,
+   "fila_ini": 1471900,
+   "n_filas": 1862,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "d17c5eb37a73aea83cf4dea3409ce5bf3f549f68daff453bb8a98c0b2ea29260",
+   "sucesor": {
+    "U": 10790133114098,
+    "pu": 10790133112363,
+    "u": 10790133114828
+   }
+  },
+  {
+   "L": 10797872074950.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348902354,
+   "fila_fin": 1801357,
+   "fila_ini": 1799438,
+   "n_filas": 1920,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "16afbebff71ac9452a3e8e887b1cf6a89e6df1f3ea14f5440112994720dbb429",
+   "sucesor": {
+    "U": 10797872079106,
+    "pu": 10797872074950,
+    "u": 10797872080375
+   }
+  },
+  {
+   "L": 10804119610803.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781434705246,
+   "fila_fin": 1526525,
+   "fila_ini": 1524622,
+   "n_filas": 1904,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e02d59f4ea0012405199fbcca1e907d0bacb42a1a4f08760521ef185dfbb2e86",
+   "sucesor": {
+    "U": 10804119616326,
+    "pu": 10804119610803,
+    "u": 10804119616326
+   }
+  },
+  {
+   "L": 10805519694665.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452123787,
+   "fila_fin": 2206764,
+   "fila_ini": 2204917,
+   "n_filas": 1848,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e02d59f4ea0012405199fbcca1e907d0bacb42a1a4f08760521ef185dfbb2e86",
+   "sucesor": {
+    "U": 10805519694665,
+    "pu": 10805519690854,
+    "u": 10805519695545
+   }
+  },
+  {
+   "L": 10813480790409.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537922794,
+   "fila_fin": 2708092,
+   "fila_ini": 2706191,
+   "n_filas": 1902,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "c914c24fc2c98910715f93e60dbe9e0d2ab74641524aafb8db4fc652bce03ab6",
+   "sucesor": {
+    "U": 10813480792114,
+    "pu": 10813480790409,
+    "u": 10813480793267
+   }
+  },
+  {
+   "L": 10821778079727.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623724617,
+   "fila_fin": 2551052,
+   "fila_ini": 2549197,
+   "n_filas": 1856,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "228910c8d1f29c7e914d47a68c760167ec74c0925038641aa455ca094ac77576",
+   "sucesor": {
+    "U": 10821778117228,
+    "pu": 10821778079727,
+    "u": 10821778117928
+   }
+  },
+  {
+   "L": 10829779638691.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707655635,
+   "fila_fin": 3018861,
+   "fila_ini": 3017906,
+   "n_filas": 956,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": null
+  },
+  {
+   "L": 10829779952029.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707656887,
+   "fila_fin": 3019816,
+   "fila_ini": 3018862,
+   "n_filas": 955,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": null
+  },
+  {
+   "L": 10829780713875.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781707659275,
+   "fila_fin": 3021724,
+   "fila_ini": 3019817,
+   "n_filas": 1908,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": {
+    "U": 10829780713875,
+    "pu": 10829780709127,
+    "u": 10829780737498
+   }
+  },
+  {
+   "L": 10831286978418.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781719987669,
+   "fila_fin": 3990779,
+   "fila_ini": 3988862,
+   "n_filas": 1918,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": {
+    "U": 10831286986547,
+    "pu": 10831286978418,
+    "u": 10831286986547
+   }
+  },
+  {
+   "L": 10840456496297.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805791105,
+   "fila_fin": 3628003,
+   "fila_ini": 3626170,
+   "n_filas": 1834,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "12dee74a8a178d97072614385d5d60268fbefb4049c5711715889ca7cb8dbd72",
+   "sucesor": {
+    "U": 10840456497855,
+    "pu": 10840456496297,
+    "u": 10840456498491
+   }
+  },
+  {
+   "L": 10841591091536.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781817725919,
+   "fila_fin": 4406650,
+   "fila_ini": 4404759,
+   "n_filas": 1892,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "12dee74a8a178d97072614385d5d60268fbefb4049c5711715889ca7cb8dbd72",
+   "sucesor": {
+    "U": 10841591096459,
+    "pu": 10841591091536,
+    "u": 10841591096839
+   }
+  },
+  {
+   "L": 10849097226558.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781903528402,
+   "fila_fin": 3821680,
+   "fila_ini": 3819773,
+   "n_filas": 1908,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "450568b1a6ec4753a6f19a08755bc1d87a74f79f7be73f5fd472fccf4aba9ef3",
+   "sucesor": {
+    "U": 10849097234672,
+    "pu": 10849097226558,
+    "u": 10849097235418
+   }
+  },
+  {
+   "L": 10855512783568.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781989332886,
+   "fila_fin": 2362029,
+   "fila_ini": 2360144,
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "d93dd1cc4878eecc66d4a3ff464867bc1d2301d2e7cfbd0239dd2d4ade2ca328",
+   "sucesor": {
+    "U": 10855512793100,
+    "pu": 10855512783568,
+    "u": 10855512793249
+   }
+  },
+  {
+   "L": 10861554420396.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782075133626,
+   "fila_fin": 2676101,
+   "fila_ini": 2674184,
+   "n_filas": 1918,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "e60d4a96b1690220dadf269dfb67bf9b08a5fc28edc3345868769157782d1d2e",
+   "sucesor": {
+    "U": 10861554428795,
+    "pu": 10861554420396,
+    "u": 10861554428795
+   }
+  },
+  {
+   "L": 10869403469022.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782160936614,
+   "fila_fin": 3336289,
+   "fila_ini": 3334404,
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "dd7ab57d9ffdcad42f66d493e9a569ccc01bab888e977de8dba9281e00a1961a",
+   "sucesor": {
+    "U": 10869403479108,
+    "pu": 10869403469022,
+    "u": 10869403479420
+   }
+  },
+  {
+   "L": 10877185775581.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782246739075,
+   "fila_fin": 3707211,
+   "fila_ini": 3705238,
+   "n_filas": 1974,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "78a2067ed5665606052767a66eb30ffc63610fe0a43c37ba0061572bdf5b6dbe",
+   "sucesor": {
+    "U": 10877185778097,
+    "pu": 10877185775581,
+    "u": 10877185779499
+   }
+  },
+  {
+   "L": 10879049173858.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1782269534886,
+   "fila_fin": 417469,
+   "fila_ini": 415498,
+   "n_filas": 1972,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "9d41b17b5d1fdef116ceeba0dff537323c8a3d1c6972a9fd11b35fe338d5d869",
+   "sucesor": null
+  },
+  {
+   "L": 10879055782119.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269655058,
+   "fila_fin": 419437,
+   "fila_ini": 417470,
+   "n_filas": 1968,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "9d41b17b5d1fdef116ceeba0dff537323c8a3d1c6972a9fd11b35fe338d5d869",
+   "sucesor": {
+    "U": 10879055782119,
+    "pu": 10879055779915,
+    "u": 10879055783501
+   }
+  },
+  {
+   "L": 10887568868894.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782356009538,
+   "fila_fin": 425978,
+   "fila_ini": 424205,
+   "n_filas": 1774,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "ceb2bcd28e6d3dd84e5188f045d793738eca89c2209e91c29fb13fada239b6d0",
+   "sucesor": {
+    "U": 10887568879666,
+    "pu": 10887568868894,
+    "u": 10887568879729
+   }
+  },
+  {
+   "L": 10788495608890.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246455499,
+   "fila_fin": 1737799,
+   "fila_ini": 1735800,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "34affe0e568f2856109784e1c4cbd62521c3720394926c528f38bfc53f57010e",
+   "sucesor": {
+    "U": 10788495614189,
+    "pu": 10788495608890,
+    "u": 10788495617599
+   }
+  },
+  {
+   "L": 10790133286104.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263103230,
+   "fila_fin": 3037961,
+   "fila_ini": 3035962,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "34affe0e568f2856109784e1c4cbd62521c3720394926c528f38bfc53f57010e",
+   "sucesor": {
+    "U": 10790133286006,
+    "pu": 10790133280834,
+    "u": 10790133300275
+   }
+  },
+  {
+   "L": 10797872346676.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348905527,
+   "fila_fin": 2151851,
+   "fila_ini": 2149852,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b6c915c6d5ba3cfee41e62683842eb1332dfc2c8941d06ac70d43c1009a2e3d5",
+   "sucesor": {
+    "U": 10797872347785,
+    "pu": 10797872346676,
+    "u": 10797872349384
+   }
+  },
+  {
+   "L": 10800601755983.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781384910628,
+   "fila_fin": 4322438,
+   "fila_ini": 4320439,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b6c915c6d5ba3cfee41e62683842eb1332dfc2c8941d06ac70d43c1009a2e3d5",
+   "sucesor": {
+    "U": 10800601755965,
+    "pu": 10800601755031,
+    "u": 10800601757316
+   }
+  },
+  {
+   "L": 10805519622601.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452122311,
+   "fila_fin": 3118317,
+   "fila_ini": 3116318,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "68846b2f1ead3f44ef06a5b1049680d7e4a8b52def6c5110e7abec12222dcf17",
+   "sucesor": {
+    "U": 10805519648500,
+    "pu": 10805519622601,
+    "u": 10805519648500
+   }
+  },
+  {
+   "L": 10813474626571.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537877769,
+   "fila_fin": 5497612,
+   "fila_ini": 5495613,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "10b305f461b7fc8adf258644ba27e6ad59e7589e3c1740f76443dfa4547a1708",
+   "sucesor": {
+    "U": 10813474626291,
+    "pu": 10813474625900,
+    "u": 10813474627561
+   }
+  },
+  {
+   "L": 10821772537863.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623680400,
+   "fila_fin": 5101998,
+   "fila_ini": 5099999,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "3f160cc8a42c9e157600d4e73d5c2fc668cc4271b0ccd8b8c2471d90afa10420",
+   "sucesor": {
+    "U": 10821772537863,
+    "pu": 10821772537582,
+    "u": 10821772539366
+   }
+  },
+  {
+   "L": 10830040300357.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781709484109,
+   "fila_fin": 5077796,
+   "fila_ini": 5075797,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "40cffea0dbe6c72c3efd23cacab097348968eead54a5cf56db8445ed04ec98f3",
+   "sucesor": {
+    "U": 10830040309936,
+    "pu": 10830040300357,
+    "u": 10830040311273
+   }
+  },
+  {
+   "L": 10831295322283.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781720041699,
+   "fila_fin": 6415181,
+   "fila_ini": 6413182,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "40cffea0dbe6c72c3efd23cacab097348968eead54a5cf56db8445ed04ec98f3",
+   "sucesor": {
+    "U": 10831295329021,
+    "pu": 10831295322283,
+    "u": 10831295330998
+   }
+  },
+  {
+   "L": 10840462607946.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805846529,
+   "fila_fin": 6559425,
+   "fila_ini": 6557426,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "752478202220ad5d233fec54cbdd9b3e0385ad2df39face93434c117de68d497",
+   "sucesor": {
+    "U": 10840462606924,
+    "pu": 10840462605200,
+    "u": 10840462609203
+   }
+  },
+  {
+   "L": 10843278747947.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781838922348,
+   "fila_fin": 827623,
+   "fila_ini": 826624,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9df9076443061f7bacc5d14693b03b5e76b0e7378d6ace500c5255f7ad03bf21",
+   "sucesor": null
+  },
+  {
+   "L": 10843279658832.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781838924746,
+   "fila_fin": 829623,
+   "fila_ini": 827624,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9df9076443061f7bacc5d14693b03b5e76b0e7378d6ace500c5255f7ad03bf21",
+   "sucesor": {
+    "U": 10843279634168,
+    "pu": 10843279633124,
+    "u": 10843279659666
+   }
+  },
+  {
+   "L": 10850642771845.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781924724490,
+   "fila_fin": 651439,
+   "fila_ini": 649440,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "bd998410124b6dc7406c3f475f3732315689fe1af3fcca436cf946481c883a77",
+   "sucesor": {
+    "U": 10850642778092,
+    "pu": 10850642771845,
+    "u": 10850642779826
+   }
+  },
+  {
+   "L": 10856927933953.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782010527822,
+   "fila_fin": 421108,
+   "fila_ini": 419109,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "3d6b248bdf664103e2f1a8988b18c919c40443e45016e78bf82af7bc2c590990",
+   "sucesor": {
+    "U": 10856927937573,
+    "pu": 10856927933953,
+    "u": 10856927937809
+   }
+  },
+  {
+   "L": 10862169691696.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782082624615,
+   "fila_fin": 4434219,
+   "fila_ini": 4432220,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "3d6b248bdf664103e2f1a8988b18c919c40443e45016e78bf82af7bc2c590990",
+   "sucesor": {
+    "U": 10862169693323,
+    "pu": 10862169691696,
+    "u": 10862169696216
+   }
+  },
+  {
+   "L": 10869949248015.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782168427301,
+   "fila_fin": 7272516,
+   "fila_ini": 7270517,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "7056940d8f6caf94d6302435e9fc1b1b4846410739b517bfa0817ffc2a37304c",
+   "sucesor": {
+    "U": 10869949250946,
+    "pu": 10869949248015,
+    "u": 10869949251082
+   }
+  },
+  {
+   "L": 10877695683455.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782254230218,
+   "fila_fin": 7521582,
+   "fila_ini": 7519583,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "d2eac66e6671632ff42d0004072145f3d7439b3d76c1bc643cc6fff8562f329e",
+   "sucesor": {
+    "U": 10877695683422,
+    "pu": 10877695682647,
+    "u": 10877695684311
+   }
+  },
+  {
+   "L": 10879045510732.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1782269473381,
+   "fila_fin": 887917,
+   "fila_ini": 885918,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "e06f406ab7cbb60f6a1003282cfe29160fa4de618938129052abcf24b407f6f1",
+   "sucesor": null
+  },
+  {
+   "L": 10879052496290.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269598190,
+   "fila_fin": 889917,
+   "fila_ini": 887918,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "e06f406ab7cbb60f6a1003282cfe29160fa4de618938129052abcf24b407f6f1",
+   "sucesor": {
+    "U": 10879052502017,
+    "pu": 10879052496290,
+    "u": 10879052503139
+   }
+  },
+  {
+   "L": 10887519305144.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782355400120,
+   "fila_fin": 670033,
+   "fila_ini": 668034,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "79cd5dbcf4a11f4a9b82d768e7f529c404e37c32f5c0338aee8de7ee98ec5eaf",
+   "sucesor": {
+    "U": 10887519310238,
+    "pu": 10887519305144,
+    "u": 10887519310238
+   }
+  },
+  {
+   "L": 10894251169897.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782418190687,
+   "fila_fin": 8152465,
+   "fila_ini": 8150466,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "79cd5dbcf4a11f4a9b82d768e7f529c404e37c32f5c0338aee8de7ee98ec5eaf",
+   "sucesor": {
+    "U": 10894251184351,
+    "pu": 10894251169897,
+    "u": 10894251184893
+   }
+  },
+  {
+   "L": 10788495610349.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246455515,
+   "fila_fin": 998437,
+   "fila_ini": 996438,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "f01f43328da0b84797a354f3ad987db06425e5f8d028b32fd1429ada8d921c86",
+   "sucesor": {
+    "U": 10788495610349,
+    "pu": 10788495602299,
+    "u": 10788495612522
+   }
+  },
+  {
+   "L": 10790133285276.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263103226,
+   "fila_fin": 1701805,
+   "fila_ini": 1699806,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "f01f43328da0b84797a354f3ad987db06425e5f8d028b32fd1429ada8d921c86",
+   "sucesor": {
+    "U": 10790133284895,
+    "pu": 10790133277553,
+    "u": 10790133298077
+   }
+  },
+  {
+   "L": 10797872415922.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348906911,
+   "fila_fin": 1379903,
+   "fila_ini": 1377904,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "f82d220b5167e2dc6331713f2b983648dfb31c431b95c4243ad70ff158dba12d",
+   "sucesor": {
+    "U": 10797872432152,
+    "pu": 10797872415922,
+    "u": 10797872432152
+   }
+  },
+  {
+   "L": 10800601652048.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781384909436,
+   "fila_fin": 2658377,
+   "fila_ini": 2656378,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "f82d220b5167e2dc6331713f2b983648dfb31c431b95c4243ad70ff158dba12d",
+   "sucesor": {
+    "U": 10800601654444,
+    "pu": 10800601652048,
+    "u": 10800601654444
+   }
+  },
+  {
+   "L": 10805522804022.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452180017,
+   "fila_fin": 1989476,
+   "fila_ini": 1987477,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "8e1daf6cb215774c4658a8304cb343eabca9f524de49e10286a0edd0234af449",
+   "sucesor": {
+    "U": 10805522811051,
+    "pu": 10805522804022,
+    "u": 10805522811291
+   }
+  },
+  {
+   "L": 10813474721061.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537878424,
+   "fila_fin": 2942139,
+   "fila_ini": 2940140,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "96ef914966a7c727f7083736249539d57d6a2f06a0144c5fe3e6d8d96840b243",
+   "sucesor": {
+    "U": 10813474733959,
+    "pu": 10813474721061,
+    "u": 10813474735301
+   }
+  },
+  {
+   "L": 10821772673223.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623681179,
+   "fila_fin": 2901123,
+   "fila_ini": 2899124,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "163a3b5f4af11f06180aedc62c897ac290ecb2f66b8e2d4b0713bea6126de29f",
+   "sucesor": {
+    "U": 10821772669022,
+    "pu": 10821772664305,
+    "u": 10821772673232
+   }
+  },
+  {
+   "L": 10830040232555.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781709483395,
+   "fila_fin": 2558909,
+   "fila_ini": 2556910,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "55d20eb7008b9900df79522908a156f428ab5b6e64d20bddebb77a2163114660",
+   "sucesor": {
+    "U": 10830040237799,
+    "pu": 10830040232555,
+    "u": 10830040237956
+   }
+  },
+  {
+   "L": 10831295322614.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781720041695,
+   "fila_fin": 3186858,
+   "fila_ini": 3184859,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "55d20eb7008b9900df79522908a156f428ab5b6e64d20bddebb77a2163114660",
+   "sucesor": {
+    "U": 10831295335001,
+    "pu": 10831295322614,
+    "u": 10831295335001
+   }
+  },
+  {
+   "L": 10840462607752.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805846543,
+   "fila_fin": 3500378,
+   "fila_ini": 3498379,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "48f910df1e2adb548536e647e2c6cdc5d9888e3de0ad4abfe3a08aa67fcaa3f1",
+   "sucesor": {
+    "U": 10840462612962,
+    "pu": 10840462607752,
+    "u": 10840462612962
+   }
+  },
+  {
+   "L": 10843278743428.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781838922344,
+   "fila_fin": 411444,
+   "fila_ini": 410445,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "fced1c8b01f44245a1c5c48a5f53636bd956885c42c92f322429429108f3bde6",
+   "sucesor": null
+  },
+  {
+   "L": 10843279481962.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781838924303,
+   "fila_fin": 413444,
+   "fila_ini": 411445,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "fced1c8b01f44245a1c5c48a5f53636bd956885c42c92f322429429108f3bde6",
+   "sucesor": {
+    "U": 10843279481962,
+    "pu": 10843279470929,
+    "u": 10843279493900
+   }
+  },
+  {
+   "L": 10850642775055.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781924724539,
+   "fila_fin": 374953,
+   "fila_ini": 372954,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "3f6135a7c1a7bc89c5e94bf99bed82a57b2b3540aae2a2493fba1cbf8b884638",
+   "sucesor": {
+    "U": 10850642778175,
+    "pu": 10850642775055,
+    "u": 10850642778175
+   }
+  },
+  {
+   "L": 10856927921963.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782010527408,
+   "fila_fin": 396427,
+   "fila_ini": 394428,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "6f0f7e352bbc1c57b5603c3572a764ff878dc7523b6b53940feb54f558b80bef",
+   "sucesor": {
+    "U": 10856927937420,
+    "pu": 10856927921963,
+    "u": 10856927937420
+   }
+  },
+  {
+   "L": 10862169689887.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782082624610,
+   "fila_fin": 3740057,
+   "fila_ini": 3738058,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "6f0f7e352bbc1c57b5603c3572a764ff878dc7523b6b53940feb54f558b80bef",
+   "sucesor": {
+    "U": 10862169692376,
+    "pu": 10862169689887,
+    "u": 10862169693805
+   }
+  },
+  {
+   "L": 10869949387933.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782168428995,
+   "fila_fin": 4108433,
+   "fila_ini": 4106434,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "222d0d466c634b6766e4f4438703fac963a16a9f5556a39d316f53d3c15ea2e1",
+   "sucesor": {
+    "U": 10869949387933,
+    "pu": 10869949386689,
+    "u": 10869949389299
+   }
+  },
+  {
+   "L": 10877695683452.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782254230231,
+   "fila_fin": 4213424,
+   "fila_ini": 4211425,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "109b742b88018d5d1a83aecdeab811b561ef46802626f34a5a3665e199e95618",
+   "sucesor": {
+    "U": 10877695684871,
+    "pu": 10877695683452,
+    "u": 10877695684949
+   }
+  },
+  {
+   "L": 10879049155629.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1782269534498,
+   "fila_fin": 424285,
+   "fila_ini": 422286,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "5c131eb8bf454677ee332908d05ac86df59fbdc93999fec32f45b4135b364fb5",
+   "sucesor": null
+  },
+  {
+   "L": 10879052398027.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269596747,
+   "fila_fin": 426285,
+   "fila_ini": 424286,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "5c131eb8bf454677ee332908d05ac86df59fbdc93999fec32f45b4135b364fb5",
+   "sucesor": {
+    "U": 10879052400884,
+    "pu": 10879052398027,
+    "u": 10879052400884
+   }
+  },
+  {
+   "L": 10887519300590.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782355400062,
+   "fila_fin": 397861,
+   "fila_ini": 395862,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "73dda97246697a08c9d6ea97989ddf952a44367daf3c3228cbbb9472f6fa9e3e",
+   "sucesor": {
+    "U": 10887519313410,
+    "pu": 10887519300590,
+    "u": 10887519313410
+   }
+  },
+  {
+   "L": 10894251169437.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782418190672,
+   "fila_fin": 4751131,
+   "fila_ini": 4749132,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "73dda97246697a08c9d6ea97989ddf952a44367daf3c3228cbbb9472f6fa9e3e",
+   "sucesor": {
+    "U": 10894251177594,
+    "pu": 10894251169437,
+    "u": 10894251177594
+   }
+  },
+  {
+   "L": 10788502181325.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246515510,
+   "fila_fin": 2448830,
+   "fila_ini": 2446831,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "bb367c9e4ad89a620da9b59c1f7a191eda3ddcc72b570d26c0d02f29268e4dfb",
+   "sucesor": {
+    "U": 10788502183141,
+    "pu": 10788502181325,
+    "u": 10788502184188
+   }
+  },
+  {
+   "L": 10790133000738.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263099310,
+   "fila_fin": 4917001,
+   "fila_ini": 4915002,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "bb367c9e4ad89a620da9b59c1f7a191eda3ddcc72b570d26c0d02f29268e4dfb",
+   "sucesor": {
+    "U": 10790133003415,
+    "pu": 10790133000738,
+    "u": 10790133003415
+   }
+  },
+  {
+   "L": 10797872076509.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348902386,
+   "fila_fin": 3057921,
+   "fila_ini": 3055922,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "5181f809b312cfe282ca33877f7ef8300080cc99e2da2542366eb61ffb1a4b80",
+   "sucesor": {
+    "U": 10797872079364,
+    "pu": 10797872076509,
+    "u": 10797872079364
+   }
+  },
+  {
+   "L": 10804119611316.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781434705251,
+   "fila_fin": 3642753,
+   "fila_ini": 3640754,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "845d7e1d950265421d2e6290b823f4334faf9e1a64290d938d06f8c7ecf8e70c",
+   "sucesor": {
+    "U": 10804119617643,
+    "pu": 10804119611316,
+    "u": 10804119620416
+   }
+  },
+  {
+   "L": 10805519694133.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452123775,
+   "fila_fin": 5141570,
+   "fila_ini": 5139571,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "845d7e1d950265421d2e6290b823f4334faf9e1a64290d938d06f8c7ecf8e70c",
+   "sucesor": {
+    "U": 10805519694531,
+    "pu": 10805519694133,
+    "u": 10805519694531
+   }
+  },
+  {
+   "L": 10813481102151.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537925239,
+   "fila_fin": 9769731,
+   "fila_ini": 9767732,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "fe8c1762d6727b1c160fb5089317634254492496446d03a8fb2619aa39363b86",
+   "sucesor": {
+    "U": 10813481105143,
+    "pu": 10813481102151,
+    "u": 10813481105143
+   }
+  },
+  {
+   "L": 10821778025544.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623724135,
+   "fila_fin": 7820810,
+   "fila_ini": 7818811,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "02dae581667d5b33d695a4c56d5227d06476aec3b8a5e68ee245e3c7cb69add9",
+   "sucesor": {
+    "U": 10821778028602,
+    "pu": 10821778025544,
+    "u": 10821778028602
+   }
+  },
+  {
+   "L": 10829779383026.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707654946,
+   "fila_fin": 5773358,
+   "fila_ini": 5772359,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": null
+  },
+  {
+   "L": 10829779947203.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707656869,
+   "fila_fin": 5774358,
+   "fila_ini": 5773359,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": null
+  },
+  {
+   "L": 10829780710567.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781707659263,
+   "fila_fin": 5776358,
+   "fila_ini": 5774359,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": {
+    "U": 10829780703814,
+    "pu": 10829780702253,
+    "u": 10829780713283
+   }
+  },
+  {
+   "L": 10831286982548.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781719987719,
+   "fila_fin": 7761031,
+   "fila_ini": 7759032,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": {
+    "U": 10831286981218,
+    "pu": 10831286969733,
+    "u": 10831286983317
+   }
+  },
+  {
+   "L": 10840456495399.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805791082,
+   "fila_fin": 7345999,
+   "fila_ini": 7344000,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "95ec0e82043b7f47d51d9e9d4e027271114a762d7e8ece4be490009417a6a7b0",
+   "sucesor": {
+    "U": 10840456498384,
+    "pu": 10840456495399,
+    "u": 10840456498867
+   }
+  },
+  {
+   "L": 10841591070757.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781817725499,
+   "fila_fin": 8842356,
+   "fila_ini": 8840357,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "95ec0e82043b7f47d51d9e9d4e027271114a762d7e8ece4be490009417a6a7b0",
+   "sucesor": {
+    "U": 10841591070757,
+    "pu": 10841591068750,
+    "u": 10841591070781
+   }
+  },
+  {
+   "L": 10849097225967.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781903528402,
+   "fila_fin": 7750096,
+   "fila_ini": 7748097,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9dbb78fc432ad694d7ac73a4bc19e4c4aba8074dfdf6cd07944b2f54d8fbe2c4",
+   "sucesor": {
+    "U": 10849097228272,
+    "pu": 10849097225967,
+    "u": 10849097229365
+   }
+  },
+  {
+   "L": 10855512757542.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781989332410,
+   "fila_fin": 5140527,
+   "fila_ini": 5138528,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "7cef3e654a9b1f7b2ca0bb0d0afa26534802002da3c5288b35016ce4b377c9c8",
+   "sucesor": {
+    "U": 10855512762714,
+    "pu": 10855512757542,
+    "u": 10855512762714
+   }
+  },
+  {
+   "L": 10861554421521.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782075133673,
+   "fila_fin": 5887098,
+   "fila_ini": 5885099,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "81042e0af3ea8161e48d1a04c5eea48803c9e8b6bfffe7e1fc1153cf558c9b91",
+   "sucesor": {
+    "U": 10861554424872,
+    "pu": 10861554421521,
+    "u": 10861554424872
+   }
+  },
+  {
+   "L": 10869403469077.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782160936623,
+   "fila_fin": 6271049,
+   "fila_ini": 6269050,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b24223f9791997649bb95e4b726b276de80087c3cdab0cdbc47ce1da15e64585",
+   "sucesor": {
+    "U": 10869403475030,
+    "pu": 10869403469077,
+    "u": 10869403475680
+   }
+  },
+  {
+   "L": 10877185770681.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782246738983,
+   "fila_fin": 6041314,
+   "fila_ini": 6039315,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "968a02897366b607d09afbccc693ebd2327a50552a672a22aff3047458c09934",
+   "sucesor": {
+    "U": 10877185776412,
+    "pu": 10877185770681,
+    "u": 10877185777037
+   }
+  },
+  {
+   "L": 10879049222488.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1782269535700,
+   "fila_fin": 671250,
+   "fila_ini": 669251,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "109a1c3a354425a4c1c88805e7348b17efdff250f550b8e80b858c729d6f7e60",
+   "sucesor": null
+  },
+  {
+   "L": 10879055769763.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269654889,
+   "fila_fin": 673250,
+   "fila_ini": 671251,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "109a1c3a354425a4c1c88805e7348b17efdff250f550b8e80b858c729d6f7e60",
+   "sucesor": {
+    "U": 10879055773672,
+    "pu": 10879055769763,
+    "u": 10879055774975
+   }
+  },
+  {
+   "L": 10887568877207.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782356009637,
+   "fila_fin": 556088,
+   "fila_ini": 554089,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "4d1dabff20e410942f6cd9ccca0bd1fa291c2e906de4cead10f30da7b4343539",
+   "sucesor": {
+    "U": 10887568877588,
+    "pu": 10887568877207,
+    "u": 10887568877588
+   }
+  },
+  {
+   "L": 10788503374800.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781246525430,
+   "fila_fin": 893288,
+   "fila_ini": 891289,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fdbdf8d532157ab764f6f9adb97e617b32760d83a0361a1add042866cf8d846c",
+   "sucesor": {
+    "U": 10788503390003,
+    "pu": 10788503374800,
+    "u": 10788503390181
+   }
+  },
+  {
+   "L": 10790133084765.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781263100457,
+   "fila_fin": 1499186,
+   "fila_ini": 1497187,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fdbdf8d532157ab764f6f9adb97e617b32760d83a0361a1add042866cf8d846c",
+   "sucesor": {
+    "U": 10790133115014,
+    "pu": 10790133084765,
+    "u": 10790133115014
+   }
+  },
+  {
+   "L": 10797872068746.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781348902282,
+   "fila_fin": 1125877,
+   "fila_ini": 1123878,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "5ba13690f06a67ebd3f58ff0efbc589174497d757c9d470a21c245d3588e9186",
+   "sucesor": {
+    "U": 10797872078773,
+    "pu": 10797872068746,
+    "u": 10797872079067
+   }
+  },
+  {
+   "L": 10804119609666.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781434705241,
+   "fila_fin": 953347,
+   "fila_ini": 951348,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "9167d173db0393a153970a5af933ffad32ddafe4daf171cef9897c2a385203a4",
+   "sucesor": {
+    "U": 10804119607569,
+    "pu": 10804119605639,
+    "u": 10804119611322
+   }
+  },
+  {
+   "L": 10805519680311.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781452123458,
+   "fila_fin": 1463991,
+   "fila_ini": 1461992,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "9167d173db0393a153970a5af933ffad32ddafe4daf171cef9897c2a385203a4",
+   "sucesor": {
+    "U": 10805519695647,
+    "pu": 10805519680311,
+    "u": 10805519695647
+   }
+  },
+  {
+   "L": 10813480744598.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781537922253,
+   "fila_fin": 2741071,
+   "fila_ini": 2739072,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "2228ed4ef5905568d14eb3dcdbc6d0d8b0d71d69b6175770b300d36f0057e963",
+   "sucesor": {
+    "U": 10813480757191,
+    "pu": 10813480744598,
+    "u": 10813480759713
+   }
+  },
+  {
+   "L": 10821778015787.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781623724002,
+   "fila_fin": 7409319,
+   "fila_ini": 7407320,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "d461f1f4e5a8c3ece0701f4e73a2708076282e89a00d2f8d2ad24f227aa53c4e",
+   "sucesor": {
+    "U": 10821778029718,
+    "pu": 10821778015787,
+    "u": 10821778029718
+   }
+  },
+  {
+   "L": 10829779378765.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707654942,
+   "fila_fin": 12539999,
+   "fila_ini": 12539000,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": null
+  },
+  {
+   "L": 10829780063262.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "event_time": 1781707657127,
+   "fila_fin": 12540999,
+   "fila_ini": 12540000,
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": null
+  },
+  {
+   "L": 10829780766462.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781707659483,
+   "fila_fin": 12542999,
+   "fila_ini": 12541000,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": {
+    "U": 10829780762575,
+    "pu": 10829780760711,
+    "u": 10829780777151
+   }
+  },
+  {
+   "L": 10831286981747.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781719987719,
+   "fila_fin": 14408653,
+   "fila_ini": 14406654,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": {
+    "U": 10831286984145,
+    "pu": 10831286981747,
+    "u": 10831286984145
+   }
+  },
+  {
+   "L": 10840456497500.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781805791111,
+   "fila_fin": 7307711,
+   "fila_ini": 7305712,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "ecc4a916829dd21cad8dfef3f8dd3115548f88106919a9738c3518b2d5a72655",
+   "sucesor": {
+    "U": 10840456499180,
+    "pu": 10840456497500,
+    "u": 10840456499344
+   }
+  },
+  {
+   "L": 10841591070486.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781817725495,
+   "fila_fin": 8133448,
+   "fila_ini": 8131449,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "ecc4a916829dd21cad8dfef3f8dd3115548f88106919a9738c3518b2d5a72655",
+   "sucesor": {
+    "U": 10841591070304,
+    "pu": 10841591068025,
+    "u": 10841591071755
+   }
+  },
+  {
+   "L": 10849097299564.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781903529636,
+   "fila_fin": 5805222,
+   "fila_ini": 5803223,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "524151c06414bd1d57c62f84f4f509811004927f5c773c813f7813c856759f61",
+   "sucesor": {
+    "U": 10849097302589,
+    "pu": 10849097299564,
+    "u": 10849097302589
+   }
+  },
+  {
+   "L": 10855512672571.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1781989330999,
+   "fila_fin": 4034671,
+   "fila_ini": 4032672,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "1827cfec36aaec8e32351e07cbccd6df08756cb090cccb7594bd41d3b854d112",
+   "sucesor": {
+    "U": 10855512671930,
+    "pu": 10855512668326,
+    "u": 10855512673112
+   }
+  },
+  {
+   "L": 10861554485288.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782075134909,
+   "fila_fin": 3532677,
+   "fila_ini": 3530678,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "8c52627af42f42c44d097ff463e418b912c3204096d18ebdfdbdd0abdba18217",
+   "sucesor": {
+    "U": 10861554489279,
+    "pu": 10861554485288,
+    "u": 10861554489737
+   }
+  },
+  {
+   "L": 10869403470215.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782160936637,
+   "fila_fin": 4990422,
+   "fila_ini": 4988423,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b089caa7bbd8af5461ee7daa37921aab9081dea63a3122eb1bcb5714cf903b3a",
+   "sucesor": {
+    "U": 10869403477589,
+    "pu": 10869403470215,
+    "u": 10869403477589
+   }
+  },
+  {
+   "L": 10877185772764.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782246739022,
+   "fila_fin": 4547915,
+   "fila_ini": 4545916,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "f671535a50e11cda0c4b02b8cbeeb8b7e5e440b62ba292ca2bb5ab2cb4bc70b9",
+   "sucesor": {
+    "U": 10877185776887,
+    "pu": 10877185772764,
+    "u": 10877185776991
+   }
+  },
+  {
+   "L": 10879045566006.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269474026,
+   "fila_fin": 482391,
+   "fila_ini": 480392,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "cc02ddb95399d389eed841df7bdf2857787f40df10d529601b1898298cc40894",
+   "sucesor": {
+    "U": 10879045566006,
+    "pu": 10879045565891,
+    "u": 10879045567921
+   }
+  },
+  {
+   "L": 10879056221440.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782269660481,
+   "fila_fin": 484765,
+   "fila_ini": 482766,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "cc02ddb95399d389eed841df7bdf2857787f40df10d529601b1898298cc40894",
+   "sucesor": {
+    "U": 10879056225529,
+    "pu": 10879056221440,
+    "u": 10879056226511
+   }
+  },
+  {
+   "L": 10887568943782.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "event_time": 1782356010650,
+   "fila_fin": 544724,
+   "fila_ini": 542725,
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "34269c2dfa336128ff20fb8066a8456fbfe02f9f6a0e969e2a76935a0effbaad",
+   "sucesor": {
+    "U": 10887568948405,
+    "pu": 10887568943782,
+    "u": 10887568949269
+   }
+  }
+ ],
+ "contexto": {
+  "head": "445611ac8ced12ef286d900a7cbced36eb3666c9",
+  "versiones": {
+   "numpy": "2.5.1",
+   "pyarrow": "24.0.0",
+   "python": "3.14.5"
+  }
+ },
+ "cruce_con_la_maquina": {
+  "censo_anclas": 169,
+  "censo_clasificables": 152,
+  "maquina_empalmes_evaluados": 145,
+  "maquina_n_eventos_snapshot": 169,
+  "no_evaluadas_por_la_maquina": 7
+ },
+ "esquema": 1,
+ "limite_declarado": "este censo IMPORTA `clasificar_empalme` del instrumento que audita, así que NO puede detectar que esa función esté mal. Duplica la AGRUPACIÓN, que falla cerrada a través del cruce, y no la CLASIFICACIÓN, que mentiría en silencio.",
+ "reconciliacion": {
+  "por_clase": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 114,
+   "NINGUNA": 0,
+   "OOB_ONLY": 38
+  },
+  "por_disposicion": {
+   "CLASIFICABLE": 152,
+   "SEGUIDA_DE_ANCLA": 17,
+   "ULTIMA_DEL_FICHERO": 0
+  },
+  "roturas": [],
+  "validas": 152
+ }
+}

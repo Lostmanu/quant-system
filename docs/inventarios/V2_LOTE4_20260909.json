@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "date": "2026-09-09",
+  "base_commit": "0f127e396e5c81bef6757bc33f1fdeae46184e1d",
+  "scope": "Lote 4 documental; ninguna retirada o modificación de código, pruebas, workflows, datos o servicios.",
+  "commit_paths": [
+    "ARCHIVO.md",
+    "README.md",
+    "docs/CONGELACION_LEDGER_2026-09-09.json",
+    "docs/INDICE_EXPEDIENTE_I5.md",
+    "docs/LEDGER_ACTUAL.md",
+    "docs/RELEVO_CODEX_2026-09-09_V2_LOTE4.md",
+    "docs/inventarios/V2_LOTE4_20260909.json"
+  ],
+  "existing_file_modified": "ARCHIVO.md",
+  "historical_ledger_seal": "docs/CONGELACION_LEDGER_2026-09-09.json",
+  "entry_order": [
+    "README.md",
+    "docs/LEDGER_ACTUAL.md",
+    "docs/INDICE_EXPEDIENTE_I5.md",
+    "ARCHIVO.md"
+  ],
+  "deferred_scientific_object": null,
+  "previous_untracked_preserved": [
+    "INFORME_QUANT_SYSTEM.md",
+    "docs/AUDITORIA_CODE_2026-09-08_CI_ANCLAS_SELLADAS.md",
+    "docs/AUDITORIA_CODE_2026-09-08_CI_I5_REPARACION.md",
+    "docs/AUDITORIA_CODE_2026-09-08_V2_LOTE1.md",
+    "docs/AUDITORIA_CODE_2026-09-09_V2_LOTE2.md",
+    "docs/OPCIONES_POST_LAB_2026-09-08.md",
+    "docs/PARA_LA_MESA_2026-09-07_PUSH_CI_Y_V2_SUSTRACCION.md"
+  ],
+  "reference_sources": {
+    "docs/DICTAMEN_MESA_2026-09-07_I5_D1_79.md": "6ec5e45935549bf5facc1999a7ea3da54c03617fc2d37fd3288fa03c63f9a354",
+    "docs/ESPEC_MESA_2026-09-07_D1_79_DIAS.md": "6e358b9c5f127819b8a8b805ade726f1f0bc6d8934b9279d8aa3d574fc5b91d7",
+    "docs/DICTAMEN_MESA_2026-09-07_PUSH_CI_Y_V2.md": "092966e075bdc30bb4202c19282957f124265d42bfd8afdf2e9a026d7abcbaa5",
+    "docs/AUDITORIA_CODE_2026-09-09_V2_LOTE2.md": "75c7c19ac7f05c3f269173eeca22cbff0e55f7c2e715003e2ed0633fba9ba5fd"
+  },
+  "verification_scope": "Hashes del código y documentos históricos; enlaces locales; pre-vuelo y cuatro controles rápidos. No repetir suite ni arneses completos locales por este diff documental. CI por lote tras auditoría."
+}

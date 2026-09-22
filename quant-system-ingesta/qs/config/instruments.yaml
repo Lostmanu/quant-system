@@ -1,0 +1,22 @@
+# Sonda empírica (ESPEC §2) — 8 mid-caps, perpetuos USDT-M
+symbols: [AVAXUSDT, LINKUSDT, DOTUSDT, NEARUSDT, ATOMUSDT, LTCUSDT, FILUSDT, UNIUSDT]
+data_dir: ./data
+
+# Fallback REST de trades (ESPEC §3, v1.1; defaults = valores del documento)
+trade_fallback:
+  silence_secs: 120   # WS aggTrade mudo este tiempo → activar poller REST
+  poll_secs: 5        # cadencia del poller (peso 20/req; cuidar rate-limit)
+
+# Respaldo externo (ESPEC §9, v2.2) — tools/backup.py vía backup.timer 00:30 UTC.
+# remote vacío = desactivado. DEBE llevar ':host:path' (sin ':' rsync copia al
+# disco local fingiendo éxito → backup.py lo aborta con alerta).
+backup:
+  remote: "<STORAGEBOX_USER>@<STORAGEBOX_HOST>:quant-data"   # el proveedor de la copia externa almacenamiento externo
+  ssh_port: 23        # el proveedor de la copia externa almacenamiento externo usa el 23 para rsync/ssh
+
+# Retención en VPS (ESPEC §9, v1.4/v2.2) — tools/retention.py; el candado exige
+# .backed_up (respaldo verificado) además de audit.json antes de borrar nada
+retention:
+  max_days: 75        # borra días auditados más antiguos que esto
+  min_free_gb: 5      # bajo este disco libre, borra más días auditados (antiguos 1º)
+  min_keep_days: 7    # ventana protegida: jamás se borra nada tan reciente

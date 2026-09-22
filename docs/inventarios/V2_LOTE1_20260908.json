@@ -1,0 +1,1381 @@
+{
+  "schema": 1,
+  "date": "2026-09-08",
+  "base_commit": "408d368d3b6d9cab2fdae9d1b25f211dd907aa15",
+  "state": "PREPARED_FOR_AUDIT_NOT_PUBLISHED",
+  "scope": "V2 lote 1: retirada parcial por dependencias conservadas",
+  "retired": [
+    {
+      "path": "quant-system-ingesta/qs/analysis/contrarian_ofi.py",
+      "purpose": "Señal OFI y cascada contrarian",
+      "reason": "Capítulo 1 cerrado; salen todos sus consumidores.",
+      "last_change_commit": "e489a94cdc9d4f89b04a2184f8a2de82bd45e05a",
+      "blob_oid": "8ac7c4bc5afae1357774473363abaea9e8a3bbb9",
+      "worktree_sha256": "799ae5098e15197bf9b686f13207f631a3c60d55f5188f7c75de859da71b3805",
+      "git_blob_sha256": "799ae5098e15197bf9b686f13207f631a3c60d55f5188f7c75de859da71b3805",
+      "worktree_equals_git_blob": true,
+      "bytes": 11775,
+      "lines": 202,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/contrarian_panel.py",
+      "purpose": "Panel de shocks del contrarian",
+      "reason": "Capítulo 1 cerrado; sale con su runner.",
+      "last_change_commit": "d378f9336c66c196900746b1a5fec0ed15ece29c",
+      "blob_oid": "9e6566d8447a020b08c17e5fad30e1a6d6d47e5c",
+      "worktree_sha256": "dd678c97a7c451f29aa9b9a09db769393cc8b00982203dbfb62873862fa9f1a5",
+      "git_blob_sha256": "dd678c97a7c451f29aa9b9a09db769393cc8b00982203dbfb62873862fa9f1a5",
+      "worktree_equals_git_blob": true,
+      "bytes": 7517,
+      "lines": 123,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/contrarian_runner.py",
+      "purpose": "Calendario, ejecución y bloques Probe-1",
+      "reason": "Campaña cerrada; salen entrada, consumidores y dos excepciones del censo.",
+      "last_change_commit": "c70fa3b34c3ac79c6dc7ca5ed0d15379026c6637",
+      "blob_oid": "88fd927fee263ab22000921d8d3fb8d1312387f7",
+      "worktree_sha256": "6246aa568a731d972c2e58356d662f20a439edde37403554f281545590faaa72",
+      "git_blob_sha256": "6246aa568a731d972c2e58356d662f20a439edde37403554f281545590faaa72",
+      "worktree_equals_git_blob": true,
+      "bytes": 30969,
+      "lines": 506,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/download_chd_probe1.py",
+      "purpose": "Descarga del solape y Probe-1 de CHD",
+      "reason": "Preparación de la campaña retirada.",
+      "last_change_commit": "14ba7ad8a88259f4ce98c3a462c25ba62b49c517",
+      "blob_oid": "c55757387e4e43063422b8fd94e57e0295ff401a",
+      "worktree_sha256": "d6b9103e49a122e4f680903e24418f4db24f960444b858926daf7b02145c87bd",
+      "git_blob_sha256": "d6b9103e49a122e4f680903e24418f4db24f960444b858926daf7b02145c87bd",
+      "worktree_equals_git_blob": true,
+      "bytes": 3767,
+      "lines": 81,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/episode_count.py",
+      "purpose": "Prechequeo de masa OFI",
+      "reason": "Sonda concluida del contrarian.",
+      "last_change_commit": "bdf71b02b1b15d20c82bb2a7a069ac0a00e9e3cd",
+      "blob_oid": "28a3054ab1a5730388cb6161cd0502a456fa8f62",
+      "worktree_sha256": "2222c5a7d93b94fd59513426d1733eb74e4c6142daab7e7590e4f22fcc21d639",
+      "git_blob_sha256": "2222c5a7d93b94fd59513426d1733eb74e4c6142daab7e7590e4f22fcc21d639",
+      "worktree_equals_git_blob": true,
+      "bytes": 3327,
+      "lines": 75,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/hl_flow_precheck.py",
+      "purpose": "Informatividad en Hyperliquid",
+      "reason": "Lectura histórica concluida; consumidor del contrarian que sale con él.",
+      "last_change_commit": "ad5f665e75412e9f8060f0c109fba662432a7ced",
+      "blob_oid": "4a1e18326bb102b20a565d08c0275fb01fb96ab6",
+      "worktree_sha256": "e165a282f2c8b44aae6850ecc0f3317fa318885ca312ade79bdf943eacb06cfa",
+      "git_blob_sha256": "e165a282f2c8b44aae6850ecc0f3317fa318885ca312ade79bdf943eacb06cfa",
+      "worktree_equals_git_blob": true,
+      "bytes": 3754,
+      "lines": 80,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/run_disparo.py",
+      "purpose": "Entrada al disparo Probe-1",
+      "reason": "Campaña cerrada; se retira sin ejecutarla.",
+      "last_change_commit": "25c3cb0a08b829b0f79850a232f733c85655fc30",
+      "blob_oid": "3d54b95d398c831520658b0cfe22d6a520c70f3a",
+      "worktree_sha256": "6018352c3b2553930712e246377d1b4037d035b0a594f25f48e5ec9fc1735111",
+      "git_blob_sha256": "6018352c3b2553930712e246377d1b4037d035b0a594f25f48e5ec9fc1735111",
+      "worktree_equals_git_blob": true,
+      "bytes": 5440,
+      "lines": 99,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/run_spread_check.py",
+      "purpose": "Entrada al contraste de spread",
+      "reason": "Preparación del contrarian; sale con descargador y runner.",
+      "last_change_commit": "950604483e6d24be56910803495136da2802afed",
+      "blob_oid": "5667e81f3196aef5ddf2a3d44301c5c0c5e58a8a",
+      "worktree_sha256": "09476a0fc21482b6e55067ff1aa710c837dd454d4ef2657451224ceca9ac4798",
+      "git_blob_sha256": "09476a0fc21482b6e55067ff1aa710c837dd454d4ef2657451224ceca9ac4798",
+      "worktree_equals_git_blob": true,
+      "bytes": 4005,
+      "lines": 87,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/flow_informativeness.py",
+      "purpose": "Informatividad mediante trades",
+      "reason": "Medición concluida del capítulo 2; sin consumidores activos.",
+      "last_change_commit": "b4d156cde739b4f34803a7de1ff377d17df8b939",
+      "blob_oid": "e07d727d82a6cc9b7e7b9b0ae5164439925ee86e",
+      "worktree_sha256": "1fff30e09236ec33b07dfac547db6ad7838644f74743fa25e41f4d49f4143591",
+      "git_blob_sha256": "1fff30e09236ec33b07dfac547db6ad7838644f74743fa25e41f4d49f4143591",
+      "worktree_equals_git_blob": true,
+      "bytes": 4381,
+      "lines": 78,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/funding_carry.py",
+      "purpose": "Screen de prima de funding",
+      "reason": "Prima #2 archivada en el LEDGER.",
+      "last_change_commit": "d42d553fea94958aaa988baa1de7a75a3363552c",
+      "blob_oid": "4e76b4d4ac0b4dda33401f5ee83cdcd8f8ea0840",
+      "worktree_sha256": "78c8cb54f7660199c5b941124b35d1eaf1c6053f41025470b4e0e8a4177387e5",
+      "git_blob_sha256": "78c8cb54f7660199c5b941124b35d1eaf1c6053f41025470b4e0e8a4177387e5",
+      "worktree_equals_git_blob": true,
+      "bytes": 6529,
+      "lines": 124,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/xvenue_lag.py",
+      "purpose": "Gate exploratorio Binance–Bybit",
+      "reason": "Gate archivado; sin consumidores activos de código.",
+      "last_change_commit": "3e1624e7fd638f4085ba228186dafaf4aef2f4fa",
+      "blob_oid": "8e037fb921160883c93807300c9867fc63c58711",
+      "worktree_sha256": "2f920b1655bee81a7da2c3bfa538df78d11006a6e32556b6e28dd2599ef6b4ca",
+      "git_blob_sha256": "2f920b1655bee81a7da2c3bfa538df78d11006a6e32556b6e28dd2599ef6b4ca",
+      "worktree_equals_git_blob": true,
+      "bytes": 5435,
+      "lines": 115,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h2_funding_xvenue.py",
+      "purpose": "Subtest de funding multi-venue H2",
+      "reason": "Subtest histórico tocado; retiro del instrumento sin cambiar su dictamen.",
+      "last_change_commit": "a25741e88d058dc17e640e7d262a70b58957cac5",
+      "blob_oid": "a1ad9d56b523d3f207e830791b16b919909d7c6b",
+      "worktree_sha256": "33e4074a518524bfa515216c76c52b2faf0643aaba5e50828ca6fd4572e0e74c",
+      "git_blob_sha256": "33e4074a518524bfa515216c76c52b2faf0643aaba5e50828ca6fd4572e0e74c",
+      "worktree_equals_git_blob": true,
+      "bytes": 5887,
+      "lines": 153,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h3_power_precheck.py",
+      "purpose": "Prechequeo de masa del setup H3",
+      "reason": "H3 cerrado por masa insuficiente; salen dos excepciones de caché.",
+      "last_change_commit": "18078947ed2a529945821d5ceacb5d534d27662c",
+      "blob_oid": "0ba5f21ae74e85b1459d986a96b0b52a8eb3380d",
+      "worktree_sha256": "28ac13e8d80fa7a8eefbe6ba2a98545ad047b81ed422a6c71ce5e4565453645e",
+      "git_blob_sha256": "28ac13e8d80fa7a8eefbe6ba2a98545ad047b81ed422a6c71ce5e4565453645e",
+      "worktree_equals_git_blob": true,
+      "bytes": 5686,
+      "lines": 117,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h3_precheck_probe_mass.py",
+      "purpose": "Prechequeo de finura y setup H3",
+      "reason": "H3 cerrado por prechequeo; no se ejecuta el screen pendiente.",
+      "last_change_commit": "8fb5d5e6db1cbf658753be3120674abe539a5a5c",
+      "blob_oid": "a941d54318460764672ee2dcdb4d1734358446d7",
+      "worktree_sha256": "dfd6d7b66d8dd00a898868437bba4e1c40cd94a6a6db1f0c6be8fa1d1e9b8733",
+      "git_blob_sha256": "dfd6d7b66d8dd00a898868437bba4e1c40cd94a6a6db1f0c6be8fa1d1e9b8733",
+      "worktree_equals_git_blob": true,
+      "bytes": 4308,
+      "lines": 69,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h6_listing_regime_precheck.py",
+      "purpose": "Prechequeo de régimen de listings H6",
+      "reason": "Sonda histórica retirada conforme al lote 1 aprobado.",
+      "last_change_commit": "fbd0f4c6540ff21c2010bb8727b64a3e3ffa5409",
+      "blob_oid": "b8906fa34a88c0ca9658a25ca2a80c294fa91254",
+      "worktree_sha256": "d3afb5545c463a668011c749fb851ad57ecbb0cd670f40a9c0e7c1521ea10586",
+      "git_blob_sha256": "d3afb5545c463a668011c749fb851ad57ecbb0cd670f40a9c0e7c1521ea10586",
+      "worktree_equals_git_blob": true,
+      "bytes": 5644,
+      "lines": 110,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/run_day26.py",
+      "purpose": "Entrada al screen H8 del día 26",
+      "reason": "Prima #1 archivada; salen dos excepciones de caché. H8 permanece por screen.",
+      "last_change_commit": "d42d553fea94958aaa988baa1de7a75a3363552c",
+      "blob_oid": "b31282f62fbf6c9898b4f1326a6a624227719b3f",
+      "worktree_sha256": "8591730bb5ab76dd2624a73545321d81d1f8dd730694573e8c224415a5ae36c9",
+      "git_blob_sha256": "8591730bb5ab76dd2624a73545321d81d1f8dd730694573e8c224415a5ae36c9",
+      "worktree_equals_git_blob": true,
+      "bytes": 7653,
+      "lines": 143,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/probe_hist.py",
+      "purpose": "Sonda histórica de actividad y funding",
+      "reason": "Preparación de la campaña histórica; sin consumidores activos.",
+      "last_change_commit": "eb4636b632a7c609cec19204c48a589d30b57d82",
+      "blob_oid": "169dd92f01d70b4bdcbf5bc514e1daa114f56b8d",
+      "worktree_sha256": "8063690ad0a9abe1eafb5d98519c4ab8bb7d5939332db74a8e688b837d1c9368",
+      "git_blob_sha256": "06b8c9206a91cbb24652851cb4035f092b70e31775f95692bf74208db85cff72",
+      "worktree_equals_git_blob": false,
+      "bytes": 5235,
+      "lines": 125,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/spread_check.py",
+      "purpose": "Contraste de costes y spread",
+      "reason": "Sale con todos sus consumidores. Book y adaptadores permanecen.",
+      "last_change_commit": "df1dd0f3d61133100626e729bbcc921a6b9813ec",
+      "blob_oid": "0a49f5a12dd241f28fe8ee8587a2ef612bb52f4b",
+      "worktree_sha256": "612f7f42ff2b140af5cb7fbbe583939a4690a3ab998921a57e777b0a319e389c",
+      "git_blob_sha256": "612f7f42ff2b140af5cb7fbbe583939a4690a3ab998921a57e777b0a319e389c",
+      "worktree_equals_git_blob": true,
+      "bytes": 4529,
+      "lines": 73,
+      "test_functions": 0
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_contrarian_ofi.py",
+      "purpose": "Pruebas exclusivas de contrarian_ofi",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "e005ad951610893a1b8a0a9137fef189c92c00ba",
+      "blob_oid": "3d905401667b60715c6ac603e1b6302333124fda",
+      "worktree_sha256": "765000ea0cf16c428d8bffd85e9f22988d98b75e250af17c801cc7fc4dad2890",
+      "git_blob_sha256": "765000ea0cf16c428d8bffd85e9f22988d98b75e250af17c801cc7fc4dad2890",
+      "worktree_equals_git_blob": true,
+      "bytes": 7035,
+      "lines": 129,
+      "test_functions": 11
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_contrarian_panel.py",
+      "purpose": "Pruebas exclusivas de contrarian_panel",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "d05495e2aa02a0362e6f47fe26be4a81b87bc454",
+      "blob_oid": "6af25b9d80324d134b14ad06efbd2b4db8272b52",
+      "worktree_sha256": "46e77b68617008fdd1c144af088c78c32356fd747dc5f01f0e387077d7c67e69",
+      "git_blob_sha256": "46e77b68617008fdd1c144af088c78c32356fd747dc5f01f0e387077d7c67e69",
+      "worktree_equals_git_blob": true,
+      "bytes": 5841,
+      "lines": 109,
+      "test_functions": 10
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_contrarian_runner.py",
+      "purpose": "Pruebas exclusivas de contrarian_runner",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "35a18ad7a4efff038a6b0be24396ebf21e955108",
+      "blob_oid": "138e520982231ae1c5e3de2f788f5fbe9b46592f",
+      "worktree_sha256": "42d74beaa3652485d07416174d0269c470d76aab64930bd7e7f45ece49f0ef07",
+      "git_blob_sha256": "42d74beaa3652485d07416174d0269c470d76aab64930bd7e7f45ece49f0ef07",
+      "worktree_equals_git_blob": true,
+      "bytes": 17579,
+      "lines": 304,
+      "test_functions": 23
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_flow_informativeness.py",
+      "purpose": "Pruebas exclusivas de flow_informativeness",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "b4d156cde739b4f34803a7de1ff377d17df8b939",
+      "blob_oid": "f5948e66a6f887e51e653aea10aaab249ffac730",
+      "worktree_sha256": "be0c4404a5e211ab907cec75dd37ac14da721bd9195de838db6905347b7317c4",
+      "git_blob_sha256": "be0c4404a5e211ab907cec75dd37ac14da721bd9195de838db6905347b7317c4",
+      "worktree_equals_git_blob": true,
+      "bytes": 2097,
+      "lines": 46,
+      "test_functions": 3
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_funding_carry.py",
+      "purpose": "Pruebas exclusivas de funding_carry",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "d42d553fea94958aaa988baa1de7a75a3363552c",
+      "blob_oid": "33191892fa7bb764e2374ea56303b7f7fd99ed30",
+      "worktree_sha256": "c0103030089a8ae44d46402f48c8c29bb5bfeca42e048c5159b2a6540fa9f5ed",
+      "git_blob_sha256": "c0103030089a8ae44d46402f48c8c29bb5bfeca42e048c5159b2a6540fa9f5ed",
+      "worktree_equals_git_blob": true,
+      "bytes": 1748,
+      "lines": 36,
+      "test_functions": 3
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_xvenue_lag.py",
+      "purpose": "Pruebas exclusivas de xvenue_lag",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "3e1624e7fd638f4085ba228186dafaf4aef2f4fa",
+      "blob_oid": "3763163bd64b2b1a802797bfeac05a257643eb38",
+      "worktree_sha256": "3db221f09fa8dfb113af329b4c575006722e67781d87da4e8078e034923e5c8f",
+      "git_blob_sha256": "3db221f09fa8dfb113af329b4c575006722e67781d87da4e8078e034923e5c8f",
+      "worktree_equals_git_blob": true,
+      "bytes": 1033,
+      "lines": 23,
+      "test_functions": 2
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_spread_check.py",
+      "purpose": "Pruebas exclusivas de spread_check",
+      "reason": "Se retira su módulo completo; ninguna entrada conservada depende de estas pruebas.",
+      "last_change_commit": "f1f8707b899697436dc98702f6bef6a45590e635",
+      "blob_oid": "6c7865b9e2dde32b4ff3634ed5dbe7a892a98557",
+      "worktree_sha256": "f059f1d681202196765a8767d2fc7f78462c14baa9fd908cd0e7bdc32d04f22d",
+      "git_blob_sha256": "f059f1d681202196765a8767d2fc7f78462c14baa9fd908cd0e7bdc32d04f22d",
+      "worktree_equals_git_blob": true,
+      "bytes": 2823,
+      "lines": 60,
+      "test_functions": 6
+    }
+  ],
+  "retained_to_retired_references_before": [
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 110,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 111,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 113,
+      "names": [
+        "h3_power_precheck"
+      ]
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 114,
+      "names": [
+        "h3_power_precheck"
+      ]
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 115,
+      "names": [
+        "run_day26"
+      ]
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 116,
+      "names": [
+        "run_day26"
+      ]
+    }
+  ],
+  "python_import_edges_to_retired": [
+    {
+      "from": "quant-system-ingesta/qs/analysis/contrarian_panel.py",
+      "line": 19,
+      "statement": "from analysis.contrarian_ofi import ofi_signal",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/contrarian_runner.py",
+      "line": 27,
+      "statement": "from analysis.contrarian_panel import shock_episode_ids_from_books, SHOCK_COINCIDENCE_MS",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/contrarian_runner.py",
+      "line": 28,
+      "statement": "from analysis.contrarian_ofi import ofi_signal, forward_return, markout_net, half_spread_series, realized_vol, delayed_forward_return, gate_costs, gate_shock_conditional, gate_vol_covariate",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/download_chd_probe1.py",
+      "line": 17,
+      "statement": "from analysis.contrarian_runner import SYMBOLS, probe1_calendar",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/episode_count.py",
+      "line": 18,
+      "statement": "from analysis.contrarian_ofi import ofi_signal",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/hl_flow_precheck.py",
+      "line": 23,
+      "statement": "from analysis.contrarian_ofi import ofi_signal, forward_return",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/run_disparo.py",
+      "line": 20,
+      "statement": "from analysis.contrarian_runner import SYMBOLS, probe1_calendar, run_panel_parallel",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/run_disparo.py",
+      "line": 21,
+      "statement": "from analysis.download_chd_probe1 import KEYFILE",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/run_spread_check.py",
+      "line": 21,
+      "statement": "from analysis.spread_check import half_spread_bps, spread_bias",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/analysis/run_spread_check.py",
+      "line": 22,
+      "statement": "from analysis.contrarian_runner import SYMBOLS",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_contrarian_ofi.py",
+      "line": 6,
+      "statement": "from analysis.contrarian_ofi import windowed_ofi, ofi_signal, forward_return, markout_net, gate_costs, gate_latency_x10, gate_shock_conditional, gate_vol_covariate, run_contrarian",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_contrarian_panel.py",
+      "line": 6,
+      "statement": "from analysis.contrarian_panel import SHOCK_COINCIDENCE_MS, symbol_ofi_low, build_shock_masks, _align_to_master, _dilate_columns",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_contrarian_panel.py",
+      "line": 8,
+      "statement": "from analysis.contrarian_ofi import ofi_signal",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_contrarian_runner.py",
+      "line": 12,
+      "statement": "from analysis.contrarian_runner import Segment, DEFAULT_PARAMS, day_blocks, aggregate_screen, run_panel, make_chd_loader, FEED_LATENCY_P95_MS, probe1_calendar, PROBE1_EXCLUDED_DAYS, PROBE1_START, PROBE1_END, make_streaming_chd_loader, make_raw_cleaner, run_panel_parallel, _process_one_day, IncompleteDownloadError",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_flow_informativeness.py",
+      "line": 4,
+      "statement": "from analysis.flow_informativeness import flow_informativeness",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_funding_carry.py",
+      "line": 6,
+      "statement": "from analysis.funding_carry import carry_pnl, causal_beta_neutralize",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_spread_check.py",
+      "line": 6,
+      "statement": "from analysis.spread_check import half_spread_bps, spread_bias, run_spread_check",
+      "source_retired": true
+    },
+    {
+      "from": "quant-system-ingesta/qs/tests/test_xvenue_lag.py",
+      "line": 6,
+      "statement": "from analysis.xvenue_lag import grid_vwap, xcorr_lags, _peak",
+      "source_retired": true
+    }
+  ],
+  "historical_document_references_preserved": [
+    {
+      "path": "ESPEC-INGESTA.md",
+      "line": 127,
+      "names": [
+        "probe_hist"
+      ]
+    },
+    {
+      "path": "ESPEC-INGESTA.md",
+      "line": 161,
+      "names": [
+        "probe_hist"
+      ]
+    },
+    {
+      "path": "ESPEC-INGESTA.md",
+      "line": 165,
+      "names": [
+        "h2_funding_xvenue"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 58,
+      "names": [
+        "contrarian_ofi",
+        "test_contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 85,
+      "names": [
+        "contrarian_panel"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 90,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 104,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 150,
+      "names": [
+        "contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 151,
+      "names": [
+        "test_contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 155,
+      "names": [
+        "episode_count",
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 164,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 174,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/CONTINUAR_AQUI.md",
+      "line": 178,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/ESTADO.md",
+      "line": 87,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/ESTADO.md",
+      "line": 153,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 161,
+      "names": [
+        "run_day26"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 162,
+      "names": [
+        "contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 214,
+      "names": [
+        "h6_listing_regime_precheck"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 265,
+      "names": [
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 274,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/INVENTARIO_2026-08-24.md",
+      "line": 373,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 203,
+      "names": [
+        "h2_funding_xvenue"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 515,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 517,
+      "names": [
+        "h3_power_precheck"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 525,
+      "names": [
+        "h3_power_precheck"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1017,
+      "names": [
+        "run_day26"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1061,
+      "names": [
+        "funding_carry"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1083,
+      "names": [
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1134,
+      "names": [
+        "hl_flow_precheck"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1286,
+      "names": [
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1294,
+      "names": [
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/LEDGER.md",
+      "line": 1379,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 44,
+      "names": [
+        "xvenue_lag"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 45,
+      "names": [
+        "contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 48,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 54,
+      "names": [
+        "contrarian_panel"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 56,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 66,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/MECHANISM_QUEUE.md",
+      "line": 73,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/PARA_LA_MESA_2026-08-26_ANATOMIA.md",
+      "line": 157,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 138,
+      "names": [
+        "contrarian_panel"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 173,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 175,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 176,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 190,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 221,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 228,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 230,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/PREREG_CONTRARIAN.md",
+      "line": 292,
+      "names": [
+        "run_disparo"
+      ]
+    },
+    {
+      "path": "docs/PREREG_ECO_LIT_INSUMOS.md",
+      "line": 83,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 1386,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2020,
+      "names": [
+        "contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2024,
+      "names": [
+        "episode_count"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2081,
+      "names": [
+        "test_contrarian_runner"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2507,
+      "names": [
+        "spread_check"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2738,
+      "names": [
+        "run_day26"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 2963,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3053,
+      "names": [
+        "contrarian_ofi"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3054,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3055,
+      "names": [
+        "h3_precheck_probe_mass"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3075,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3080,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/REVISION_COMPLETA_2026-08-24.md",
+      "line": 3164,
+      "names": [
+        "flow_informativeness"
+      ]
+    },
+    {
+      "path": "docs/bitacoras/BITACORA_2026-06-11.md",
+      "line": 310,
+      "names": [
+        "probe_hist"
+      ]
+    },
+    {
+      "path": "docs/bitacoras/BITACORA_2026-06-11.md",
+      "line": 322,
+      "names": [
+        "probe_hist"
+      ]
+    },
+    {
+      "path": "docs/bitacoras/BITACORA_2026-06-12.md",
+      "line": 47,
+      "names": [
+        "probe_hist"
+      ]
+    },
+    {
+      "path": "docs/testigos/AUDITORIA_A11.md",
+      "line": 198,
+      "names": [
+        "flow_informativeness"
+      ]
+    }
+  ],
+  "non_python_non_document_reference_hits": [],
+  "static_scanned_paths": [
+    ".claude/agents/code-reviewer.md",
+    ".claude/agents/quant-reviewer.md",
+    ".claude/agents/spec-guardian.md",
+    ".claude/agents/test-runner.md",
+    ".claude/commands/cierre.md",
+    ".claude/commands/smoke.md",
+    ".claude/hooks/posttool_pytest.py",
+    ".gitattributes",
+    ".github/workflows/ci.yml",
+    ".gitignore",
+    "CLAUDE.md",
+    "ENCARGO_M10_GATE_LIT.md",
+    "ESPEC-INGESTA.md",
+    "SETUP_CODE.md",
+    "docs/ATAQUE_P0_2026-08-25.md",
+    "docs/AUDITORIA_CODE_2026-09-05_ENLACE_EJECUCION_ORDEN.md",
+    "docs/AUDITORIA_CODE_2026-09-05_XPT_INSTRUMENTO.md",
+    "docs/AUDITORIA_CODE_2026-09-06_I5_CENSO.md",
+    "docs/AUDITORIA_CODE_2026-09-06_I5_DESCARGA_L3.md",
+    "docs/AUDITORIA_CODE_2026-09-07_I5_CHD_CUSTODIA.md",
+    "docs/AUDITORIA_CODE_2026-09-07_I5_LECTOR_E_INSUMOS.md",
+    "docs/AUDITORIA_DEL_METODO.md",
+    "docs/AUDITORIA_QUANT_REVIEWER_2026-08-24.md",
+    "docs/CATALOGO_FLUJOS_FORZADOS_ESQUELETO_2026-09-07.md",
+    "docs/COLECTOR_LIGHTER.md",
+    "docs/CONTINUAR_AQUI.md",
+    "docs/C_SPEC_V7.md",
+    "docs/C_SPEC_V8_ADENDA_PROPUESTA.md",
+    "docs/C_TABLA_RECUPERACION_BORRADOR.md",
+    "docs/DATA_PLAN.md",
+    "docs/DECISION_2026-08-24_CALENDARIO.md",
+    "docs/DECISION_MESA_2026-09-06_ACCESO_LIT_I5.md",
+    "docs/DICTAMEN_MESA_2026-09-05_CAP2.md",
+    "docs/DICTAMEN_MESA_2026-09-05_OBSERVABILIDAD_FPRIMA.md",
+    "docs/DICTAMEN_MESA_2026-09-07_I5_D1_79.md",
+    "docs/DICTAMEN_MESA_2026-09-07_PUSH_CI_Y_V2.md",
+    "docs/DOSSIER.md",
+    "docs/ECO_CONTEO_FASE0.md",
+    "docs/ENCARGO_REDERIVACION_I5.md",
+    "docs/ESPEC_MESA_2026-09-07_D1_79_DIAS.md",
+    "docs/ESPEC_POST_INCIDENTE_REF_VALIDA.md",
+    "docs/ESTADO.md",
+    "docs/EXPLICACION_SIMPLE.md",
+    "docs/H8_IO_DESIGN.md",
+    "docs/HALLAZGO_2026-08-24_CLAUSULA_2.md",
+    "docs/IDEAS_FUTURO.md",
+    "docs/INCIDENTES_2026-08-24_AUDITORIA.md",
+    "docs/INCIDENTE_2026-08-26_REF_INVALIDA.md",
+    "docs/INCIDENTE_2026-08-31_GATE_LIT_CONTAMINADO.md",
+    "docs/INVENTARIO_2026-08-24.md",
+    "docs/LEDGER.md",
+    "docs/MECHANISM_QUEUE.md",
+    "docs/MESA_ECO_BRIEFING.md",
+    "docs/MESA_ECO_PROMPT.md",
+    "docs/PARA_CODE_2026-09-05_XPT_ENLACE_ARCHIVO.md",
+    "docs/PARA_CODE_2026-09-06_I5_CENSO.md",
+    "docs/PARA_CODE_2026-09-06_I5_CENSO_CONTINUACION.md",
+    "docs/PARA_CODE_2026-09-06_I5_CENSO_P1.md",
+    "docs/PARA_CODE_2026-09-06_I5_DESCARGA_ETAPAS.md",
+    "docs/PARA_CODE_2026-09-06_I5_DESCARGA_L3.md",
+    "docs/PARA_CODE_2026-09-07_CI_I5_REPARACION.md",
+    "docs/PARA_CODE_2026-09-07_I5_CHD_CUSTODIA.md",
+    "docs/PARA_CODE_2026-09-07_I5_CHD_P1.md",
+    "docs/PARA_CODE_2026-09-07_I5_CHD_REDIRECT.md",
+    "docs/PARA_CODE_2026-09-07_I5_CHD_RESTO_71.md",
+    "docs/PARA_CODE_2026-09-07_I5_D1_79.md",
+    "docs/PARA_CODE_2026-09-07_I5_PRODUCTOR_INSUMOS.md",
+    "docs/PARA_CODE_2026-09-07_I5_REPRODUCCION_OCHO.md",
+    "docs/PARA_CODE_2026-09-07_I5_REPRODUCCION_RESTO_71.md",
+    "docs/PARA_CODE_2026-09-08_CI_ANCLAS_SELLADAS.md",
+    "docs/PARA_LA_MESA_2026-08-25.md",
+    "docs/PARA_LA_MESA_2026-08-25_RONDA2.md",
+    "docs/PARA_LA_MESA_2026-08-26_ANATOMIA.md",
+    "docs/PARA_LA_MESA_2026-08-26_CI.md",
+    "docs/PARA_LA_MESA_2026-08-27_REPARACION.md",
+    "docs/PARA_LA_MESA_2026-09-05_DECISIONES_CAP2.md",
+    "docs/PARA_LA_MESA_2026-09-05_DECISIONES_CAP2_ADENDA.md",
+    "docs/PARA_LA_MESA_ECO_ESTRUCTURA.md",
+    "docs/PLAN_v2.2_ADENDA.md",
+    "docs/POSTMORTEM_FLUJOS_FORZADOS_CAP1_2026-09-07.md",
+    "docs/PREREG_B.md",
+    "docs/PREREG_B_GATE.md",
+    "docs/PREREG_CONFIRMACION_LIT.md",
+    "docs/PREREG_CONTRARIAN.md",
+    "docs/PREREG_ECO_LIT_INSUMOS.md",
+    "docs/PREREG_MAKER_LIGHTER.md",
+    "docs/PREREG_SONDA_COBERTURA.md",
+    "docs/RECOMPROBACION_2026-09-05_0XA_MARZO.md",
+    "docs/RESEARCH_BRIEF.md",
+    "docs/RESEARCH_IO_BRIEF.md",
+    "docs/RESEARCH_MAKER_SIM_BRIEF.md",
+    "docs/RESEARCH_VALIDATION_BRIEF.md",
+    "docs/RESOLUCION_SIETE_ROJOS_2026-08-25.md",
+    "docs/RESULTADO_CODE_2026-09-06_I5_CENSO.md",
+    "docs/RESULTADO_CODE_2026-09-06_I5_CENSO_COMPLETO.md",
+    "docs/RESULTADO_CODE_2026-09-06_I5_ETAPA_A_CHECKPOINT.md",
+    "docs/RESULTADO_CODE_2026-09-06_I5_ETAPA_B_TICK.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_CHD_ACCESO.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_CHD_CUSTODIA_OCHO.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_CHD_RESTO_71.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_CHD_RESTO_71_INTENTO0.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_D1_79.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_REPRODUCCION_OCHO.md",
+    "docs/RESULTADO_CODE_2026-09-07_I5_REPRODUCCION_RESTO_71.md",
+    "docs/RESULTADO_CODE_2026-09-07_PUSH_CI.md",
+    "docs/RESULTADO_CODE_2026-09-08_CI_REPARACION.md",
+    "docs/RESULTADO_MESA_2026-09-05_I5_ETAPA0.md",
+    "docs/RESULTADO_MESA_2026-09-06_I5_BUILD.md",
+    "docs/RESULTADO_MESA_2026-09-06_XPT_ENLACE_ARCHIVO.md",
+    "docs/REVISION_COMPLETA_2026-08-24.md",
+    "docs/ROADMAP.md",
+    "docs/RUNNER_DESIGN.md",
+    "docs/VERIFICACION_MESA_2026-09-05_LIGHTER_REGIMEN.md",
+    "docs/VISION.md",
+    "docs/bitacoras/BITACORA_2026-06-11.md",
+    "docs/bitacoras/BITACORA_2026-06-12.md",
+    "docs/papers/README.md",
+    "docs/testigos/ARCO.md",
+    "docs/testigos/AUDITORIA_A11.md",
+    "docs/testigos/CARTA_DE_ATAQUE.md",
+    "docs/testigos/SANEAMIENTO.md",
+    "infra/l3_poller/l3-poller.service",
+    "infra/l3_poller/l3_poller.py",
+    "infra/lighter_collector/collector.py",
+    "infra/lighter_collector/heartbeat.sh",
+    "infra/lighter_collector/lighter-collector.service",
+    "infra/lighter_collector/lighter-heartbeat.cron",
+    "infra/lighter_collector/lighter-replica-early.service",
+    "infra/lighter_collector/lighter-replica-early.timer",
+    "infra/lighter_collector/lighter-replica.service",
+    "infra/lighter_collector/lighter-replica.timer",
+    "infra/lighter_collector/replicate.sh",
+    "quant-system-ingesta/qs/README.md",
+    "quant-system-ingesta/qs/analysis/artefacto.py",
+    "quant-system-ingesta/qs/analysis/bars.py",
+    "quant-system-ingesta/qs/analysis/book.py",
+    "quant-system-ingesta/qs/analysis/carril.py",
+    "quant-system-ingesta/qs/analysis/confirm_runner.py",
+    "quant-system-ingesta/qs/analysis/confirm_screen.py",
+    "quant-system-ingesta/qs/analysis/contrarian_ofi.py",
+    "quant-system-ingesta/qs/analysis/contrarian_panel.py",
+    "quant-system-ingesta/qs/analysis/contrarian_runner.py",
+    "quant-system-ingesta/qs/analysis/cryptohft_adapter.py",
+    "quant-system-ingesta/qs/analysis/cv.py",
+    "quant-system-ingesta/qs/analysis/download_chd_probe1.py",
+    "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+    "quant-system-ingesta/qs/analysis/eco_cas.py",
+    "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+    "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+    "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+    "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+    "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+    "quant-system-ingesta/qs/analysis/eco_libro_tx.py",
+    "quant-system-ingesta/qs/analysis/eco_medir_L.py",
+    "quant-system-ingesta/qs/analysis/eco_nmin_mc.py",
+    "quant-system-ingesta/qs/analysis/eco_procedencia.py",
+    "quant-system-ingesta/qs/analysis/eco_ref_crudos.py",
+    "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+    "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+    "quant-system-ingesta/qs/analysis/episode_count.py",
+    "quant-system-ingesta/qs/analysis/exec_sim.py",
+    "quant-system-ingesta/qs/analysis/feasibility.py",
+    "quant-system-ingesta/qs/analysis/fetch_funding.py",
+    "quant-system-ingesta/qs/analysis/fetch_metrics.py",
+    "quant-system-ingesta/qs/analysis/fetch_returns.py",
+    "quant-system-ingesta/qs/analysis/fetch_vision.py",
+    "quant-system-ingesta/qs/analysis/flow_informativeness.py",
+    "quant-system-ingesta/qs/analysis/funding_carry.py",
+    "quant-system-ingesta/qs/analysis/gen_t_tabla.py",
+    "quant-system-ingesta/qs/analysis/h1.py",
+    "quant-system-ingesta/qs/analysis/h1_io.py",
+    "quant-system-ingesta/qs/analysis/h2_funding_xvenue.py",
+    "quant-system-ingesta/qs/analysis/h2_staking.py",
+    "quant-system-ingesta/qs/analysis/h3.py",
+    "quant-system-ingesta/qs/analysis/h3_io.py",
+    "quant-system-ingesta/qs/analysis/h3_power_precheck.py",
+    "quant-system-ingesta/qs/analysis/h3_precheck_probe_mass.py",
+    "quant-system-ingesta/qs/analysis/h6_listing_regime_precheck.py",
+    "quant-system-ingesta/qs/analysis/h8.py",
+    "quant-system-ingesta/qs/analysis/h8_io.py",
+    "quant-system-ingesta/qs/analysis/haircut.py",
+    "quant-system-ingesta/qs/analysis/hl_adapter.py",
+    "quant-system-ingesta/qs/analysis/hl_flow_precheck.py",
+    "quant-system-ingesta/qs/analysis/hl_maker_capa1.py",
+    "quant-system-ingesta/qs/analysis/l2_adapter.py",
+    "quant-system-ingesta/qs/analysis/labeling.py",
+    "quant-system-ingesta/qs/analysis/lighter_adapter.py",
+    "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py",
+    "quant-system-ingesta/qs/analysis/maker_capa2_runner.py",
+    "quant-system-ingesta/qs/analysis/maker_capa2_screen.py",
+    "quant-system-ingesta/qs/analysis/maker_sim.py",
+    "quant-system-ingesta/qs/analysis/overfit.py",
+    "quant-system-ingesta/qs/analysis/oxa_tick_gate2.py",
+    "quant-system-ingesta/qs/analysis/pilot_observer.py",
+    "quant-system-ingesta/qs/analysis/pilot_runner.py",
+    "quant-system-ingesta/qs/analysis/pilot_screen.py",
+    "quant-system-ingesta/qs/analysis/probe_hist.py",
+    "quant-system-ingesta/qs/analysis/recompute_s5_neff.py",
+    "quant-system-ingesta/qs/analysis/ref_valida.py",
+    "quant-system-ingesta/qs/analysis/regime.py",
+    "quant-system-ingesta/qs/analysis/run_day26.py",
+    "quant-system-ingesta/qs/analysis/run_disparo.py",
+    "quant-system-ingesta/qs/analysis/run_spread_check.py",
+    "quant-system-ingesta/qs/analysis/screen.py",
+    "quant-system-ingesta/qs/analysis/spread_check.py",
+    "quant-system-ingesta/qs/analysis/t_tabla.py",
+    "quant-system-ingesta/qs/analysis/toxicity.py",
+    "quant-system-ingesta/qs/analysis/verify_pilot_bhy_oriented.py",
+    "quant-system-ingesta/qs/analysis/wallet_atlas.py",
+    "quant-system-ingesta/qs/analysis/xsection.py",
+    "quant-system-ingesta/qs/analysis/xvenue_lag.py",
+    "quant-system-ingesta/qs/config/instruments.yaml",
+    "quant-system-ingesta/qs/deploy/audit-day.service",
+    "quant-system-ingesta/qs/deploy/audit-day.timer",
+    "quant-system-ingesta/qs/deploy/backup.service",
+    "quant-system-ingesta/qs/deploy/backup.timer",
+    "quant-system-ingesta/qs/deploy/ingest.service",
+    "quant-system-ingesta/qs/deploy/install.sh",
+    "quant-system-ingesta/qs/deploy/retention.service",
+    "quant-system-ingesta/qs/deploy/retention.timer",
+    "quant-system-ingesta/qs/deploy/telegram.env.example",
+    "quant-system-ingesta/qs/docs/PARA_CODEX_2026-09-05_M15_AUDITORIA.md",
+    "quant-system-ingesta/qs/docs/PARA_CODEX_2026-09-05_M15_REAUDITORIA.md",
+    "quant-system-ingesta/qs/docs/PARA_CODE_2026-09-04_M14.md",
+    "quant-system-ingesta/qs/docs/PARA_CODE_2026-09-04_M14_REPARACION.md",
+    "quant-system-ingesta/qs/docs/PARA_CODE_2026-09-05_M14_COBERTURA_FINAL.md",
+    "quant-system-ingesta/qs/docs/PARA_CODE_2026-09-05_M15_SOLO_LECTURA.md",
+    "quant-system-ingesta/qs/docs/PARA_CODE_2026-09-05_M15_TIMEOUT.md",
+    "quant-system-ingesta/qs/ingestion/__init__.py",
+    "quant-system-ingesta/qs/ingestion/audit.py",
+    "quant-system-ingesta/qs/ingestion/book.py",
+    "quant-system-ingesta/qs/ingestion/feed_binance.py",
+    "quant-system-ingesta/qs/ingestion/main.py",
+    "quant-system-ingesta/qs/ingestion/writer.py",
+    "quant-system-ingesta/qs/requirements-lock.txt",
+    "quant-system-ingesta/qs/requirements-test.txt",
+    "quant-system-ingesta/qs/requirements.txt",
+    "quant-system-ingesta/qs/tests/conftest.py",
+    "quant-system-ingesta/qs/tests/i5_sdk_fixtures.py",
+    "quant-system-ingesta/qs/tests/propiedades.py",
+    "quant-system-ingesta/qs/tests/test_agilidad.py",
+    "quant-system-ingesta/qs/tests/test_artefacto.py",
+    "quant-system-ingesta/qs/tests/test_bars.py",
+    "quant-system-ingesta/qs/tests/test_book.py",
+    "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+    "quant-system-ingesta/qs/tests/test_censo_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_collector.py",
+    "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_ofi.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_panel.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_runner.py",
+    "quant-system-ingesta/qs/tests/test_core.py",
+    "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+    "quant-system-ingesta/qs/tests/test_cryptohft_adapter.py",
+    "quant-system-ingesta/qs/tests/test_cv.py",
+    "quant-system-ingesta/qs/tests/test_eco_anchor.py",
+    "quant-system-ingesta/qs/tests/test_eco_cas.py",
+    "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+    "quant-system-ingesta/qs/tests/test_eco_procedencia.py",
+    "quant-system-ingesta/qs/tests/test_eco_runner_lit.py",
+    "quant-system-ingesta/qs/tests/test_estructura_chd.py",
+    "quant-system-ingesta/qs/tests/test_etapa0_validador.py",
+    "quant-system-ingesta/qs/tests/test_exec_sim.py",
+    "quant-system-ingesta/qs/tests/test_feasibility.py",
+    "quant-system-ingesta/qs/tests/test_flow_informativeness.py",
+    "quant-system-ingesta/qs/tests/test_funding_carry.py",
+    "quant-system-ingesta/qs/tests/test_gate_dos_worktrees.py",
+    "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+    "quant-system-ingesta/qs/tests/test_guardia_documental.py",
+    "quant-system-ingesta/qs/tests/test_h1.py",
+    "quant-system-ingesta/qs/tests/test_h1_io.py",
+    "quant-system-ingesta/qs/tests/test_h3.py",
+    "quant-system-ingesta/qs/tests/test_h3_io.py",
+    "quant-system-ingesta/qs/tests/test_h8.py",
+    "quant-system-ingesta/qs/tests/test_h8_io.py",
+    "quant-system-ingesta/qs/tests/test_haircut.py",
+    "quant-system-ingesta/qs/tests/test_hl_adapter.py",
+    "quant-system-ingesta/qs/tests/test_i5_acceso.py",
+    "quant-system-ingesta/qs/tests/test_i5_censo_cobertura.py",
+    "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+    "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+    "quant-system-ingesta/qs/tests/test_i5_d1.py",
+    "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+    "quant-system-ingesta/qs/tests/test_i5_insumos_ocho.py",
+    "quant-system-ingesta/qs/tests/test_i5_productor_forense.py",
+    "quant-system-ingesta/qs/tests/test_i5_productor_resto.py",
+    "quant-system-ingesta/qs/tests/test_i5_resto_chd.py",
+    "quant-system-ingesta/qs/tests/test_l2_adapter.py",
+    "quant-system-ingesta/qs/tests/test_labeling.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_git.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_recuperacion.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_writer.py",
+    "quant-system-ingesta/qs/tests/test_lighter_adapter.py",
+    "quant-system-ingesta/qs/tests/test_m10_differ_core.py",
+    "quant-system-ingesta/qs/tests/test_maker_sim.py",
+    "quant-system-ingesta/qs/tests/test_medir_L.py",
+    "quant-system-ingesta/qs/tests/test_mutacion_gate_b.py",
+    "quant-system-ingesta/qs/tests/test_overfit.py",
+    "quant-system-ingesta/qs/tests/test_pilot_observer.py",
+    "quant-system-ingesta/qs/tests/test_pilot_observer_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_propiedades_ref_valida.py",
+    "quant-system-ingesta/qs/tests/test_recibo.py",
+    "quant-system-ingesta/qs/tests/test_regime.py",
+    "quant-system-ingesta/qs/tests/test_registro_sonda.py",
+    "quant-system-ingesta/qs/tests/test_screen.py",
+    "quant-system-ingesta/qs/tests/test_session_active_wti.py",
+    "quant-system-ingesta/qs/tests/test_spread_check.py",
+    "quant-system-ingesta/qs/tests/test_timeout_arnes.py",
+    "quant-system-ingesta/qs/tests/test_toxicity.py",
+    "quant-system-ingesta/qs/tests/test_trailing_vol_i2.py",
+    "quant-system-ingesta/qs/tests/test_xsection.py",
+    "quant-system-ingesta/qs/tests/test_xvenue_lag.py",
+    "quant-system-ingesta/qs/tools/anatomia_del_18_24.py",
+    "quant-system-ingesta/qs/tools/audit_day.py",
+    "quant-system-ingesta/qs/tools/backup.py",
+    "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+    "quant-system-ingesta/qs/tools/censo_anclas.py",
+    "quant-system-ingesta/qs/tools/censo_ref_invalida.py",
+    "quant-system-ingesta/qs/tools/cifras_paquete.py",
+    "quant-system-ingesta/qs/tools/comprobador_destrucciones.py",
+    "quant-system-ingesta/qs/tools/estructura_chd_local.py",
+    "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py",
+    "quant-system-ingesta/qs/tools/etapa0_validador.py",
+    "quant-system-ingesta/qs/tools/feasibility_objetivo.py",
+    "quant-system-ingesta/qs/tools/guardia_completitud.py",
+    "quant-system-ingesta/qs/tools/guardia_documental.py",
+    "quant-system-ingesta/qs/tools/i5_censo_cobertura.py",
+    "quant-system-ingesta/qs/tools/i5_chd_custodia.py",
+    "quant-system-ingesta/qs/tools/i5_d1.py",
+    "quant-system-ingesta/qs/tools/i5_d1_math.py",
+    "quant-system-ingesta/qs/tools/i5_descarga_l3.py",
+    "quant-system-ingesta/qs/tools/i5_etapa0.py",
+    "quant-system-ingesta/qs/tools/i5_insumos_ocho.py",
+    "quant-system-ingesta/qs/tools/i5_oxa_io.py",
+    "quant-system-ingesta/qs/tools/i5_productor_forense.py",
+    "quant-system-ingesta/qs/tools/i5_productor_resto.py",
+    "quant-system-ingesta/qs/tools/i5_resto_chd.py",
+    "quant-system-ingesta/qs/tools/medida.py",
+    "quant-system-ingesta/qs/tools/mutacion_gate_b.py",
+    "quant-system-ingesta/qs/tools/mutacion_libro_tx.py",
+    "quant-system-ingesta/qs/tools/mutacion_ref_valida.py",
+    "quant-system-ingesta/qs/tools/prevuelo.py",
+    "quant-system-ingesta/qs/tools/probe_no_aislable_6130.py",
+    "quant-system-ingesta/qs/tools/recuento_auditoria.py",
+    "quant-system-ingesta/qs/tools/registro_sonda.py",
+    "quant-system-ingesta/qs/tools/retention.py",
+    "quant-system-ingesta/qs/tools/retirar_lock_espurio.py",
+    "quant-system-ingesta/qs/tools/smoke.py",
+    ".claude/settings.json",
+    "quant-system-ingesta/qs/tools/i5_celdas_20260906.json"
+  ],
+  "d1_source_hashes": {
+    "analysis/artefacto.py": "f248b3450813323728707f4d5dfaf20c71eb5dc0c2c9e28f4ce3b57b5087ffe3",
+    "analysis/carril.py": "626d6e83e2aa51d7365ddb89c3622b1e1898dee95274b02d4f0a2b7d8ef8e98e",
+    "analysis/lighter_maker_capa1.py": "dc58d80517211e4430195a39c372c5cf30e357fa3dda350bf00f1fa06fde7632",
+    "analysis/pilot_observer.py": "38be990f564314ff0527ceb4536ed3a70db86f497db653c1fb0318c346939833",
+    "analysis/ref_valida.py": "09de672ee0448b2e4e6dc569a344300bd593357fa24b29ad1ad8ab6a4f867c14",
+    "analysis/screen.py": "d7e20e1bd90233326f38e22730201de1f8d485bc24c49dfd2c9f3c60d8243687",
+    "tools/i5_censo_cobertura.py": "b4409cdf73b423ddfe3175bb40f33ae49e3a54840ab0f266e8503076955cc3ca",
+    "tools/i5_chd_custodia.py": "d39234b2ea6b10edfc990732079eb1c6f77bd2b620233a0c2bfec28d538f2ff5",
+    "tools/i5_d1.py": "8713b171632e75a88001e34c22fdf2264f54c132a8e8a3741a8c9a495d7279f1",
+    "tools/i5_d1_math.py": "9f916017ba17229c91a39a03b19fe13690bac5faa416c504ed3f341e6bc2c950",
+    "tools/i5_descarga_l3.py": "fcc6f6fa19cd47317e82b82da70984162b70af8f6359f1376513dacb04c1dfc6",
+    "tools/i5_insumos_ocho.py": "e7b582f696000ba3b8c72274f801112b2e409ab78e8dddb70ff1fa34eb39d4a8",
+    "tools/i5_oxa_io.py": "9a96fecbb9c5cbdb2b64b2476cd7971453650540ed6cac0ab110c543f8a68f17",
+    "tools/i5_productor_forense.py": "e4011fc691d5610fd02c116d3f067a94edf5431afaec56391a5f2b583bf3878e",
+    "tools/i5_productor_resto.py": "74a83faecc0a7c71767088f24155c8a3cde120464f617da8142122eb13bae155",
+    "tools/i5_resto_chd.py": "dba1a31aa5b1f4aaf7d6c573cce36bc3d4d854cf886d1b7d4fcb8e3a2b6fc470"
+  },
+  "d1_spec_sha256": "6e358b9c5f127819b8a8b805ade726f1f0bc6d8934b9279d8aa3d574fc5b91d7",
+  "limits": "Análisis estático de Python, comandos, workflows, servicios y documentación versionada. No inspección remota ni prueba de imports dinámicos arbitrarios. Se excluyen datos y recibos históricos del escaneo de dependencias.",
+  "deferred": {
+    "analysis/h1.py, h1_io.py, h3.py, h3_io.py, h8.py, h8_io.py": "screen.run_screen depende de ellos; screen sigue fijado por D1. Sus seis tests permanecen.",
+    "analysis/h2_staking.py": "fetch_funding importa get_funding y daily_funding.",
+    "tools/estructura_chd_local.py": "censo_anclas, conftest, tests de eco_cas y filas del arnés ref aún lo necesitan."
+  },
+  "additional_json_config_reference_hits": [],
+  "retained_to_retired_references_after": [],
+  "modified_retained_test": {
+    "path": "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+    "function": "test_sobre_el_repo_real_hay_llamadas_vigiladas_de_verdad",
+    "before": "total >= 20; 24 sitios antes del lote",
+    "after": "inventario independiente de los 18 sitios conservados; exige que todos sigan visibles",
+    "reason": "El lote retira seis sitios legítimos; mantener el umbral de veinte produce un falso fallo. El test permanece, con el mismo nombre y fila de mutación."
+  },
+  "commit_paths": [
+    "ARCHIVO.md",
+    "docs/RELEVO_CODEX_2026-09-08_V2_LOTE1.md",
+    "docs/inventarios/V2_LOTE1_20260908.json",
+    "quant-system-ingesta/qs/analysis/contrarian_ofi.py",
+    "quant-system-ingesta/qs/analysis/contrarian_panel.py",
+    "quant-system-ingesta/qs/analysis/contrarian_runner.py",
+    "quant-system-ingesta/qs/analysis/download_chd_probe1.py",
+    "quant-system-ingesta/qs/analysis/episode_count.py",
+    "quant-system-ingesta/qs/analysis/flow_informativeness.py",
+    "quant-system-ingesta/qs/analysis/funding_carry.py",
+    "quant-system-ingesta/qs/analysis/h2_funding_xvenue.py",
+    "quant-system-ingesta/qs/analysis/h3_power_precheck.py",
+    "quant-system-ingesta/qs/analysis/h3_precheck_probe_mass.py",
+    "quant-system-ingesta/qs/analysis/h6_listing_regime_precheck.py",
+    "quant-system-ingesta/qs/analysis/hl_flow_precheck.py",
+    "quant-system-ingesta/qs/analysis/probe_hist.py",
+    "quant-system-ingesta/qs/analysis/run_day26.py",
+    "quant-system-ingesta/qs/analysis/run_disparo.py",
+    "quant-system-ingesta/qs/analysis/run_spread_check.py",
+    "quant-system-ingesta/qs/analysis/spread_check.py",
+    "quant-system-ingesta/qs/analysis/xvenue_lag.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_ofi.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_panel.py",
+    "quant-system-ingesta/qs/tests/test_contrarian_runner.py",
+    "quant-system-ingesta/qs/tests/test_flow_informativeness.py",
+    "quant-system-ingesta/qs/tests/test_funding_carry.py",
+    "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+    "quant-system-ingesta/qs/tests/test_spread_check.py",
+    "quant-system-ingesta/qs/tests/test_xvenue_lag.py",
+    "quant-system-ingesta/qs/tools/guardia_completitud.py"
+  ]
+}

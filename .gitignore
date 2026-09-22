@@ -1,0 +1,25 @@
+.venv/
+data/
+data_hist/
+# El conjunto sellado del gate B es un ARTEFACTO versionable. La autoridad de un solo uso vive
+# bajo git-common-dir y no entra en el árbol; flag/manifiesto/bar sí deben poder pasar por
+# `commit + push`. Reabrimos únicamente sus padres y volvemos a ignorar el resto.
+!quant-system-ingesta/qs/data_hist/
+quant-system-ingesta/qs/data_hist/*
+!quant-system-ingesta/qs/data_hist/eco_b/
+quant-system-ingesta/qs/data_hist/eco_b/*
+!quant-system-ingesta/qs/data_hist/eco_b/freeze_pins.json
+!quant-system-ingesta/qs/data_hist/eco_b/gate_sellado/
+docs/papers/*
+!docs/papers/README.md
+data_legacy/
+__pycache__/
+*.pyc
+smoke.log
+*.tmp
+disparo*.log
+tx_control/
+# Todo intruso dentro del conjunto sellado debe seguir visible en `git status`. Esta excepción va
+# DESPUÉS de los patrones globales (`*.tmp`, `*.pyc`, etc.); ponerla antes dejaba que éstos volvieran
+# a ocultar justo los residuos que el estado del árbol debe delatar.
+!quant-system-ingesta/qs/data_hist/eco_b/gate_sellado/**

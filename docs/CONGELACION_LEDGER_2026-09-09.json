@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "declared_on": "2026-09-09",
+  "scope": "Registro histórico de capítulos 1 y 2, hasta el cierre I5/D1 del 2026-09-07. No es freeze científico F ni F prima.",
+  "path": "docs/LEDGER.md",
+  "reference_commit": "0f127e396e5c81bef6757bc33f1fdeae46184e1d",
+  "last_content_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+  "git_blob_oid": "49526d94cd72a9a76a00b2a4fb41696b82654936",
+  "git_blob_sha256": "8b1bb45925467b831326183ec9336003ee605afd94f728f537f044c87a6f6c41",
+  "worktree_sha256_at_seal": "8b1bb45925467b831326183ec9336003ee605afd94f728f537f044c87a6f6c41",
+  "bytes": 196308,
+  "lines": 2321,
+  "disposition": "Conservar ruta, texto e historia. Registrar decisiones posteriores fuera de este fichero.",
+  "current_register": "docs/LEDGER_ACTUAL.md",
+  "enforcement": "Constancia documental de identidad por Git y SHA-256; no añade un veto automático a CI."
+}

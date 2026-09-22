@@ -1,0 +1,3296 @@
+{
+  "schema": 1,
+  "date": "2026-09-09",
+  "base_commit": "e1c2757b1f492637aba62ef46ffe45be91405c67",
+  "status": "IMPLEMENTED_PENDING_CODE_AUDIT_AND_CI",
+  "scope": "Retiro conjunto de campaña eco y consumidores históricos; núcleo genérico, captura, ingesta, respaldo y evidencia conservados.",
+  "commit_paths": [
+    ".github/workflows/ci.yml",
+    "ARCHIVO.md",
+    "README.md",
+    "docs/INDICE_EXPEDIENTE_I5.md",
+    "docs/LEDGER_ACTUAL.md",
+    "docs/RELEVO_CODEX_2026-09-09_V2_LOTE3.md",
+    "docs/inventarios/V2_LOTE3_20260909.json",
+    "quant-system-ingesta/qs/analysis/confirm_runner.py",
+    "quant-system-ingesta/qs/analysis/confirm_screen.py",
+    "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+    "quant-system-ingesta/qs/analysis/eco_cas.py",
+    "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+    "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+    "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+    "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+    "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+    "quant-system-ingesta/qs/analysis/eco_libro_tx.py",
+    "quant-system-ingesta/qs/analysis/eco_medir_L.py",
+    "quant-system-ingesta/qs/analysis/eco_nmin_mc.py",
+    "quant-system-ingesta/qs/analysis/eco_procedencia.py",
+    "quant-system-ingesta/qs/analysis/eco_ref_crudos.py",
+    "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+    "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+    "quant-system-ingesta/qs/analysis/exec_sim.py",
+    "quant-system-ingesta/qs/analysis/gen_t_tabla.py",
+    "quant-system-ingesta/qs/analysis/h1.py",
+    "quant-system-ingesta/qs/analysis/h1_io.py",
+    "quant-system-ingesta/qs/analysis/h3.py",
+    "quant-system-ingesta/qs/analysis/h3_io.py",
+    "quant-system-ingesta/qs/analysis/h8.py",
+    "quant-system-ingesta/qs/analysis/h8_io.py",
+    "quant-system-ingesta/qs/analysis/hl_maker_capa1.py",
+    "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py",
+    "quant-system-ingesta/qs/analysis/maker_capa2_runner.py",
+    "quant-system-ingesta/qs/analysis/maker_capa2_screen.py",
+    "quant-system-ingesta/qs/analysis/maker_sim.py",
+    "quant-system-ingesta/qs/analysis/pilot_observer.py",
+    "quant-system-ingesta/qs/analysis/pilot_runner.py",
+    "quant-system-ingesta/qs/analysis/pilot_screen.py",
+    "quant-system-ingesta/qs/analysis/screen.py",
+    "quant-system-ingesta/qs/analysis/t_tabla.py",
+    "quant-system-ingesta/qs/analysis/wallet_atlas.py",
+    "quant-system-ingesta/qs/tests/conftest.py",
+    "quant-system-ingesta/qs/tests/test_agilidad.py",
+    "quant-system-ingesta/qs/tests/test_arnes_comun.py",
+    "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+    "quant-system-ingesta/qs/tests/test_censo_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+    "quant-system-ingesta/qs/tests/test_eco_anchor.py",
+    "quant-system-ingesta/qs/tests/test_eco_cas.py",
+    "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+    "quant-system-ingesta/qs/tests/test_eco_procedencia.py",
+    "quant-system-ingesta/qs/tests/test_eco_runner_lit.py",
+    "quant-system-ingesta/qs/tests/test_estructura_chd.py",
+    "quant-system-ingesta/qs/tests/test_etapa0_validador.py",
+    "quant-system-ingesta/qs/tests/test_exec_sim.py",
+    "quant-system-ingesta/qs/tests/test_gate_dos_worktrees.py",
+    "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+    "quant-system-ingesta/qs/tests/test_h1.py",
+    "quant-system-ingesta/qs/tests/test_h1_io.py",
+    "quant-system-ingesta/qs/tests/test_h3.py",
+    "quant-system-ingesta/qs/tests/test_h3_io.py",
+    "quant-system-ingesta/qs/tests/test_h8.py",
+    "quant-system-ingesta/qs/tests/test_h8_io.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_git.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_recuperacion.py",
+    "quant-system-ingesta/qs/tests/test_libro_tx_writer.py",
+    "quant-system-ingesta/qs/tests/test_lighter_maker_key.py",
+    "quant-system-ingesta/qs/tests/test_m10_differ_core.py",
+    "quant-system-ingesta/qs/tests/test_maker_sim.py",
+    "quant-system-ingesta/qs/tests/test_medir_L.py",
+    "quant-system-ingesta/qs/tests/test_mutacion_gate_b.py",
+    "quant-system-ingesta/qs/tests/test_pilot_observer.py",
+    "quant-system-ingesta/qs/tests/test_pilot_observer_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_propiedades_ref_valida.py",
+    "quant-system-ingesta/qs/tests/test_recibo.py",
+    "quant-system-ingesta/qs/tests/test_ref_valida.py",
+    "quant-system-ingesta/qs/tests/test_screen.py",
+    "quant-system-ingesta/qs/tests/test_session_active_wti.py",
+    "quant-system-ingesta/qs/tests/test_timeout_arnes.py",
+    "quant-system-ingesta/qs/tests/test_trailing_vol_i2.py",
+    "quant-system-ingesta/qs/tools/arnes_comun.py",
+    "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+    "quant-system-ingesta/qs/tools/censo_anclas.py",
+    "quant-system-ingesta/qs/tools/censo_ref_invalida.py",
+    "quant-system-ingesta/qs/tools/cifras_paquete.py",
+    "quant-system-ingesta/qs/tools/comprobador_destrucciones.py",
+    "quant-system-ingesta/qs/tools/estructura_chd_local.py",
+    "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py",
+    "quant-system-ingesta/qs/tools/etapa0_validador.py",
+    "quant-system-ingesta/qs/tools/guardia_completitud.py",
+    "quant-system-ingesta/qs/tools/medida.py",
+    "quant-system-ingesta/qs/tools/mutacion_gate_b.py",
+    "quant-system-ingesta/qs/tools/mutacion_libro_tx.py",
+    "quant-system-ingesta/qs/tools/mutacion_ref_valida.py",
+    "quant-system-ingesta/qs/tools/prevuelo.py",
+    "quant-system-ingesta/qs/tools/probe_no_aislable_6130.py",
+    "quant-system-ingesta/qs/tools/retirar_lock_espurio.py"
+  ],
+  "retired": [
+    {
+      "path": "quant-system-ingesta/qs/analysis/confirm_runner.py",
+      "purpose": "analysis/confirm_runner.py — runner de la CONFIRMACIÓN DECISIVA (prereg CONGELADO `9c8f4b1`).",
+      "local_sha256": "479722952c0e5bfa8729369a533be62d691ac06776c1b2dd646a18c7f26509b3",
+      "git_blob_sha256": "479722952c0e5bfa8729369a533be62d691ac06776c1b2dd646a18c7f26509b3",
+      "git_blob_oid": "e53a03732cb0f02e57744f0b9483c7a99e91bf81",
+      "last_content_commit": "d85b3313b0d5de1e7f318c30d2c1e89c743c7485",
+      "lines": 247,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/confirm_screen.py",
+      "purpose": "analysis/confirm_screen.py — LA LECTURA DECISIVA (prereg CONGELADO `9c8f4b1`). UNA vez, en frío.",
+      "local_sha256": "e2d9583668535bf7ba9164278f2ccc4f65e52eda3a67e35aa5e552fc504f421d",
+      "git_blob_sha256": "e2d9583668535bf7ba9164278f2ccc4f65e52eda3a67e35aa5e552fc504f421d",
+      "git_blob_oid": "83234747420c9eebfcf418cf59167924310ed5eb",
+      "last_content_commit": "7bc8d1f5231d0aba9a619c179da0d39262cc6f4b",
+      "lines": 262,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+      "purpose": "analysis/eco_bampliada_calib.py — CALIBRACIÓN de TOL_DIFERENCIAL (B-ampliada cond 5).",
+      "local_sha256": "d0090698cd7d1d47a99914313b97a0e62784464c9bbf9928689c9f65e48f67c1",
+      "git_blob_sha256": "d0090698cd7d1d47a99914313b97a0e62784464c9bbf9928689c9f65e48f67c1",
+      "git_blob_oid": "e5a60dc600da20bd00134fca3b1b919b9050a484",
+      "last_content_commit": "a77d6ff2e23439e2d36aebd5ef20d5b5698dcab4",
+      "lines": 79,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_cas.py",
+      "purpose": "LA PRIMITIVA DE PUBLICACIÓN DE UN SOLO USO, en un sitio y con sus límites medidos.",
+      "local_sha256": "913159e8410114b51bb86d8647b8ce41bb36113a800ca2ecfa02b37a50b3b423",
+      "git_blob_sha256": "913159e8410114b51bb86d8647b8ce41bb36113a800ca2ecfa02b37a50b3b423",
+      "git_blob_oid": "8c07a503943136b823925db4556c3e25f3f8507f",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 344,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+      "purpose": "analysis/eco_conteo_wti.py — CONTEO pre-freeze de masa/referencia de WTI para A2/B (25s, 0xArchive).",
+      "local_sha256": "af68069d19f996ce2c9ec441c63b6ae0ba233c8a4bb676b2cb93260d65a526b8",
+      "git_blob_sha256": "af68069d19f996ce2c9ec441c63b6ae0ba233c8a4bb676b2cb93260d65a526b8",
+      "git_blob_oid": "82d5a7ab2544db6fc4752fad65789b76f2c12ab4",
+      "last_content_commit": "5daff8b047c6bc67d68705e94a65545c6eddbd9e",
+      "lines": 139,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+      "purpose": "analysis/eco_e_anchor.py — pendiente #1 de la mesa (2026-07-10): E_WTI RE-COMPUTADO EN CÓDIGO.",
+      "local_sha256": "52200106b8a78da0c7f7e06341c942b3d64042917ac03c1e4dda251e599d3e4d",
+      "git_blob_sha256": "44121833ca1b58d20d65b8cabb4ae5f01de7488cada329ef0c1f24c58ae3d20b",
+      "git_blob_oid": "35280adcb69aa429fe0e5713fbd7f421e64774f1",
+      "last_content_commit": "118e877f9d7065a72703f29838f4810e422b893f",
+      "lines": 343,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "purpose": "analysis/eco_fase2_wti.py — FASE 2 del conteo pre-freeze de WTI (A2/B, 25s). FIRMADO 2026-07-07.",
+      "local_sha256": "1462cd66befe35c907fa6deabd2c6e6e0b3d5e4d603a75c5405b1dce47892f5b",
+      "git_blob_sha256": "1462cd66befe35c907fa6deabd2c6e6e0b3d5e4d603a75c5405b1dce47892f5b",
+      "git_blob_oid": "5e55423dbc0e27ee661b9d44a30249215f1c9cdb",
+      "last_content_commit": "546148ea35f2501de265d77509cdb4797bd08a49",
+      "lines": 488,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "purpose": "analysis/eco_gate_b.py — MAQUINARIA DECISORIA DE B, v2 BIFÁSICA (encargo (k)-(s), mesa 2026-07-11).",
+      "local_sha256": "0a1cfebe33ecca818b84a84406adf84d579eecb4aaf902726daa8b06534c0fc6",
+      "git_blob_sha256": "0a1cfebe33ecca818b84a84406adf84d579eecb4aaf902726daa8b06534c0fc6",
+      "git_blob_oid": "50d1c604110077fb295ce17989c339307dc0e58c",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 1798,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+      "purpose": "analysis/eco_gate_sigma79.py — encargo 2 de la mesa (2026-07-10): σ de la receta del GATE sobre los",
+      "local_sha256": "45c50f525747a774f7f373706fcf527624bac178d92e6b7dd95d108497ebb0a1",
+      "git_blob_sha256": "45c50f525747a774f7f373706fcf527624bac178d92e6b7dd95d108497ebb0a1",
+      "git_blob_oid": "edc3a049ea53e5c2023449f19aa52cf29b44c50e",
+      "last_content_commit": "7bc8d1f5231d0aba9a619c179da0d39262cc6f4b",
+      "lines": 115,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_libro_tx.py",
+      "purpose": "analysis/eco_libro_tx.py — LIBRO TRANSACCIONAL C (M-11, C-SPEC v7 congelada en 7be9b6a).",
+      "local_sha256": "1781aea7b02bd06b940f6df40fc2e2d7f9266dcf44022ef8776ebb5e9d572032",
+      "git_blob_sha256": "211ee8ed99f643c152eb1cbbee9cbc6d31b98a594754a73816a2aec79b610716",
+      "git_blob_oid": "5665ccb9e1350a1db03d3a51c2b89b7303d609e4",
+      "last_content_commit": "d15cf94ba7880a7d17a2453586db467779cf6e0d",
+      "lines": 6974,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_medir_L.py",
+      "purpose": "analysis/eco_medir_L.py — INSTRUMENTO de medición de la LATENCIA DE MADURACIÓN `L` (M-10, B).",
+      "local_sha256": "4e1c975ac025bdfa054363196862d8aa6c7d80f12ecf48e616268b64230a7564",
+      "git_blob_sha256": "4e1c975ac025bdfa054363196862d8aa6c7d80f12ecf48e616268b64230a7564",
+      "git_blob_oid": "eb13854374fce81c13fa3b7fe59493781206938d",
+      "last_content_commit": "45d3b05ac6b251fc9b00a7cd8f4cc0351452307d",
+      "lines": 854,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_nmin_mc.py",
+      "purpose": "analysis/eco_nmin_mc.py — SELLO MECÁNICO de N_min por potencia t-NO-CENTRAL (encargo (p), mesa 2026-07-11).",
+      "local_sha256": "9f30469ddd0972b90483e5b7fd0a37639d4c297f5f28f7832b3f74362dabb6d8",
+      "git_blob_sha256": "9f30469ddd0972b90483e5b7fd0a37639d4c297f5f28f7832b3f74362dabb6d8",
+      "git_blob_oid": "1edf532aa2e8aee71d3127e499d934ae1ad730b3",
+      "last_content_commit": "e9a5eada230d6b56c1792fbcbac701874545fdf3",
+      "lines": 54,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_procedencia.py",
+      "purpose": "analysis/eco_procedencia.py — UN SOLO validador de procedencia para el eco: productor y gate.",
+      "local_sha256": "739f37c6dd9577374a15195d63f4cdcea69d1fc4650033bd1808b228d83acfec",
+      "git_blob_sha256": "739f37c6dd9577374a15195d63f4cdcea69d1fc4650033bd1808b228d83acfec",
+      "git_blob_oid": "8768bdd8317276cde9b823227b0cd96f08c40926",
+      "last_content_commit": "2d6ab30acdf43de453d6c3b72b181a20b3643bc8",
+      "lines": 215,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_ref_crudos.py",
+      "purpose": "analysis/eco_ref_crudos.py — REFERENCIA INDEPENDIENTE de los dos crudos de nuisance de A2",
+      "local_sha256": "a27f8e592ecb2c703d8e9cd818153b9cea4e6fa84cbd76e3804d8968fe1c01a5",
+      "git_blob_sha256": "a27f8e592ecb2c703d8e9cd818153b9cea4e6fa84cbd76e3804d8968fe1c01a5",
+      "git_blob_oid": "efdce2b8928dfae73b7e10b78e9e2972790dd65a",
+      "last_content_commit": "a77d6ff2e23439e2d36aebd5ef20d5b5698dcab4",
+      "lines": 211,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "purpose": "analysis/eco_runner_lit.py — PRODUCTOR OFICIAL de la RÉPLICA LIT del gate de B (M-10, Frente 1b).",
+      "local_sha256": "0201136d5e4b1fb004a52ced45e705cff910d653f6570ff5e25ef9cc6e71001d",
+      "git_blob_sha256": "0201136d5e4b1fb004a52ced45e705cff910d653f6570ff5e25ef9cc6e71001d",
+      "git_blob_oid": "0bec55d20f010f3ced53eb2186ace496e56767c4",
+      "last_content_commit": "2d6ab30acdf43de453d6c3b72b181a20b3643bc8",
+      "lines": 435,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "purpose": "analysis/eco_runner_wti.py — PRODUCTOR OFICIAL del outcome de B (encargo (u), mesa 2026-07-11).",
+      "local_sha256": "069972b32af8ec07a3a63e6a647d056f0bf7cc7a6d6d68b97c1b897bc368886b",
+      "git_blob_sha256": "069972b32af8ec07a3a63e6a647d056f0bf7cc7a6d6d68b97c1b897bc368886b",
+      "git_blob_oid": "195364c9cdc28ee357902dd5d2e12f5f14f7df41",
+      "last_content_commit": "2d6ab30acdf43de453d6c3b72b181a20b3643bc8",
+      "lines": 357,
+      "reason": "Retiro completo de la campaña eco con sus productores, lectores, dependencias y controles específicos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/exec_sim.py",
+      "purpose": "analysis/exec_sim.py — PRIMA #3 (ejecución óptima): ¿ahorra bps un horario OFI-aware vs TWAP?",
+      "local_sha256": "ae9dd73f5c297be78415f2dc40160275390a647044d45e9c870f7a085d7fc552",
+      "git_blob_sha256": "ae9dd73f5c297be78415f2dc40160275390a647044d45e9c870f7a085d7fc552",
+      "git_blob_oid": "cd0c13129207c27840038497c5a52397367f2808",
+      "last_content_commit": "d42d553fea94958aaa988baa1de7a75a3363552c",
+      "lines": 184,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/gen_t_tabla.py",
+      "purpose": "analysis/gen_t_tabla.py — GENERADOR de la tabla de cuantiles de Student (encargo (p), mesa 2026-07-11).",
+      "local_sha256": "63b541c6c132792c22cee05577d539b72dea0e9a5e99eb09338638375081baf7",
+      "git_blob_sha256": "63b541c6c132792c22cee05577d539b72dea0e9a5e99eb09338638375081baf7",
+      "git_blob_oid": "c31584d5fde22469bab08e64f021f8e801c1e5f1",
+      "last_content_commit": "e9a5eada230d6b56c1792fbcbac701874545fdf3",
+      "lines": 114,
+      "reason": "Generador y tabla del gate/nmin retirados junto con sus únicos consumidores."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h1.py",
+      "purpose": "analysis/h1.py — harness del test predictivo de H1 (pre-registro CONGELADO, LEDGER, 780e7d2).",
+      "local_sha256": "a07d3b3befeffcba3531bd9a489f3d29d6fb72412aff8489791b5d74cf854332",
+      "git_blob_sha256": "a07d3b3befeffcba3531bd9a489f3d29d6fb72412aff8489791b5d74cf854332",
+      "git_blob_oid": "a57aedb47a5ba34c8b4b9f3e49abd129cb653c9e",
+      "last_content_commit": "293c64a268c80257e42a76f6f975de4cfff83506",
+      "lines": 208,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h1_io.py",
+      "purpose": "analysis/h1_io.py — carga/ensamblado del L2 propio para el harness de H1 (etapa 1).",
+      "local_sha256": "ca0ba7c8985261e9dee76905ab219538d502c59dd0665b60902225a1fe59b11a",
+      "git_blob_sha256": "ca0ba7c8985261e9dee76905ab219538d502c59dd0665b60902225a1fe59b11a",
+      "git_blob_oid": "574b09f801d780f75e9d71a386a12bb148dfcec0",
+      "last_content_commit": "ef47c4ded251ab2ff94ce0b66d079edd05587190",
+      "lines": 127,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h3.py",
+      "purpose": "analysis/h3.py — control de FACTOR DE MERCADO para H3 (cascadas de liquidación).",
+      "local_sha256": "eb2573cb2d79062df6c609a0cdd579f9a5d676fb1a3595cabb12401f64ec254d",
+      "git_blob_sha256": "eb2573cb2d79062df6c609a0cdd579f9a5d676fb1a3595cabb12401f64ec254d",
+      "git_blob_oid": "f5d82a19bdc2309ba7c7177fe2db335e64f9e807",
+      "last_content_commit": "fb5e569469eaaf4d1fd55bc4cbd0d753f6682dc2",
+      "lines": 237,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h3_io.py",
+      "purpose": "analysis/h3_io.py — carga/ensamblado del panel para H3 (cascadas de liquidación).",
+      "local_sha256": "cb919ffc0b39a5f32e47f40b0804625e839682e3d6bb6ad6c2e5252611edaf77",
+      "git_blob_sha256": "cb919ffc0b39a5f32e47f40b0804625e839682e3d6bb6ad6c2e5252611edaf77",
+      "git_blob_oid": "c063613510500ef7477eae2b02eaed7006c3f37b",
+      "last_content_commit": "635aabea5c0fccbed7b332a249b0a6769f27e85e",
+      "lines": 96,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h8.py",
+      "purpose": "analysis/h8.py — núcleo del test de H8 (provisión selectiva de liquidez con filtro OFI).",
+      "local_sha256": "a6974967555eb1a95919941e62d055694963f8ea63ae430aa12771de3ec9edf0",
+      "git_blob_sha256": "a6974967555eb1a95919941e62d055694963f8ea63ae430aa12771de3ec9edf0",
+      "git_blob_oid": "ea5eb25e63622b29ce6fbcc6cea7490821776ea4",
+      "last_content_commit": "6a8172244d311a65b997b9d5288a4aeedd179861",
+      "lines": 129,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/h8_io.py",
+      "purpose": "analysis/h8_io.py — simulación HONESTA (cota inferior) de un maker pasivo para H8.",
+      "local_sha256": "e49726e6871079cc970126dee37d96348f4dfe8327fa6cc0827aab71ce7a1df3",
+      "git_blob_sha256": "e49726e6871079cc970126dee37d96348f4dfe8327fa6cc0827aab71ce7a1df3",
+      "git_blob_oid": "ac371093549b379f6600196a5078c5370c7f3145",
+      "last_content_commit": "9089edccb6599e2bee3e4fb3e56cbbfa3f177bd5",
+      "lines": 156,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/hl_maker_capa1.py",
+      "purpose": "analysis/hl_maker_capa1.py — CAPA 1 del pre-check maker en Hyperliquid (condicionantes, SIN outcome).",
+      "local_sha256": "96fd5e7ec42d05f4ea9ef5858d14e7e37ab05b769f8c8622a8750d8a1e503d52",
+      "git_blob_sha256": "96fd5e7ec42d05f4ea9ef5858d14e7e37ab05b769f8c8622a8750d8a1e503d52",
+      "git_blob_oid": "3c803c57a82aedf94876a6b23c4135f1d7ff67f3",
+      "last_content_commit": "24ba26898bc54bfb29f2e5a422882210c4ecf36c",
+      "lines": 169,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py",
+      "purpose": "analysis/lighter_maker_capa1.py — CAPA 1 del pre-check maker en LIGHTER (condicionantes, SIN outcome).",
+      "local_sha256": "dc58d80517211e4430195a39c372c5cf30e357fa3dda350bf00f1fa06fde7632",
+      "git_blob_sha256": "dc58d80517211e4430195a39c372c5cf30e357fa3dda350bf00f1fa06fde7632",
+      "git_blob_oid": "d75092e96eea1417ece7eb29e96b645d9f6a6c77",
+      "last_content_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "lines": 161,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py",
+      "purpose": "analysis/maker_capa2_runner.py — runner de la CAPA 2 maker Lighter (PREREG congelado `15f755f`).",
+      "local_sha256": "d88c4d1f53b17a1dbf2472aaba51f55c2e45ba9d062c41210d3053fbb5219f5c",
+      "git_blob_sha256": "d88c4d1f53b17a1dbf2472aaba51f55c2e45ba9d062c41210d3053fbb5219f5c",
+      "git_blob_oid": "ccc8f3a03083f8b6e7cc64de3e738e4b5600378f",
+      "last_content_commit": "d85b3313b0d5de1e7f318c30d2c1e89c743c7485",
+      "lines": 206,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/maker_capa2_screen.py",
+      "purpose": "analysis/maker_capa2_screen.py — EL NÚMERO de la capa 2 (PREREG congelado `15f755f`, §5-§6).",
+      "local_sha256": "d268980b0bbf426eecaab27bfa0be340c986b14880814f2cd9af8c28ecda8c4c",
+      "git_blob_sha256": "d268980b0bbf426eecaab27bfa0be340c986b14880814f2cd9af8c28ecda8c4c",
+      "git_blob_oid": "54ec6a41449e24e2c744c9a251ee81f90012ea3a",
+      "last_content_commit": "7bc8d1f5231d0aba9a619c179da0d39262cc6f4b",
+      "lines": 172,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/maker_sim.py",
+      "purpose": "analysis/maker_sim.py — simulador de maker join-the-touch con DOS COTAS de cola. CAP 2, CAPA 2.",
+      "local_sha256": "f3d3fcac303c2edab5679d3e3c8ff89e95500c4b902d2ce0a893a57caf3f5fef",
+      "git_blob_sha256": "f3d3fcac303c2edab5679d3e3c8ff89e95500c4b902d2ce0a893a57caf3f5fef",
+      "git_blob_oid": "3698a4542fa96561426d19eb2c680be6218072a9",
+      "last_content_commit": "807d0fe1adce94c18e0d5da35b44693944629353",
+      "lines": 153,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/pilot_observer.py",
+      "purpose": "analysis/pilot_observer.py — OBSERVADOR de cohortes del piloto L3 (§7-bis CONGELADO `946504b`).",
+      "local_sha256": "38be990f564314ff0527ceb4536ed3a70db86f497db653c1fb0318c346939833",
+      "git_blob_sha256": "38be990f564314ff0527ceb4536ed3a70db86f497db653c1fb0318c346939833",
+      "git_blob_oid": "7feafd75eca557d1048fb8e835f750fdb40e4cf2",
+      "last_content_commit": "546148ea35f2501de265d77509cdb4797bd08a49",
+      "lines": 185,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/pilot_runner.py",
+      "purpose": "analysis/pilot_runner.py — runner del piloto L3 (§7-bis congelado `946504b`).",
+      "local_sha256": "de90c330f3f1425ab5219b3cd28cf3b38e5f7cebda2cee2b0a6978ba08f2cb6d",
+      "git_blob_sha256": "de90c330f3f1425ab5219b3cd28cf3b38e5f7cebda2cee2b0a6978ba08f2cb6d",
+      "git_blob_oid": "db2f3765093b5caad731e59f6c340167ef90516b",
+      "last_content_commit": "d85b3313b0d5de1e7f318c30d2c1e89c743c7485",
+      "lines": 243,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/pilot_screen.py",
+      "purpose": "analysis/pilot_screen.py — LA LECTURA del piloto L3 (§7-bis congelado `946504b`). UNA vez, en frío.",
+      "local_sha256": "b2a247c0a586a72222265e05a96e7bb12daa069ef404aeb33665c86232b44dce",
+      "git_blob_sha256": "b2a247c0a586a72222265e05a96e7bb12daa069ef404aeb33665c86232b44dce",
+      "git_blob_oid": "c9e274e40712737541a9e0f8be6ce10f61bda4a4",
+      "last_content_commit": "7bc8d1f5231d0aba9a619c179da0d39262cc6f4b",
+      "lines": 145,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/screen.py",
+      "purpose": "analysis/screen.py — primitivas del RUNNER del día 14 (ver docs/RUNNER_DESIGN.md).",
+      "local_sha256": "d7e20e1bd90233326f38e22730201de1f8d485bc24c49dfd2c9f3c60d8243687",
+      "git_blob_sha256": "d7e20e1bd90233326f38e22730201de1f8d485bc24c49dfd2c9f3c60d8243687",
+      "git_blob_oid": "1f3d4cc50acdaa6d8d6e2c1f9c573a55137cb03a",
+      "last_content_commit": "dd529ba62b0c2723314457f8fe069c75954d8eca",
+      "lines": 153,
+      "reason": "Cierre de dependencias de screen y del capítulo 1; exec_sim consumía screen."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/t_tabla.py",
+      "purpose": "analysis/t_tabla.py — TABLA VERSIONADA de cuantiles de Student (encargo (p), mesa",
+      "local_sha256": "986201640bd187908ab73f7eb38d660562157c819829bca131d46be57c11cb2d",
+      "git_blob_sha256": "740a4cf0b3abc867dd97d0420c9f2e2df335aa885880279f2075839f81cf8c7e",
+      "git_blob_oid": "f9d8f68d715899038048245331863739657ecf2b",
+      "last_content_commit": "e9a5eada230d6b56c1792fbcbac701874545fdf3",
+      "lines": 143,
+      "reason": "Generador y tabla del gate/nmin retirados junto con sus únicos consumidores."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/wallet_atlas.py",
+      "purpose": "analysis/wallet_atlas.py — ATLAS DE WALLETS de la cola lenta de LIT (mini-prereg `3c53818`).",
+      "local_sha256": "1cd7f217e729f4771b471ae6d0d13537b30428887a6481e3062afc2229f3cb96",
+      "git_blob_sha256": "da44e5871ed837a87b88a4de0164ae93faf81417672d9f15ac05f82b8ef011a0",
+      "git_blob_oid": "8c07316757a94ea6a30eadae1b4fb09eb5d5330c",
+      "last_content_commit": "b6eb9d6912ad0d3dd3401820e47cf4f70b4b2a15",
+      "lines": 134,
+      "reason": "Receta maker retirada junto con todos sus consumidores y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+      "purpose": "EL CENSO BRUTO DE ANCLAS, acreditado sobre parquets sintéticos con el esquema REAL.",
+      "local_sha256": "2a4d4b8a6ec9f2c9ab73c609a28562786711088d1e7cf713fdd564263311d26d",
+      "git_blob_sha256": "2a4d4b8a6ec9f2c9ab73c609a28562786711088d1e7cf713fdd564263311d26d",
+      "git_blob_oid": "8b830ee67fd1bef2bdc6aa904c80cd7ffec799d2",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 216,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_censo_ref_invalida.py",
+      "purpose": "Tests del censo de referencia inválida y de las puertas del careo.",
+      "local_sha256": "d0a984470c854d801b2a6ac2376ce4eeb9ba0ba618661f7aa2b92d4925d9dd07",
+      "git_blob_sha256": "d0a984470c854d801b2a6ac2376ce4eeb9ba0ba618661f7aa2b92d4925d9dd07",
+      "git_blob_oid": "53c59bbede3d5a6d5ec60de47c5aab667e875c91",
+      "last_content_commit": "546148ea35f2501de265d77509cdb4797bd08a49",
+      "lines": 171,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+      "purpose": "EL CRUCE ANCLA POR ANCLA, segunda vuelta (mesa, M-13, P0-5) y lo que la revision adversarial",
+      "local_sha256": "55e9d4c657b9996cc01b0f290353b7637e06c110c45a9bc46e49681c6cec9e8b",
+      "git_blob_sha256": "55e9d4c657b9996cc01b0f290353b7637e06c110c45a9bc46e49681c6cec9e8b",
+      "git_blob_oid": "af49d7dd3e94e9a66a5bcd2d29f3e0bdc22649ef",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 567,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_eco_anchor.py",
+      "purpose": "tests/test_eco_anchor.py — tercil estricto y rango legal de r* (RECONSTRUIDO 2026-07-11).",
+      "local_sha256": "1d36330b7c9426527c21b359d986c05a491bfb7856eaf6bec9789a6b3c42c2b2",
+      "git_blob_sha256": "1d36330b7c9426527c21b359d986c05a491bfb7856eaf6bec9789a6b3c42c2b2",
+      "git_blob_oid": "09e29433c24c1fb51bd779544536a5f7a2acf5d6",
+      "last_content_commit": "cc72e870c759274237098d251817e235d9e286d4",
+      "lines": 48,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_eco_cas.py",
+      "purpose": "LA PRIMITIVA DE PUBLICACIÓN DE UN SOLO USO, y el registro de consumo que la usa.",
+      "local_sha256": "2359e2b74f6467249d9bb0df0c950ced4d0d50d14097e6ce7687218141fa835e",
+      "git_blob_sha256": "2359e2b74f6467249d9bb0df0c950ced4d0d50d14097e6ce7687218141fa835e",
+      "git_blob_oid": "ecba4b2b092c4cd9384e536c6a82ee6ab09e0dae",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 276,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "purpose": "tests/test_eco_gate_b.py — v7 (M-06: igualdad de población del bar, puerta única a los npz,",
+      "local_sha256": "8e5eaf9f85d59a9145d1c4c3013bed567b78d4500fa36901973750ad7843f253",
+      "git_blob_sha256": "8e5eaf9f85d59a9145d1c4c3013bed567b78d4500fa36901973750ad7843f253",
+      "git_blob_oid": "0fa0ffb8d3b0395dd371ce2839f0eed7a1a55cb9",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 2358,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_eco_procedencia.py",
+      "purpose": "EL VALIDADOR ÚNICO DEL ECO, y el escape que dejó de ser puerta principal (mesa, P0-2 y P0-3).",
+      "local_sha256": "434a68dff78fb63f5756621ca4f21cf15ac2ea9204c463ae9c2efd07e5d55314",
+      "git_blob_sha256": "434a68dff78fb63f5756621ca4f21cf15ac2ea9204c463ae9c2efd07e5d55314",
+      "git_blob_oid": "f0036d60d16b3286ed8e49145edaea75e84c3c52",
+      "last_content_commit": "2d6ab30acdf43de453d6c3b72b181a20b3643bc8",
+      "lines": 273,
+      "reason": "Salen el consumidor o control de campaña y sus pruebas exclusivas; las siete pruebas compartidas de carril se extraen de test_eco_procedencia."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_eco_runner_lit.py",
+      "purpose": "M-10 Frente 1b — unidades PURAS del productor LIT (`eco_runner_lit`). El ciclo completo con dato real",
+      "local_sha256": "24d3b8d3325c2e0cadd00b8fa48c5a13bc63bca58b2d451eedcb8584c5047b92",
+      "git_blob_sha256": "24d3b8d3325c2e0cadd00b8fa48c5a13bc63bca58b2d451eedcb8584c5047b92",
+      "git_blob_oid": "288c99f20c9378685417252279d6952d22b54392",
+      "last_content_commit": "2d6ab30acdf43de453d6c3b72b181a20b3643bc8",
+      "lines": 367,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_estructura_chd.py",
+      "purpose": "EL INSTRUMENTO DE ESTRUCTURA CHD, acreditado sobre parquets SINTÉTICOS.",
+      "local_sha256": "b6c749e3073e383eb64884122d8b94c6a0738f1975557a0bc1fc0e6e76fd324a",
+      "git_blob_sha256": "b6c749e3073e383eb64884122d8b94c6a0738f1975557a0bc1fc0e6e76fd324a",
+      "git_blob_oid": "e92566506208c17c084d24554867beac137cc3ed",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 1823,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_etapa0_validador.py",
+      "purpose": "Tests del validador de la etapa 0 — los diez casos que la mesa exigió (2026-08-25).",
+      "local_sha256": "aa1937f171b8c9a69b9db0cfb9f3addcb3c0a73a255a804771b51494392abf4e",
+      "git_blob_sha256": "0ca5bb5076a60cd8e19857c49494063235dec21ac777d1c39316916693c74706",
+      "git_blob_oid": "4db609d1a9cdb508a578c650bf414c61843cb732",
+      "last_content_commit": "d3d00ef8814e44f4c04fe583db587e663cd3ef16",
+      "lines": 255,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_exec_sim.py",
+      "purpose": "Tests de analysis/exec_sim.py — el ahorro de ejecución OFI-aware vs TWAP, causal y honesto.",
+      "local_sha256": "2320c7a5fb9806c6e4ec68a3fbdbae47b56d0934b89c04053b3b8a15a15a2722",
+      "git_blob_sha256": "2320c7a5fb9806c6e4ec68a3fbdbae47b56d0934b89c04053b3b8a15a15a2722",
+      "git_blob_oid": "1224ee0896b7ce0fd13b8c7ad6cc7896d031831f",
+      "last_content_commit": "d42d553fea94958aaa988baa1de7a75a3363552c",
+      "lines": 62,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_gate_dos_worktrees.py",
+      "purpose": "EL GATE DE UN SOLO USO, CONTRA DOS WORKTREES DE VERDAD.",
+      "local_sha256": "5c5b3459aa597762842b02417784673a0615ac3c1fccd91b39f5a1425db9f43b",
+      "git_blob_sha256": "5c5b3459aa597762842b02417784673a0615ac3c1fccd91b39f5a1425db9f43b",
+      "git_blob_oid": "e3e94818998c8425c1a20eb3da42c9ccd447f094",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 367,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h1.py",
+      "purpose": "Tests de analysis/h1.py — harness predictivo de H1 (anticipación de shock de liquidez).",
+      "local_sha256": "704045597f74268b3af5aba46b8b928a38d6163b725867a96a05e88cad89eb01",
+      "git_blob_sha256": "704045597f74268b3af5aba46b8b928a38d6163b725867a96a05e88cad89eb01",
+      "git_blob_oid": "35897439eed0497cb923bbfcf25701fd2b109675",
+      "last_content_commit": "293c64a268c80257e42a76f6f975de4cfff83506",
+      "lines": 117,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h1_io.py",
+      "purpose": "Tests de analysis/h1_io.py — carga/ensamblado del L2 propio (parquet sintético del esquema real).",
+      "local_sha256": "e3075cbbe1e922421fe4374d25befd33035bb6d7166100cba821da3f32c41630",
+      "git_blob_sha256": "e3075cbbe1e922421fe4374d25befd33035bb6d7166100cba821da3f32c41630",
+      "git_blob_oid": "20dc21e8c2b3bcc6a449c3f8bdacb83a846398da",
+      "last_content_commit": "ef47c4ded251ab2ff94ce0b66d079edd05587190",
+      "lines": 114,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h3.py",
+      "purpose": "Tests de analysis/h3.py — control de factor de mercado (β causal) para H3.",
+      "local_sha256": "870d03643d4d7c085957616ebcba3a8acd0a2f358b19480f959f2db6667d7abc",
+      "git_blob_sha256": "870d03643d4d7c085957616ebcba3a8acd0a2f358b19480f959f2db6667d7abc",
+      "git_blob_oid": "121bf974d12b8905060c81af7e474a7f0a5f06c9",
+      "last_content_commit": "fb5e569469eaaf4d1fd55bc4cbd0d753f6682dc2",
+      "lines": 179,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h3_io.py",
+      "purpose": "Tests de analysis/h3_io.py — carga/ensamblado del panel de H3 (parquet sintético del esquema real).",
+      "local_sha256": "a495f3e169f9567fe83930f307681a0b8c4785c6f2f8be2c960468663d6a99b4",
+      "git_blob_sha256": "a495f3e169f9567fe83930f307681a0b8c4785c6f2f8be2c960468663d6a99b4",
+      "git_blob_oid": "58f78303e59eeb6e5108fdf90871ccaa1fed3d8f",
+      "last_content_commit": "635aabea5c0fccbed7b332a249b0a6769f27e85e",
+      "lines": 65,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h8.py",
+      "purpose": "Tests de analysis/h8.py — núcleo de provisión selectiva (filtros de toxicidad + soledad).",
+      "local_sha256": "eb428a38125e69aee904fbb004131e118df6ea5cf93c1e435dd8e7f5b19d6a61",
+      "git_blob_sha256": "eb428a38125e69aee904fbb004131e118df6ea5cf93c1e435dd8e7f5b19d6a61",
+      "git_blob_oid": "1c485b1971378b8fd6b128ca9454274c2bb42ee3",
+      "last_content_commit": "6a8172244d311a65b997b9d5288a4aeedd179861",
+      "lines": 80,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_h8_io.py",
+      "purpose": "Tests de analysis/h8_io.py — la simulación de cola RiskAdverse encarna C1/C2/C4.",
+      "local_sha256": "3f6d3d2359491e0c18fbfd617415f9174e7f8f4e00b2c1d66edb322b58ee3349",
+      "git_blob_sha256": "3f6d3d2359491e0c18fbfd617415f9174e7f8f4e00b2c1d66edb322b58ee3349",
+      "git_blob_oid": "5d7cccd4dd8b2d3530966b57b421ee5e9f6bb56e",
+      "last_content_commit": "9089edccb6599e2bee3e4fb3e56cbbfa3f177bd5",
+      "lines": 83,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_libro_tx.py",
+      "purpose": "M-11 (C) capa 1 — validador PURO del MANIFIESTO v2 (eco_libro_tx). Extensión aditiva del v1 del gate:",
+      "local_sha256": "8e15bf4046ad44d04d138c1d7577c52a759a7a147c7dc0074ac013434cdd425a",
+      "git_blob_sha256": "8e15bf4046ad44d04d138c1d7577c52a759a7a147c7dc0074ac013434cdd425a",
+      "git_blob_oid": "b03b720e18e6a737335b249d74dfde5f468e8d6b",
+      "last_content_commit": "4598482eb2ec123bac0ae11d5ff7352223b8dee9",
+      "lines": 446,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_libro_tx_git.py",
+      "purpose": "M-11 (C) capa 2 — primitivas GIT + autoridad remota + guardia PRE-PUBLICACIÓN + CAS/lease.",
+      "local_sha256": "9c8baa200eb98251de1344093b6004b1cfed05bfc06e46d5eff3c3dbf14f217f",
+      "git_blob_sha256": "9c8baa200eb98251de1344093b6004b1cfed05bfc06e46d5eff3c3dbf14f217f",
+      "git_blob_oid": "7d233bc1c2b579c83e705ec51329c52415d9831d",
+      "last_content_commit": "93e61616f9593d847d77e79e19b00408fe916486",
+      "lines": 815,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_libro_tx_recuperacion.py",
+      "purpose": "M-11 (C) capa 3, bloque 3 — CLASIFICADOR E0-E14 + INVENTARIO TOTAL + ABORTO AUDITADO (§8) + GC (§7)",
+      "local_sha256": "4c820be2e7a5da3db7fefaa4842cdd5b7673586149456fb1e6ef0d0a003f915a",
+      "git_blob_sha256": "0490633c68d06e5e7d6d39e3971048fa9f05ee2d5a8739c81a41e0373e33266c",
+      "git_blob_oid": "90dee0d02142b2f87cbd1f735ef1e096c528c59b",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 9185,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_libro_tx_writer.py",
+      "purpose": "M-11 (C) capa 3, bloque 1 — LOCK S1/S11 + liveness/adopción (§5) + JOURNAL S4/S9b/S10 (3 esquemas)",
+      "local_sha256": "ef3e2e4b48b789b1fb010eecd9d0f571fa23557c2d1b08b9339c1af939de2241",
+      "git_blob_sha256": "1f9caee68ebf446f3a3c97c027100d112d86f2a1a16e1856d3d01d913c4e6ed3",
+      "git_blob_oid": "6d042a2682f38b87aef23850158df899772bf936",
+      "last_content_commit": "26ecd882763d3e3fe28fafc396a547ad4e792428",
+      "lines": 742,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_lighter_maker_key.py",
+      "purpose": "La selección de clave del maker permanece al retirar el custodio I5.",
+      "local_sha256": "e9dd4ecef6c03dddb564092837802b6951673472cd1ec5995b993cae6fb8c6b8",
+      "git_blob_sha256": "e9dd4ecef6c03dddb564092837802b6951673472cd1ec5995b993cae6fb8c6b8",
+      "git_blob_oid": "2f736613d3390c45e192344294b7e22c3213106e",
+      "last_content_commit": "0f127e396e5c81bef6757bc33f1fdeae46184e1d",
+      "lines": 12,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_m10_differ_core.py",
+      "purpose": "M-10 Frente 1a — prueba de IGUALDAD (no solo determinismo) del núcleo puro `_differ_core`.",
+      "local_sha256": "bca897208259af9023d2f8e80e8d20d47e0f7916903686e5bca0d86f1a70155d",
+      "git_blob_sha256": "bca897208259af9023d2f8e80e8d20d47e0f7916903686e5bca0d86f1a70155d",
+      "git_blob_oid": "52a257d7e00b1a652f1ac9967a0a9eaaa8dc7228",
+      "last_content_commit": "5da1321af91a0a8c3f2dd2409eee4d9f2fefd9ef",
+      "lines": 280,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_maker_sim.py",
+      "purpose": "Tests del simulador de maker (§4-§5 del PREREG congelado 15f755f) — cada regla, un test.",
+      "local_sha256": "ec20b29aa7d84f43546b5249e493e3d6acb3677c5e78e4193c24785096ff1f4e",
+      "git_blob_sha256": "ec20b29aa7d84f43546b5249e493e3d6acb3677c5e78e4193c24785096ff1f4e",
+      "git_blob_oid": "6be613ec0636be8c17b876e097a0569190a70437",
+      "last_content_commit": "8ba825d21130ac955602bfdd742e0b0605d9c7ce",
+      "lines": 70,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_medir_L.py",
+      "purpose": "M-10 (B) — instrumento de `L` (eco_medir_L): núcleo de decisión + MAQUINARIA PROBATORIA.",
+      "local_sha256": "2bfba700437407ea9ea3ce10b6fa667ae0e2ee6e654ccb44333da4a8380f31a4",
+      "git_blob_sha256": "f0b10f65cae11a57ea0fe098216a8001358c4972878800cf81563f2cc3a89ccd",
+      "git_blob_oid": "38c430f78e607933f8570e1dabcbe7648258f24e",
+      "last_content_commit": "00885daa9ce30657ce61449d484322f6bc00f1bf",
+      "lines": 855,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_mutacion_gate_b.py",
+      "purpose": "Tests FOCALES del arnés de mutación del gate — el verificador también se verifica.",
+      "local_sha256": "fa8220baa27931f0511527ec22ba18a2b796637de0485d1d25c8c87021c8e4b7",
+      "git_blob_sha256": "b96a8de8c02f68778d8f406844b453c76c292b992d1cbf11e683d854ac7c1cc5",
+      "git_blob_oid": "47ce8667403c3558d3685ba1ab5f3d1828cd71a4",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 179,
+      "reason": "Sale esta ruta; las pruebas del núcleo conservado se trasladan según el mapa de funciones y nodos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_pilot_observer.py",
+      "purpose": "Tests del observador de cohortes (§7-bis congelado 946504b) — cada regla, un test.",
+      "local_sha256": "3f44c895195b5ff3b0d198cc1173a376af0a61b32df8fa9de8ecd17a35454fac",
+      "git_blob_sha256": "3f44c895195b5ff3b0d198cc1173a376af0a61b32df8fa9de8ecd17a35454fac",
+      "git_blob_oid": "bd76ada15ef24b4d0189158d39a7860c0013e9c4",
+      "last_content_commit": "d859cce4f254b7337d39d5ec3475b5bf00690c21",
+      "lines": 60,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_pilot_observer_ref_invalida.py",
+      "purpose": "Guardias de REFERENCIA INVÁLIDA — `analysis/ref_valida.py` y sus DOS puntos de uso.",
+      "local_sha256": "a10f2ff83d404c3825297ae91d7422fe9f07ca826437a9002b4f9a0b4b435c26",
+      "git_blob_sha256": "a10f2ff83d404c3825297ae91d7422fe9f07ca826437a9002b4f9a0b4b435c26",
+      "git_blob_oid": "137e660ff2134dde2f611cce0d865d770ed9ef39",
+      "last_content_commit": "807d0fe1adce94c18e0d5da35b44693944629353",
+      "lines": 320,
+      "reason": "Sale esta ruta; las pruebas del núcleo conservado se trasladan según el mapa de funciones y nodos."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_recibo.py",
+      "purpose": "M-10 (A) — validador COMPARTIDO del recibo acumulativo: eco_gate_b.validar_recibo / parsear_recibo_canonico.",
+      "local_sha256": "a5b3a8d5a4aec648a6c5ff1585cad8500c093c3db3f566791d7473a97fba05c5",
+      "git_blob_sha256": "a5b3a8d5a4aec648a6c5ff1585cad8500c093c3db3f566791d7473a97fba05c5",
+      "git_blob_oid": "32b5356f021d9c42e3a1e8acb283fec059bf8253",
+      "last_content_commit": "836f9ff1bfb9c78ffbbe7700ce6e38cbf6d3f293",
+      "lines": 132,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_screen.py",
+      "purpose": "Tests de analysis/screen.py — primitivas del runner (N_eff, cross-shock, e-values, latencia).",
+      "local_sha256": "de5576b40fd4937d430500ae69e49262b307df92172646808e26c4881c547908",
+      "git_blob_sha256": "de5576b40fd4937d430500ae69e49262b307df92172646808e26c4881c547908",
+      "git_blob_oid": "c84630638b2311d4a7510e2288c1a36c9f7a2425",
+      "last_content_commit": "dd529ba62b0c2723314457f8fe069c75954d8eca",
+      "lines": 84,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_session_active_wti.py",
+      "purpose": "tests/test_session_active_wti.py — calendario CME EXACTO de eco_fase2_wti (#2 mesa, eco A2/B).",
+      "local_sha256": "57627abc2a03e3eecb80699f026c44ef2fad7d844e168ec8402aed4a6d8edaf2",
+      "git_blob_sha256": "57627abc2a03e3eecb80699f026c44ef2fad7d844e168ec8402aed4a6d8edaf2",
+      "git_blob_oid": "db178873914ee6ad37db79d8dc9488bf24e193b4",
+      "last_content_commit": "149991c8a9a29aa568cec5b6bb858f52895530cc",
+      "lines": 53,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_trailing_vol_i2.py",
+      "purpose": "tests/test_trailing_vol_i2.py — I2 e I7 del insumo A11 (pendiente #5 de la mesa, 2026-07-10).",
+      "local_sha256": "1eb859077e191cb5d9becfd0c7edbd123c76354118b8aa632098450908d6023e",
+      "git_blob_sha256": "1eb859077e191cb5d9becfd0c7edbd123c76354118b8aa632098450908d6023e",
+      "git_blob_oid": "7afca253397bf0646ab6025ad6f585a9e2c98048",
+      "last_content_commit": "2572d67b1597a847443fceae50aa146049f44b84",
+      "lines": 105,
+      "reason": "Pruebas exclusivas de módulos retirados; los consumidores compartidos se verifican aparte."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "purpose": "EL CAREO: el maker SIMULADO de capa 2 contra los fills REALES del piloto — mismo LIT, misma ventana.",
+      "local_sha256": "ee828bc5f12c7150e29f544dd4aafe49ad0c6456402df3935c09126c2b974338",
+      "git_blob_sha256": "ee828bc5f12c7150e29f544dd4aafe49ad0c6456402df3935c09126c2b974338",
+      "git_blob_oid": "d5becbccb1ddec707d0e9f352d794f985724cb74",
+      "last_content_commit": "546148ea35f2501de265d77509cdb4797bd08a49",
+      "lines": 311,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/censo_anclas.py",
+      "purpose": "CENSO BRUTO DE ANCLAS — cuenta desde el DATO y cruza, ancla por ancla, con la traza de la máquina.",
+      "local_sha256": "f527432e651e7a1e445e7f9e96b553d027aaae6b26bb61e4c301a8251cd307b0",
+      "git_blob_sha256": "f527432e651e7a1e445e7f9e96b553d027aaae6b26bb61e4c301a8251cd307b0",
+      "git_blob_oid": "6d0a5bf18baa9e9bea7b94a4691b9c19429822a4",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 827,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/censo_ref_invalida.py",
+      "purpose": "CENSO VERSIONADO del defecto de REFERENCIA INVÁLIDA, con manifiesto canónico y recibo ligado.",
+      "local_sha256": "85168148fc220d14dc7c620f26c2a993bc5ec34843e5c4e7656f70b1d8f14ebf",
+      "git_blob_sha256": "85168148fc220d14dc7c620f26c2a993bc5ec34843e5c4e7656f70b1d8f14ebf",
+      "git_blob_oid": "28ca8fe3e7e1a6a2ae68337d5e9199dc8ed1991e",
+      "last_content_commit": "807d0fe1adce94c18e0d5da35b44693944629353",
+      "lines": 345,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/cifras_paquete.py",
+      "purpose": "CIFRAS DEL PAQUETE — el bloque de números firmados, emitido POR PROGRAMA desde los artefactos.",
+      "local_sha256": "8268e041a119fee28edb12ff2e60f0f9ffd615a955edb4a089df6005c29a09e1",
+      "git_blob_sha256": "8268e041a119fee28edb12ff2e60f0f9ffd615a955edb4a089df6005c29a09e1",
+      "git_blob_oid": "8e561270c6f87562a2861560b44fc33d5f82fa97",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 331,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/comprobador_destrucciones.py",
+      "purpose": "COMPROBADOR DE DESTRUCCIONES — pone precio al criterio de parada de la capa 3.",
+      "local_sha256": "fcee00220c16d3072ebd4efe6af28f70527fa98853a109e43f5a4192576c2b0c",
+      "git_blob_sha256": "025963300aa39fd5872bdb01f5ee3a9f3a5fc74372e1afaa1e894b1e15a83763",
+      "git_blob_oid": "79bde2f466a8c18fce7539be66afc3c640334244",
+      "last_content_commit": "6fe16a064b04f4fc0766150a9c80ffdab9f961d4",
+      "lines": 159,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/estructura_chd_local.py",
+      "purpose": "ESTRUCTURA DEL FEED CHD, medida sobre el CACHÉ LOCAL. Sin red, sin créditos, sin sonda.",
+      "local_sha256": "6ef6bd9586f371f4f3dcbc052ec2343a32e97055beb17595c7ebb344cc348fd3",
+      "git_blob_sha256": "6ef6bd9586f371f4f3dcbc052ec2343a32e97055beb17595c7ebb344cc348fd3",
+      "git_blob_oid": "63614b118a56a61530abdf5b5aac76766e24effa",
+      "last_content_commit": "0147a2425a59743d08a77804b5fdedea5f54ea86",
+      "lines": 2097,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py",
+      "purpose": "ETAPA 0 — ¿0xArchive todavía sirve el 2026-03-06? Sonda de VIABILIDAD, nada más.",
+      "local_sha256": "95e2c2ef84b00f38f4333c311eddaf2fae7c9d6192394a000cba6a7d7c130faf",
+      "git_blob_sha256": "9a3cac74811701f7ed1bdf1879f2aca1f2dd09859fd15008ab774cd112609318",
+      "git_blob_oid": "11667ae7f107f70a18952bbedf4d6ad1f9dd9b6c",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 151,
+      "reason": "Sonda histórica concluida; sale con el cliente maker que importaba y su validador exclusivo."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/etapa0_validador.py",
+      "purpose": "VALIDADOR de la respuesta de 0xArchive para la etapa 0 — PURO, sin red, testeable.",
+      "local_sha256": "a3f6060608da9c7c6a9ffd43a6cf1ffe8c00da238a36d621a7b496ea0bd6ed4c",
+      "git_blob_sha256": "daa9219eb2ee4010254a3aa30106aae7775a9612b3d3eabf461fda9d82028d1d",
+      "git_blob_oid": "a97a70437c06ef0f97b233c4aac27b8149a0ed4d",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 109,
+      "reason": "Sonda histórica concluida; sale con el cliente maker que importaba y su validador exclusivo."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/medida.py",
+      "purpose": "FUENTE ÚNICA de los números que se presentan. Ningún recuento se teclea a mano.",
+      "local_sha256": "8c7e942d35027ddda2f3a05741d4c477ae119504c770a4362c4c3863e78eb59b",
+      "git_blob_sha256": "8e6c4e51a77ed6b6eefe7c2203ff8fe4f04ba429b0decd604b8e63b3f66ec3ad",
+      "git_blob_oid": "5fff5a9fd95d84915d3eb88fa696bb79df7940fb",
+      "last_content_commit": "44afb5626e61671594c3257bd9bf69274eb26f42",
+      "lines": 131,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/mutacion_gate_b.py",
+      "purpose": "ARNÉS DE MUTACIÓN DEL GATE — ¿muerden sus tests, y muerden POR LA CAUSA QUE DICEN?",
+      "local_sha256": "5fb727148c8a4f8d2310d2a9eb58bbdad10db5742eb7d6511175cc6676460f94",
+      "git_blob_sha256": "5fb727148c8a4f8d2310d2a9eb58bbdad10db5742eb7d6511175cc6676460f94",
+      "git_blob_oid": "eaa3bbf5bb3f423608a17af28746ad9c7f080668",
+      "last_content_commit": "7df52803b6db3777b23be85409ef998f879909a8",
+      "lines": 660,
+      "reason": "Salen tabla y entrada del gate; dieciséis cuerpos de función compartidos pasan a arnes_comun."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/mutacion_libro_tx.py",
+      "purpose": "ARNES DE MUTACION del libro transaccional C (M-11 capa 3) — versionado y ejecutable en CI.",
+      "local_sha256": "755bc3c1560b189047c8ae2ca04ee5b07cd6a6e945ed842f483943b865bfedf5",
+      "git_blob_sha256": "98df2f741697bc86cdd8a9e91e6d0d7bb795dd4bed3d90ff9b9aa6ab95586673",
+      "git_blob_oid": "da4a90db5e7df8422f6ffa86f442f1f8bd85389d",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 1856,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/probe_no_aislable_6130.py",
+      "purpose": "REFUTADA — esta probe sostuvo una conclusión FALSA. Se conserva como registro, no como evidencia.",
+      "local_sha256": "e190939a5bf9b932b931c20c9037691e6a82a54eef3475692a2db21f66fbc5bb",
+      "git_blob_sha256": "27c6d363dabc23eb7f7522e3dff4864e19d3d49bbb4546a5f02a3cbb07653657",
+      "git_blob_oid": "1ba749e1a7c7b3f28c33b2821c0a71b3fb00fc23",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 77,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/retirar_lock_espurio.py",
+      "purpose": "RETIRADA ADJUDICADA del `gate_read_lock.json` espurio — por resolución explícita de la mesa.",
+      "local_sha256": "ee0bdb9621ae91c05a882061b69c62a90a1ba4ee2c42a5990758ae7b2db624e7",
+      "git_blob_sha256": "0d359312dbc74760d395344a66d2441f94335f6ded8dbfe324e485daf977ac76",
+      "git_blob_oid": "2418675002b9daef6f25c551a8786f49f6b519f7",
+      "last_content_commit": "63461dd8c6364a6d04d663de50345516bc9e91f4",
+      "lines": 118,
+      "reason": "Instrumento exclusivo del libro, gate, CAS o diagnósticos retirados; sin consumidor operativo conservado."
+    }
+  ],
+  "imports_before_to_retired": [
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/confirm_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_e_anchor.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_ref_crudos.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_bampliada_calib.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_conteo_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_e_anchor.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_e_anchor.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_ref_crudos.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_lit.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/t_tabla.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_gate_sigma79.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_libro_tx.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_medir_L.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_nmin_mc.py",
+      "target": "quant-system-ingesta/qs/analysis/t_tabla.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/eco_runner_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/wallet_atlas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/exec_sim.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h1_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h3.py",
+      "target": "quant-system-ingesta/qs/analysis/h1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h3_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h1_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h3_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h3.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h8.py",
+      "target": "quant-system-ingesta/qs/analysis/h1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h8_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/h8_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h8.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py",
+      "target": "quant-system-ingesta/qs/analysis/hl_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_sim.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/maker_capa2_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/maker_capa2_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/pilot_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/pilot_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/pilot_runner.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/pilot_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/pilot_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/screen.py",
+      "target": "quant-system-ingesta/qs/analysis/h1_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/screen.py",
+      "target": "quant-system-ingesta/qs/analysis/h3_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/screen.py",
+      "target": "quant-system-ingesta/qs/analysis/h8_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/wallet_atlas.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/analysis/wallet_atlas.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/conftest.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_agilidad.py",
+      "target": "quant-system-ingesta/qs/tools/cifras_paquete.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+      "target": "quant-system-ingesta/qs/tests/test_estructura_chd.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+      "target": "quant-system-ingesta/qs/tools/censo_anclas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_censo_anclas.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_censo_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_censo_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/tools/censo_ref_invalida.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_lit.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+      "target": "quant-system-ingesta/qs/tests/test_estructura_chd.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+      "target": "quant-system-ingesta/qs/tools/censo_anclas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_cruce_ancla_por_ancla.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_anchor.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_e_anchor.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_cas.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_cas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_cas.py",
+      "target": "quant-system-ingesta/qs/tests/test_estructura_chd.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_cas.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_e_anchor.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_nmin_mc.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_ref_crudos.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_lit.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_capa2_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_gate_b.py",
+      "target": "quant-system-ingesta/qs/analysis/t_tabla.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_procedencia.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_procedencia.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_eco_runner_lit.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_runner_lit.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_estructura_chd.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_etapa0_validador.py",
+      "target": "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_etapa0_validador.py",
+      "target": "quant-system-ingesta/qs/tools/etapa0_validador.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_exec_sim.py",
+      "target": "quant-system-ingesta/qs/analysis/exec_sim.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_gate_dos_worktrees.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h1.py",
+      "target": "quant-system-ingesta/qs/analysis/h1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h1_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h1_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h3.py",
+      "target": "quant-system-ingesta/qs/analysis/h3.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h3_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h3_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h8.py",
+      "target": "quant-system-ingesta/qs/analysis/h8.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_h8_io.py",
+      "target": "quant-system-ingesta/qs/analysis/h8_io.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_libro_tx.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_libro_tx.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_libro_tx.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_libro_tx_git.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_libro_tx.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_libro_tx_recuperacion.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_libro_tx.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_libro_tx_writer.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_libro_tx.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_lighter_maker_key.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_m10_differ_core.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_maker_sim.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_sim.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_medir_L.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_medir_L.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_mutacion_gate_b.py",
+      "target": "quant-system-ingesta/qs/tools/mutacion_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_pilot_observer.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_pilot_observer_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_sim.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_pilot_observer_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_propiedades_ref_valida.py",
+      "target": "quant-system-ingesta/qs/analysis/maker_sim.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_propiedades_ref_valida.py",
+      "target": "quant-system-ingesta/qs/analysis/pilot_observer.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_propiedades_ref_valida.py",
+      "target": "quant-system-ingesta/qs/tools/censo_ref_invalida.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_recibo.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_screen.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_session_active_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_fase2_wti.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_session_active_wti.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_timeout_arnes.py",
+      "target": "quant-system-ingesta/qs/tools/mutacion_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_trailing_vol_i2.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_runner.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "target": "quant-system-ingesta/qs/analysis/screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/censo_anclas.py",
+      "target": "quant-system-ingesta/qs/tools/estructura_chd_local.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/censo_ref_invalida.py",
+      "target": "quant-system-ingesta/qs/analysis/confirm_screen.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/estructura_chd_local.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_cas.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py",
+      "target": "quant-system-ingesta/qs/analysis/lighter_maker_capa1.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/etapa0_retencion_oxa.py",
+      "target": "quant-system-ingesta/qs/tools/etapa0_validador.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/mutacion_ref_valida.py",
+      "target": "quant-system-ingesta/qs/tools/mutacion_gate_b.py"
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/probe_no_aislable_6130.py",
+      "target": "quant-system-ingesta/qs/analysis/eco_libro_tx.py"
+    }
+  ],
+  "remaining_imports_to_retired": [],
+  "remaining_non_docstring_literals_to_retired": [],
+  "operational_config_references_to_retired": [],
+  "source_scan_limits": "Imports directos y relativos por AST, literales con nombre de módulo/ruta, y configuración operativa. No afirma resolver destinos construidos arbitrariamente en runtime.",
+  "preserved_services_and_ingestion": {
+    "infra/l3_poller/l3-poller.service": "4ca22150669be74d6e62d24bbd406355c57e4f663d277d6f832b667ac0044561",
+    "infra/l3_poller/l3_poller.py": "3780c3032e5c7479081cadf6ec70fe5f04c825f306bb6faca9470d42633976a8",
+    "infra/lighter_collector/collector.py": "c7f0d6af00951930266fd12c1f3d51458af78e25d58f143e7df96673068145a7",
+    "infra/lighter_collector/heartbeat.sh": "82d4346ef2514934df519f86a5618c1d4008df73e612580d3d12e18783340fcf",
+    "infra/lighter_collector/lighter-collector.service": "fb69748d07096d404fe06194bb718b702d1442afe785d47a7bdf88a6f200f4fe",
+    "infra/lighter_collector/lighter-heartbeat.cron": "89ace82f5bea3ae4f801007cf4b50d876614423ba29e2695fe3a6aa607ae14f5",
+    "infra/lighter_collector/lighter-replica-early.service": "d57793a9bbee81d170a94b2c9b6b61df32c78a168ebffb750d2f98df2a0a63c3",
+    "infra/lighter_collector/lighter-replica-early.timer": "2e57908ebb391fb0116b2ee26bb81f1d79c764de5889f76b9af2dd5dacf439f4",
+    "infra/lighter_collector/lighter-replica.service": "de3f58c4c4ad543354287012bfbb27b4d88e494f27f339bfdfba028f9e7f53dd",
+    "infra/lighter_collector/lighter-replica.timer": "7f93d83492dd1f5e805d01a239178c14ab8fe8aecbfe4fd4551fa91139cc91c9",
+    "infra/lighter_collector/replicate.sh": "c2a83e583617ec238456f6d75e038b9e927b0ee8324fab6a4c19fd96047ff85c",
+    "quant-system-ingesta/qs/deploy/audit-day.service": "44434d5552b8d7a078ff5a7d729f788d3cc7a05f312d25c65906a52f72448d6d",
+    "quant-system-ingesta/qs/deploy/audit-day.timer": "7cfaee6c109052088c70afbeb506af8b3ef148a29725a45710a6a8455f89d551",
+    "quant-system-ingesta/qs/deploy/backup.service": "30da2d82dbd28f76887e8a93543cdcff63f7ee238d460b63998a9e67865202dc",
+    "quant-system-ingesta/qs/deploy/backup.timer": "2f83716393096742ee8fbb798c6984293e78a11b3d92e430390af97b65af6c03",
+    "quant-system-ingesta/qs/deploy/ingest.service": "47506ec617a30048ed058d7e2914166bba72d9884152cfb24bd527a71b9c2053",
+    "quant-system-ingesta/qs/deploy/install.sh": "2ec860a8f737382e380c4c6926b68ba4e26d914a27ec90877737112b848ac1ec",
+    "quant-system-ingesta/qs/deploy/retention.service": "4639bf79a3f956c4c9b24ccbff60aa4cb1677569da7939979f51539c7b58ad59",
+    "quant-system-ingesta/qs/deploy/retention.timer": "a39b58640e035205741ae11d1f44d6751b32af8f5ccbee705729fac4f4da808e",
+    "quant-system-ingesta/qs/ingestion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "quant-system-ingesta/qs/ingestion/audit.py": "9602d80099934e48cf7f980bce17f0cb4513af3f8a011b9a18d4581b9ee1030c",
+    "quant-system-ingesta/qs/ingestion/book.py": "d5821e237cf309acebfe24b6e5219fd878b97b8f6164f2eb3b166750c76a4ec7",
+    "quant-system-ingesta/qs/ingestion/feed_binance.py": "bdd4ddee4f7f95e88e2b1d1a5c814a2dfbcb3899814ef0408f597d3e5e025880",
+    "quant-system-ingesta/qs/ingestion/main.py": "5522549edf1db90794a8f2b75a1c4f1e6a6e57a5a0d2a25687caafbb48312d90",
+    "quant-system-ingesta/qs/ingestion/writer.py": "ede11a6dd0aaa2ee8c272c5a4e017a01d1c14b7df6cb9888eb4f9311f4e8675e",
+    "quant-system-ingesta/qs/tools/audit_day.py": "16c3d3e6a9a9832976564abc6d36957abeb98832b53cd1374cafae385dd027ab",
+    "quant-system-ingesta/qs/tools/backup.py": "160abf495b49c9c4e8b5a615ec5293b4232df85f94c9a4e9ed16e372223a5307",
+    "quant-system-ingesta/qs/tools/retention.py": "419135465a29a9c83028a5582e542cf87a034fdf67193df45d01d1bd3e6dfaf3",
+    "quant-system-ingesta/qs/tools/smoke.py": "fa4bc6cd8b36e02f09c48cbadc60f432d84d8b87b851acea5c0d3175451899f5"
+  },
+  "shared_transfer": [
+    {
+      "function": "_sha",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_huella",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_diferencias",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_copia_limpia",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_interpretar",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_problemas_baseline",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_texto",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_mostrar_timeout",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_quitar_solo_lectura",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_borrar_temporales",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_cerrar_fila_timeout",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_finalizar_copia",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_correr",
+      "identical_ast": false,
+      "identical_body_ast": true,
+      "change": "Default test-file tuple changed from retired gate tests to test_ref_valida.py; reference runner passes its explicit FICHEROS_TEST."
+    },
+    {
+      "function": "_correr_o_timeout",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_base_nodo",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    },
+    {
+      "function": "_juzgar",
+      "identical_ast": true,
+      "identical_body_ast": true,
+      "change": null
+    }
+  ],
+  "reference_runner_functions_identical_ast": [
+    "_objetivo",
+    "main"
+  ],
+  "reference_mutations": [
+    {
+      "base_index": 1,
+      "label": "R1 quitar el rechazo de NO FINITA (NaN / +-inf pasan a ser markouts)",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 2,
+      "label": "R1 quitar el GRUPO que atrapa el CERO (rechazo <=0 + banda): vuelve el defecto original",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 3,
+      "label": "R1 quitar la clase DEGENERADA (el positivo diminuto vuelve a pasar: el agujero del 1er arreglo)",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 4,
+      "label": "R1 invertir el ORDEN: la banda antes que la finitud (un NaN saldria 'degenerada')",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 5,
+      "label": "R1 volver a comparar RATIOS en vez del markout (reintroduce la asimetria de E-51)",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 6,
+      "label": "R4 contar SOLO una clase de rechazo en vez de las tres",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 7,
+      "label": "R4 aflojar el umbral de anomalia (nunca gritaria)",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 8,
+      "label": "compuerta de CONSUMO: dejar pasar artefactos contaminados",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 9,
+      "label": "EMPALME: dejar de exigir que el snapshot caiga DENTRO del evento (U <= L <= u)",
+      "target": "ingestion/book.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 10,
+      "label": "CHD: volver a FAIL-OPEN (imprimir la incoherencia y firmar el recibo igual)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 11,
+      "label": "CHD: no comparar el simbolo del contenido con la CARPETA (volvia el `pass` muerto)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 12,
+      "label": "CHD: enum ABIERTO (`!= update` convierte lo corrupto en snapshot)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 13,
+      "label": "CHD: dejar de exigir el esquema por tipo (update con L, snapshot con ids)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 14,
+      "label": "CHD: clave de reaparicion SIEMPRE (U,u,pu), tambien en snapshots (nula)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 15,
+      "label": "CHD: volver a `os.replace` en la instalacion (el no-clobber que no lo era)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 16,
+      "label": "CHD: agrupar TODO por (U,u,pu), tambien los snapshots (donde son NULOS)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 17,
+      "label": "CHD: contar la cadena TAMBIEN entre snapshot y update (un reinicio pasaria por hueco)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 18,
+      "label": "CHD: dejar de comprobar que el contenido case con la RUTA",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 19,
+      "label": "CHD: dejar de detectar simbolos MEZCLADOS en un fichero",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 20,
+      "label": "CHD: aflojar el derrame tolerado (la ruta dejaria de representar el dia UTC)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 21,
+      "label": "CHD: volver a la FASE ABSOLUTA de la rejilla (otra rejilla distinta de la del adaptador)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 22,
+      "label": "CHD: dejar de validar las NULIDADES antes de calcular (ValueError crudo en vez de veredicto)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 23,
+      "label": "CHD: aceptar un `L` FRACCIONARIO o no finito como estado certificado",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 24,
+      "label": "CHD: dejar de exigir U <= u en los updates",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 25,
+      "label": "CHD: dejar de declarar la REAPARICION no contigua de una clave",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 26,
+      "label": "CHD: agrupar por (U,u) y no por la identidad COMPLETA (funde eventos distintos)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 27,
+      "label": "MAQUINA: promover el candidato porque los ids empalman (ids compatibles != payload valido)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 28,
+      "label": "MAQUINA: dejar que un UPDATE cree estado desde la nada (contradice S1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 29,
+      "label": "MAQUINA: que un HUECO avance el estado (S5 exige invalido hasta nuevo certificado)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 30,
+      "label": "MAQUINA: no clasificar el snapshot OBSOLETO contra el ultimo CERTIFICADO",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 31,
+      "label": "MAQUINA: clasificar contra el MAXIMO VISTO (datos no certificados vetando la recuperacion)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 32,
+      "label": "MAQUINA: perder el `u` del empalme (al ratificar, el watermark volveria a `L`)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 33,
+      "label": "MAQUINA: no instalar candidato cuando `L == watermark` (no se puede distinguir dup/contra)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 34,
+      "label": "MAQUINA: no descartar el DUPLICADO (lo clasificaria como hueco y destruiria el tramo)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 35,
+      "label": "MAQUINA: que el candidato NO suspenda la certificacion anterior",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 36,
+      "label": "MAQUINA: aplicar el evento con `event_time` divergente en vez de invalidar antes",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 37,
+      "label": "MAQUINA: que el DUPLICADO se coma la banda oficial `u == L` (P0-2)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 38,
+      "label": "MAQUINA: que una invalidacion NO caduque el candidato (P0-3)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 39,
+      "label": "MAQUINA: creerse la equivalencia en vez de COMPROBAR el digest (P0-4)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 40,
+      "label": "MAQUINA: ratificar sin exigir digest (forma Y ligadura)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 41,
+      "label": "MAQUINA: que el duplicado restaure una fase FIJA en vez de la suspendida (P0-1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 42,
+      "label": "MAQUINA: marcar `A.A` como reaparicion (S4 prohibe A.B.A, no A.A) (P0-1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 43,
+      "label": "MAQUINA: que el DIGEST no avance con los updates (P0-2)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 44,
+      "label": "MAQUINA: token DETERMINISTA sin nonce (dos ramas compartirian autorizacion) (P0-3)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 45,
+      "label": "MAQUINA: descartar en silencio el update que llega antes de ratificar (P0-4)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 46,
+      "label": "MAQUINA: perder el digest POST-EMPALME (los dos ordenes describen libros distintos) (P0-1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 47,
+      "label": "MAQUINA: que la identidad NO siga los updates (A.B.A no se detectaria) (P0-2)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 48,
+      "label": "MAQUINA: dejar que un segundo snapshot SUSTITUYA al candidato en silencio (P0-3)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 49,
+      "label": "MAQUINA: romper la IDEMPOTENCIA del snapshot repetido byte a byte (P0-3)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 50,
+      "label": "MAQUINA: que el update ANTIGUO no se descarte mientras se espera el empalme (P0-5)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 51,
+      "label": "MAQUINA: no validar la FORMA del `digest_resultante` (P1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 52,
+      "label": "MAQUINA: no ordenar canonicamente el digest del libro (dos ordenes, dos digests) (P1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 53,
+      "label": "MAQUINA: aceptar un estado restaurado ADULTERADO (P1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 54,
+      "label": "CHD: estado GLOBAL en vez de por simbolo (dos simbolos se contaminan)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 55,
+      "label": "CHD: veredicto que NO exige estado certificado (lo estructural pasaria por reconstruible)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 56,
+      "label": "CARRIL: volver a resolver el canonico RELATIVO contra el CWD (compuerta ambiental)",
+      "target": "analysis/carril.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 57,
+      "label": "CARRIL: dejar producir en el directorio CANONICO con el carril equivocado",
+      "target": "analysis/carril.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 58,
+      "label": "ARTEFACTO: devolver la premisa al acusado (la capa sale del manifiesto, no del consumidor)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 59,
+      "label": "ARTEFACTO: dejar de exigir el simbolo esperado",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 60,
+      "label": "ARTEFACTO: no validar el contenido al PUBLICAR (un vector desalineado llega a disco)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 61,
+      "label": "ARTEFACTO: no validar el contenido al CARGAR (un npz escrito por fuera entra igual)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 62,
+      "label": "ARTEFACTO: no comprobar el SHA de los bytes (una marca vieja acredita una sustitucion)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 63,
+      "label": "ARTEFACTO: dejar que `extra` pise los campos normativos (el agujero exacto de la v1)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 64,
+      "label": "ARTEFACTO: no publicar el manifiesto (vuelve el npz-sin-marca tras un crash)",
+      "target": "analysis/artefacto.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 65,
+      "label": "GUARDIA-DOC: volver a descartar la relacion MALA en vez de exigir la BUENA (fallo abierto)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 66,
+      "label": "GUARDIA-DOC: volver al commit INTRODUCTOR del documento en vez de al del texto vigente",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 67,
+      "label": "GUARDIA-DOC: dejar de reconocer las reglas S y T (ocho reglas de la sonda, invisibles)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 68,
+      "label": "GUARDIA-DOC: dejar de bloquear por cobertura incompleta (se gastaria bajo un prereg a medias)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 69,
+      "label": "GUARDIA-DOC P0-7: volver a sellar la PRIMERA aparicion del blob (se puede reactivar una v1)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 70,
+      "label": "GUARDIA-DOC P0-7: dejar de rechazar lo que llega por RENOMBRE",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 71,
+      "label": "GUARDIA-DOC P0-6: volver a aceptar que un commit se preceda a SI MISMO",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 72,
+      "label": "GUARDIA-DOC P0-5: que `ruta_limpia` deje de comparar el arbol con HEAD",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 73,
+      "label": "GUARDIA-DOC P0-7: volver a inspeccionar UNA sola introduccion del comodin",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 74,
+      "label": "GUARDIA-DOC P0-7: quitar el orden TOPOLOGICO (git log ordena por FECHA, no por ancestria)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 75,
+      "label": "GUARDIA-DOC P0-4: volver a recorrer los CUERPOS de funcion (una anidada acreditaria)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 76,
+      "label": "GUARDIA-DOC P0-4: aceptar cosas NO invocables (una clase acreditaria una regla)",
+      "target": "tools/guardia_documental.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 77,
+      "label": "CENSO: volver a mirar solo `analysis/` (6 llamadas reales de `tools/` invisibles)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 78,
+      "label": "CENSO: dejar de vigilar a los ESCRITORES (el agujero del eco vuelve a ser invisible)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 79,
+      "label": "CENSO: dejar de resolver alias (`from numpy import load` se escapa)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 80,
+      "label": "CENSO: glob NO recursivo (un subpaquete entero deja de mirarse)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 81,
+      "label": "CENSO: ignorar el numero de llamadas de una exencion (la exencion se hereda en silencio)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 82,
+      "label": "CENSO: dejar de denunciar la exencion FANTASMA (la v1 tenia una)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 83,
+      "label": "CENSO-SELLADAS: ignorar el recuento aunque el hash sea valido",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 84,
+      "label": "CENSO-SELLADAS: omitir el hash del cuerpo y de sus saltos de linea",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 85,
+      "label": "CENSO-SELLADAS: callar una exencion fantasma sin provocar una excepcion ajena",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 86,
+      "label": "CENSO: aceptar la compuerta dentro de una RAMA (un `except` que se la traga)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 87,
+      "label": "CENSO: dejar de exigir que la compuerta vaya ANTES (despues ya se ha gastado)",
+      "target": "tools/guardia_completitud.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 88,
+      "label": "ECO: dejar de recalcular el CARRIL (vuelve el agujero de P0-2/P0-3)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 89,
+      "label": "MANIFIESTO: dejar de exigir TOTALIDAD (se puede omitir la jornada que no convenga)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 90,
+      "label": "MANIFIESTO: volver a validar la fecha por REGEX (2026-02-30 casa y no existe)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 91,
+      "label": "MANIFIESTO: dejar de atar el recibo al F atestado (entra un inventario ajeno al freeze)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 92,
+      "label": "ECO: dejar caer las huellas de INSUMOS (el aflojamiento silencioso que cometi)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 93,
+      "label": "ECO: dejar de exigir los campos de procedencia (un bloque de esquema 1 entra igual)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 94,
+      "label": "CARRIL: que el escape vuelva a abrir el directorio CANONICO",
+      "target": "analysis/carril.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 95,
+      "label": "REGISTRO: aceptar un simbolo NO invocable (una constante pasaria por implementacion)",
+      "target": "tools/registro_sonda.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 96,
+      "label": "REGISTRO: resolver solo la PRIMERA y parar (media campana gastada al descubrir la quinta)",
+      "target": "tools/registro_sonda.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 97,
+      "label": "REGISTRO: dejar de comprobar el sentido CODIGO-SIN-NORMA",
+      "target": "tools/registro_sonda.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 98,
+      "label": "GATE-LIT: dejar de exigir la BIYECCION producido<->sha256 (vuelve la clasificacion vacia)",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 99,
+      "label": "GATE-LIT: creerse la VENTANA que trae el manifiesto (la tautologia de E-66 otra vez)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 100,
+      "label": "GATE-LIT: no llamar al validador ESTRICTO del npz (el agujero literal de P0-1)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 101,
+      "label": "GATE-LIT: dejar pasar sin el pin de params LIT (validar contra algo editable)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 102,
+      "label": "GATE-LIT: dejar de exigir commit_productor == F",
+      "target": "analysis/eco_procedencia.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 103,
+      "label": "maker_sim: volver a atribuir un `px` invalido a la REFERENCIA en vez de a `px_invalido`",
+      "target": "analysis/maker_sim.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 104,
+      "label": "deteccion: volver a la firma ANCHA (|mo|>=1e4), que no acredita ref==0",
+      "target": "analysis/ref_valida.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 105,
+      "label": "ALCANCE: que el recibo declare la CONSTANTE en vez de los patrones USADOS",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 106,
+      "label": "ALCANCE: quitar el deduplicado por realpath (un fichero medido dos veces)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 107,
+      "label": "ALCANCE: que `--todo-el-cache` cubra SOLO la profundidad mayor (125 de 126, llamandolo todo)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 108,
+      "label": "ALCANCE: que declarar DOS alcances sea una PRECEDENCIA silenciosa y no un error",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 109,
+      "label": "ESQUEMA: volver a exigir que `u` sea NULO en la fila snapshot (el feed real vuelve a ser invalido)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 110,
+      "label": "ESQUEMA: dejar de comprobar que `u` == `L` en el snapshot (el apriete que trajo la correccion)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 111,
+      "label": "ESQUEMA: admitir tambien `U`/`pu` con valor (aflojar las tres columnas en vez de una)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 112,
+      "label": "DIGEST: aceptar `float` otra vez (la perdida de precision entra sin protestar)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 113,
+      "label": "DIGEST: dejar de contar la brecha (el avance sin digest vuelve a ser invisible)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 114,
+      "label": "DIGEST: sacarlo de la identidad idempotente (un snapshot contradictorio vuelve a ser no-op)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 115,
+      "label": "P0-2: quitar la guardia de vigencia (una atestacion vieja vuelve a activar una ventana vencida)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 116,
+      "label": "P0-2: aflojar a `<` (el propio dia D0 pasaria como «por delante»)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 117,
+      "label": "P0-2: dejar de comprobar el EVENTO que disparo R_F",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 118,
+      "label": "PINS: que el brazo LIT lea el freeze HISTORICO de A2 (la separacion, decorativa)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 119,
+      "label": "ATESTACION: que el gate deje de comprobar RAMA y WORKFLOW (la copia debil de los productores)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 120,
+      "label": "M13-P0-1: dejar que un update con `u < L` entre como EN LINEA (retrocede el watermark)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 121,
+      "label": "M13-P0-1: quitar la particion previa `u < L` del sitio del CANDIDATO (los ordenes divergen)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 122,
+      "label": "M13-P0-2: aceptar cualquier SHA valido en vez del OBSERVADO (el digest vuelve a ser premisa)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 123,
+      "label": "M13-P0-2: `desde_dict` sin validar la FORMA de los digests restaurados",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 124,
+      "label": "M13-P0-3: publicar el consumo ANTES de autenticar (un token malo gasta el candidato)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 125,
+      "label": "M13-P0-4: quitar `sha256_lock` del esquema del flag (el artefacto deja de estar ligado)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 126,
+      "label": "M13-P0-4: que la autoridad de un solo uso vuelva a vivir bajo el arbol (no compartida)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 127,
+      "label": "CAS: degradar `os.link` a `os.replace` (la autenticacion lo caza en stat(tmp))",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 128,
+      "label": "CAS: dar por bueno un sello que no cuadra (una edicion del registro pasa)",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 129,
+      "label": "M14-CAS: dejar que el llamador se autoateste capacidad de durabilidad",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 130,
+      "label": "M14-CAS: validar serialización antes de crear el temporal",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 131,
+      "label": "M14-CAS: capturar la identidad del temporal antes de escribir",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 132,
+      "label": "M14-CAS: no persistir el ALTA del enlace en el directorio",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 133,
+      "label": "M14-CAS: no persistir la BAJA del nombre temporal en el directorio",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 134,
+      "label": "M14-CAS: no ligar el nombre exacto del temporal dentro del registro sellado",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 135,
+      "label": "M14-CAS: no reconciliar el prefijo link + temporal después de un crash",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 136,
+      "label": "M14-CAS: dejar que la limpieza sustituya la causa primaria",
+      "target": "analysis/eco_cas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 137,
+      "label": "CONSUMO: no publicar el registro durable (dos copias sólo convergen en memoria)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 138,
+      "label": "M14-CONSUMO: aceptar un replay con esquema durable distinto",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 139,
+      "label": "M14-CONSUMO: aceptar el mismo token desde otro preestado o intención",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 140,
+      "label": "CONSUMO: sin raiz de consumo, degradar el fail-closed a un `return` silencioso",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 141,
+      "label": "M14-ESTADO: aceptar bool donde el contrato exige un bool exacto",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 142,
+      "label": "M14-ESTADO: aceptar claves de autoridad aportadas por el estado restaurado",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 143,
+      "label": "M14-EVENTOS: quitar la prevalidacion GLOBAL antes de mutar el primer evento",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 144,
+      "label": "ACTIVACION: quitar la guardia de vencimiento del entry point de LIT",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 145,
+      "label": "ACTIVACION: que la guardia de vencimiento dispare SIEMPRE (rechazar no es acreditar)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 146,
+      "label": "GATE: volver a anclar el espacio del gate al cwd (dos worktrees, dos balas)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 147,
+      "label": "GATE: inventar una raiz cuando no hay repositorio, en vez de fallar cerrado",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 148,
+      "label": "CENSO: reconciliar contra un recibo cuyo instrumento NO esta en la historia de git",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 149,
+      "label": "CENSO: dejar de comprobar que las disposiciones PARTICIONAN (un ancla se puede perder)",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 150,
+      "label": "TRAZA: no anotar el empalme en el sitio del candidato vivo (vuelve la inferencia)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 151,
+      "label": "TRAZA: anotar el empalme sobre la fila del UPDATE en vez de la del ANCLA",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 152,
+      "label": "TRAZA: no anotar el empalme tras RATIFICAR (el sitio 1 queda sin ancla a la que atribuirse)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 153,
+      "label": "TRAZA: dejar que la fila del candidato VIAJE al fichero siguiente dentro del estado",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 154,
+      "label": "CENSO: dejar de cruzar la CLASE por ancla (el par compensado vuelve a cuadrar)",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 155,
+      "label": "CENSO: volver a INFERIR «evaluada» de la llegada en vez de leerla de la traza",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 156,
+      "label": "CENSO: dejar de exigir que el update del empalme sea el SUCESOR del ancla",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 157,
+      "label": "CENSO: dejar de NOMBRAR la rotura del empalme sobre una no clasificable (las otras dos guardias siguen cerrando)",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 158,
+      "label": "TRAZA: anotar el empalme del sitio 1 DESPUES de validar el digest (solo los que tienen digest)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 159,
+      "label": "MAQUINA: olvidar el empalme evaluado sobre el duplicado igual_wm (vuelve la no conmutatividad)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 160,
+      "label": "MAQUINA: aplicar el empalme del duplicado tambien en modo CADENA aunque solo contenga (un hueco certifica)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 161,
+      "label": "MAQUINA: no pasar el ancla pendiente a la ultima fisica tras el duplicado (los dos ordenes anotan filas distintas)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 162,
+      "label": "RECIBO: subir al recibo el acumulado del estado en vez del delta del fichero (145 vuelven a ser 1.172)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 163,
+      "label": "RECIBO: dejar de contar el avance sin digest de la CADENA (el estado y los sitios divergen)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 164,
+      "label": "TRAZA: no anotar la llegada en la salida de identidad INDETERMINADA (la traza deja de ser exhaustiva)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 165,
+      "label": "TRAZA: que `invalidar` no anote el DESTINO de lo que mata (las caducadas vuelven a ser CANDIDATA a secas)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 166,
+      "label": "MAQUINA: que el DIGEST no avance en la rama de CADENA (el sub-mutante que ningun test declarado veia)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 167,
+      "label": "CENSO: no exigir el destino anotado de la SEGUIDA que murio por una SUSTITUIDA",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 168,
+      "label": "CENSO: no cruzar el recibo con LA MISMA maquina (un recibo de otra maquina acredita)",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 169,
+      "label": "CENSO: no ligar los BYTES del dato entre recibo y censo",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 170,
+      "label": "CENSO: no cruzar las CLASES del recibo con las de la traza",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 171,
+      "label": "CENSO: no cruzar las LLEGADAS del recibo con las de la traza",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 172,
+      "label": "CENSO: admitir dos LLEGADAS sobre la misma ancla",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 173,
+      "label": "M14-CENSO: no ligar bytes EJECUTADOS, disco y HEAD antes de leer datos",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 174,
+      "label": "M14-CENSO: no detectar deriva de codigo o HEAD DURANTE el barrido",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 175,
+      "label": "M14-CENSO: persistir SHA sólo de rutas que contienen anclas",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 176,
+      "label": "M14-CENSO: aceptar un recibo cuyo autosello no cuadra",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 177,
+      "label": "M14-CENSO: volver a proyectar el recibo real sobre un contrato incompleto",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 178,
+      "label": "M14-CENSO: validar el recibo sólo después de recorrer los parquets",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 179,
+      "label": "M14-CENSO: aceptar un instrumento que cambió mientras producía el recibo",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 180,
+      "label": "M14-CENSO: no cruzar las caducidades con sus contadores del recibo",
+      "target": "tools/censo_anclas.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 181,
+      "label": "PREVUELO: dejar de exigir que el ancla de cada fila sea UNICA (vuelven las anclas muertas)",
+      "target": "tools/prevuelo.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 182,
+      "label": "PREVUELO: volver a exigir el nombre EXACTO en vez de subcadena (mentiría sobre 27 filas del libro)",
+      "target": "tools/prevuelo.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 183,
+      "label": "PREVUELO: reventar con la excepcion cruda si un arnes no importa (los otros dos quedan sin revisar)",
+      "target": "tools/prevuelo.py",
+      "disposition": "retained"
+    },
+    {
+      "base_index": 184,
+      "label": "CIFRAS: dejar de comprobar la identidad de los avances sin digest (vuelve el «1.172»)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 185,
+      "label": "CIFRAS: dejar de recomputar el sello del recibo (una edicion a mano pasa desapercibida)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 186,
+      "label": "CIFRAS: dejar de comprobar la LIGADURA recibo-censo (vuelve el emparejamiento narrado)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 187,
+      "label": "CIFRAS: dejar de comprobar que el instrumento del artefacto sigue VIGENTE (se cita un recibo obsoleto)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 188,
+      "label": "CIFRAS: no notar que HEAD ya no tiene el instrumento que produjo el artefacto",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 189,
+      "label": "CIFRAS: aceptar un artefacto que no declara su instrumento (la vigencia deja de ser comprobable)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 190,
+      "label": "CIFRAS: exigir IGUALDAD de HEAD en vez de ancestria (el control estorba en su propio flujo)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 191,
+      "label": "CIFRAS: admitir un log SIN cabecera de HEAD (la atribucion al commit vuelve a ser por hora de fichero)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 192,
+      "label": "CIFRAS: omitir en silencio la cifra sin log en vez de declararla NO CITABLE",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 193,
+      "label": "CIFRAS: no decir los DOS commits cuando difieren (las cifras se leen como del arbol de hoy)",
+      "target": "tools/cifras_paquete.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 194,
+      "label": "PINS: volver a exigirle a A2 la cuarta clave de LIT (invalida el freeze historico real)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 195,
+      "label": "PINS: fundir los dos contratos en uno (vuelve el dilema: o rompe el gate o rompe el productor)",
+      "target": "analysis/eco_gate_b.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 196,
+      "label": "CONCILIACION: volver a AVISAR en vez de IMPEDIR (el recibo se firma con las identidades rotas)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 197,
+      "label": "EMPALME: anular la rama EN LINEA (vuelven a caer las 114 anclas del cache)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 198,
+      "label": "EMPALME: etiquetar el empalme FUERA DE BANDA como si fuera EN LINEA",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 199,
+      "label": "EMPALME: fundir AMBAS dentro de INLINE_ONLY (la clase deja de contarse aparte)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 200,
+      "label": "ATOMICIDAD: mover el watermark ANTES de validar el digest (P0-3)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 201,
+      "label": "EMPALME: volver a rechazar `U = L+1, pu = L`, que la mesa declaro transicion oficial (P0-1)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    },
+    {
+      "base_index": 202,
+      "label": "ALCANCE: contar el simbolo suelto como COLECCION (el recibo nombra mal su alcance)",
+      "target": "tools/estructura_chd_local.py",
+      "disposition": "retired_with_target"
+    }
+  ],
+  "changed_mutation_test_maps": [
+    {
+      "base_index": 1,
+      "label": "R1 quitar el rechazo de NO FINITA (NaN / +-inf pasan a ser markouts)",
+      "tests_before": {
+        "test_clasificar_asigna_la_clase_correcta": "assert",
+        "test_R3_el_cuadre_por_causa_con_una_mezcla_de_TODAS_las_clases": "assert"
+      },
+      "tests_after": {
+        "test_clasificar_asigna_la_clase_correcta": "assert"
+      }
+    },
+    {
+      "base_index": 2,
+      "label": "R1 quitar el GRUPO que atrapa el CERO (rechazo <=0 + banda): vuelve el defecto original",
+      "tests_before": {
+        "test_clasificar_asigna_la_clase_correcta": "assert",
+        "test_el_valor_10000_NO_aparece_por_ninguna_via_ni_en_ningun_lado": "assert"
+      },
+      "tests_after": {
+        "test_clasificar_asigna_la_clase_correcta": "assert"
+      }
+    },
+    {
+      "base_index": 3,
+      "label": "R1 quitar la clase DEGENERADA (el positivo diminuto vuelve a pasar: el agujero del 1er arreglo)",
+      "tests_before": {
+        "test_EL_AGUJERO_QUE_SOBREVIVIO_AL_PRIMER_ARREGLO_un_positivo_diminuto": "assert",
+        "test_los_bordes_de_la_banda_son_los_declarados": "assert",
+        "test_los_DOS_brazos_rechazan_LO_MISMO": "assert"
+      },
+      "tests_after": {
+        "test_los_bordes_de_la_banda_son_los_declarados": "assert"
+      }
+    },
+    {
+      "base_index": 77,
+      "label": "CENSO: volver a mirar solo `analysis/` (6 llamadas reales de `tools/` invisibles)",
+      "tests_before": {
+        "test_una_carga_bajo_tools_ya_no_es_invisible": "assert",
+        "test_sobre_el_repo_real_hay_llamadas_vigiladas_de_verdad": "assert"
+      },
+      "tests_after": {
+        "test_una_carga_bajo_tools_ya_no_es_invisible": "assert"
+      }
+    },
+    {
+      "base_index": 182,
+      "label": "PREVUELO: volver a exigir el nombre EXACTO en vez de subcadena (mentiría sobre 27 filas del libro)",
+      "tests_before": {
+        "test_la_semantica_de_los_tests_es_SUBCADENA_como_en_pytest_k": "assert",
+        "test_los_tres_arneses_reales_pasan_el_prevuelo_hoy": "assert"
+      },
+      "tests_after": {
+        "test_la_semantica_de_los_tests_es_SUBCADENA_como_en_pytest_k": "assert"
+      }
+    }
+  ],
+  "test_collection": {
+    "base_count": 1699,
+    "new_count": 476,
+    "relocated_or_renamed": [
+      {
+        "old": "tests/test_agilidad.py::test_LOS_TRES_ARNESES_REALES_ESTAN_DECLARADOS",
+        "new": "tests/test_agilidad.py::test_TODOS_LOS_ARNESES_REALES_ESTAN_DECLARADOS"
+      },
+      {
+        "old": "tests/test_agilidad.py::test_los_tres_arneses_reales_pasan_el_prevuelo_hoy",
+        "new": "tests/test_agilidad.py::test_los_arneses_reales_pasan_el_prevuelo_hoy"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_acredita_solo_si_TODOS_muerden_por_su_causa",
+        "new": "tests/test_arnes_comun.py::test_acredita_solo_si_TODOS_muerden_por_su_causa"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_acumula_TODOS_los_problemas_no_solo_el_primero",
+        "new": "tests/test_arnes_comun.py::test_baseline_acumula_TODOS_los_problemas_no_solo_el_primero"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_exige_las_CUATRO_por_separado[kw0-returncode=1]",
+        "new": "tests/test_arnes_comun.py::test_baseline_exige_las_CUATRO_por_separado[kw0-returncode=1]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_exige_las_CUATRO_por_separado[kw1-recuento con errores]",
+        "new": "tests/test_arnes_comun.py::test_baseline_exige_las_CUATRO_por_separado[kw1-recuento con errores]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_exige_las_CUATRO_por_separado[kw2-test_x]",
+        "new": "tests/test_arnes_comun.py::test_baseline_exige_las_CUATRO_por_separado[kw2-test_x]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_exige_las_CUATRO_por_separado[kw3-13 de 14]",
+        "new": "tests/test_arnes_comun.py::test_baseline_exige_las_CUATRO_por_separado[kw3-13 de 14]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_baseline_limpia_no_tiene_problemas",
+        "new": "tests/test_arnes_comun.py::test_baseline_limpia_no_tiene_problemas"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_causa_AJENA_no_acredita",
+        "new": "tests/test_arnes_comun.py::test_causa_AJENA_no_acredita"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes0-ahora0-esperado0]",
+        "new": "tests/test_arnes_comun.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes0-ahora0-esperado0]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes1-ahora1-esperado1]",
+        "new": "tests/test_arnes_comun.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes1-ahora1-esperado1]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes2-ahora2-esperado2]",
+        "new": "tests/test_arnes_comun.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes2-ahora2-esperado2]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes3-ahora3-esperado3]",
+        "new": "tests/test_arnes_comun.py::test_diferencias_detecta_altas_BAJAS_y_modificados[antes3-ahora3-esperado3]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[-1]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[-1]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[137]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[137]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[2]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[2]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[3]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[3]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[4]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[4]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[5]",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_cualquier_rc_ajeno_a_0_y_1[5]"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_un_recuento_con_ERRORES",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_un_recuento_con_ERRORES"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_marca_INVALIDA_una_salida_sin_recuento",
+        "new": "tests/test_arnes_comun.py::test_interpretar_marca_INVALIDA_una_salida_sin_recuento"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_recoge_el_motivo_COMPLETO_del_fallo",
+        "new": "tests/test_arnes_comun.py::test_interpretar_recoge_el_motivo_COMPLETO_del_fallo"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_interpretar_una_corrida_verde",
+        "new": "tests/test_arnes_comun.py::test_interpretar_una_corrida_verde"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_la_causa_normaliza_la_grafia_de_clase_de_pytest_sin_aceptar_otra_excepcion",
+        "new": "tests/test_arnes_comun.py::test_la_causa_normaliza_la_grafia_de_clase_de_pytest_sin_aceptar_otra_excepcion"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_la_causa_se_compara_sin_distinguir_mayusculas",
+        "new": "tests/test_arnes_comun.py::test_la_causa_se_compara_sin_distinguir_mayusculas"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_mordida_PARCIAL_no_acredita",
+        "new": "tests/test_arnes_comun.py::test_mordida_PARCIAL_no_acredita"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_ninguno_muerde_es_TEST_VACUO",
+        "new": "tests/test_arnes_comun.py::test_ninguno_muerde_es_TEST_VACUO"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_un_AssertionError_cualquiera_NO_vale_por_el_marcador",
+        "new": "tests/test_arnes_comun.py::test_un_AssertionError_cualquiera_NO_vale_por_el_marcador"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_un_fallo_COLATERAL_invalida_aunque_muerdan_todos_los_esperados",
+        "new": "tests/test_arnes_comun.py::test_un_fallo_COLATERAL_invalida_aunque_muerdan_todos_los_esperados"
+      },
+      {
+        "old": "tests/test_mutacion_gate_b.py::test_una_EXCEPCION_no_se_traga_y_la_huella_se_juzga_igual",
+        "new": "tests/test_arnes_comun.py::test_una_EXCEPCION_no_se_traga_y_la_huella_se_juzga_igual"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_FUERA_del_canonico_una_reproduccion_forense_sigue_siendo_posible",
+        "new": "tests/test_compuertas_ref_invalida.py::test_FUERA_del_canonico_una_reproduccion_forense_sigue_siendo_posible"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_P0_2_la_compuerta_NO_depende_del_directorio_desde_el_que_se_lance",
+        "new": "tests/test_compuertas_ref_invalida.py::test_P0_2_la_compuerta_NO_depende_del_directorio_desde_el_que_se_lance"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_P0_2_mayusculas_y_separadores_mixtos_no_abren_la_compuerta",
+        "new": "tests/test_compuertas_ref_invalida.py::test_P0_2_mayusculas_y_separadores_mixtos_no_abren_la_compuerta"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_P0_2_una_ruta_FUERA_del_canonico_sigue_permitida_desde_cualquier_cwd",
+        "new": "tests/test_compuertas_ref_invalida.py::test_P0_2_una_ruta_FUERA_del_canonico_sigue_permitida_desde_cualquier_cwd"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_el_escape_NO_deja_escribir_en_el_directorio_CANONICO",
+        "new": "tests/test_compuertas_ref_invalida.py::test_el_escape_NO_deja_escribir_en_el_directorio_CANONICO"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_sin_escape_tampoco_se_escribe_en_el_canonico",
+        "new": "tests/test_compuertas_ref_invalida.py::test_sin_escape_tampoco_se_escribe_en_el_canonico"
+      },
+      {
+        "old": "tests/test_eco_procedencia.py::test_un_carril_CONFORME_entra_en_el_canonico_sin_ruido",
+        "new": "tests/test_compuertas_ref_invalida.py::test_un_carril_CONFORME_entra_en_el_canonico_sin_ruido"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_avisa_por_debajo_del_umbral_y_GRITA_por_encima",
+        "new": "tests/test_ref_valida.py::test_R4_avisa_por_debajo_del_umbral_y_GRITA_por_encima"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_cuenta_LAS_TRES_clases_no_solo_una",
+        "new": "tests/test_ref_valida.py::test_R4_cuenta_LAS_TRES_clases_no_solo_una"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[5-100-[R1]]",
+        "new": "tests/test_ref_valida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[5-100-[R1]]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[50-1000-[R1]]",
+        "new": "tests/test_ref_valida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[50-1000-[R1]]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[51-1000-[R4]]",
+        "new": "tests/test_ref_valida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[51-1000-[R4]]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[6-100-[R4]]",
+        "new": "tests/test_ref_valida.py::test_R4_la_frontera_del_umbral_es_ESTRICTA_al_5_por_ciento[6-100-[R4]]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_R4_no_dice_nada_cuando_no_hay_rechazos",
+        "new": "tests/test_ref_valida.py::test_R4_no_dice_nada_cuando_no_hay_rechazos"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[-0.0-no_positiva]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[-0.0-no_positiva]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[-1.0-no_positiva]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[-1.0-no_positiva]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[-100.0-no_positiva]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[-100.0-no_positiva]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[-inf-no_finita]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[-inf-no_finita]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[0.0-no_positiva]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[0.0-no_positiva]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[100.0-ok]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[100.0-ok]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[1000000.0-degenerada]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[1000000.0-degenerada]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[101.0-ok]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[101.0-ok]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[1e-09-degenerada]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[1e-09-degenerada]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[1e-300-degenerada]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[1e-300-degenerada]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[99.0-ok]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[99.0-ok]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[inf-no_finita]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[inf-no_finita]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_clasificar_asigna_la_clase_correcta[nan-no_finita]",
+        "new": "tests/test_ref_valida.py::test_clasificar_asigna_la_clase_correcta[nan-no_finita]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_NO_es_un_filtro_de_plausibilidad_economica",
+        "new": "tests/test_ref_valida.py::test_la_banda_NO_es_un_filtro_de_plausibilidad_economica"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[1.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[1.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[100.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[100.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[5000.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[5000.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[8999.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[8999.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[9001.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[9001.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_la_banda_es_SIMETRICA_en_consecuencia[9999.0]",
+        "new": "tests/test_ref_valida.py::test_la_banda_es_SIMETRICA_en_consecuencia[9999.0]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[0.1-False]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[0.1-False]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[0.1000001-True]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[0.1000001-True]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[0.5-True]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[0.5-True]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[1.5-True]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[1.5-True]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[1.8999999-True]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[1.8999999-True]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[1.9-False]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[1.9-False]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[10.0-False]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[10.0-False]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_los_bordes_de_la_banda_son_los_declarados[2.0-False]",
+        "new": "tests/test_ref_valida.py::test_los_bordes_de_la_banda_son_los_declarados[2.0-False]"
+      },
+      {
+        "old": "tests/test_pilot_observer_ref_invalida.py::test_por_debajo_de_menos_10000_bps_el_precio_es_NEGATIVO_y_esa_es_la_clase",
+        "new": "tests/test_ref_valida.py::test_por_debajo_de_menos_10000_bps_el_precio_es_NEGATIVO_y_esa_es_la_clase"
+      }
+    ],
+    "retired_count": 1223,
+    "new_unexplained": [],
+    "base_log_path": "<USER_HOME>\\Desktop\\Laboratorio\\V2_LOTE2_20260909_01\\coleccion.log",
+    "base_log_sha256": "ac0a08d72d41a9bd535e76f71a7c3f13f43d9cf2bf40dbc5183220299b3bee0e"
+  },
+  "removed_test_nodes_receipt": "<USER_HOME>/Desktop/Laboratorio/V2_LOTE3_20260909_01/comprobacion_estructura.json",
+  "d1_boundary": {
+    "active_unchanged": {
+      "artefacto.py": "f248b3450813323728707f4d5dfaf20c71eb5dc0c2c9e28f4ce3b57b5087ffe3",
+      "carril.py": "626d6e83e2aa51d7365ddb89c3622b1e1898dee95274b02d4f0a2b7d8ef8e98e",
+      "ref_valida.py": "09de672ee0448b2e4e6dc569a344300bd593357fa24b29ad1ad8ab6a4f867c14"
+    },
+    "retired_unedited": [
+      "analysis/screen.py",
+      "analysis/pilot_observer.py",
+      "analysis/lighter_maker_capa1.py"
+    ],
+    "spec_sha256": "6e358b9c5f127819b8a8b805ade726f1f0bc6d8934b9279d8aa3d574fc5b91d7",
+    "historical_ledger_sha256": "8b1bb45925467b831326183ec9336003ee605afd94f728f537f044c87a6f6c41",
+    "restoration_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+  },
+  "ci_steps_before": [
+    "python -m pytest tests/ -q",
+    "python tools/mutacion_libro_tx.py",
+    "python tools/mutacion_gate_b.py",
+    "python tools/mutacion_ref_valida.py",
+    "python tools/guardia_documental.py",
+    "python tools/guardia_completitud.py",
+    "python tools/registro_sonda.py",
+    "python tools/recuento_auditoria.py --check"
+  ],
+  "ci_steps_after": [
+    "python -m pytest tests/ -q",
+    "python tools/mutacion_ref_valida.py",
+    "python tools/guardia_documental.py",
+    "python tools/guardia_completitud.py",
+    "python tools/registro_sonda.py",
+    "python tools/recuento_auditoria.py --check"
+  ],
+  "measured_line_counts": {
+    "analysis": {
+      "files": 21,
+      "lines": 3221
+    },
+    "tools": {
+      "files": 12,
+      "lines": 2712
+    },
+    "ingestion": {
+      "files": 6,
+      "lines": 1016
+    },
+    "tests": {
+      "files": 28,
+      "lines": 5147
+    }
+  },
+  "previous_untracked_preserved": {
+    "INFORME_QUANT_SYSTEM.md": "9d1ce1aa7f8b3665657dc0f9bee7191f534c0b2bc7023f234554c4602634ac88",
+    "docs/AUDITORIA_CODE_2026-09-08_CI_ANCLAS_SELLADAS.md": "f7beddeb994d6fee27fafc8ba880c73e7cbf65dac85e5c63cb53cb7e6d222bee",
+    "docs/AUDITORIA_CODE_2026-09-08_CI_I5_REPARACION.md": "0b5f9efb58ee28e56ff3ec5ba2988bfdf89e0fb499f8430cf426d31614ffc2ab",
+    "docs/AUDITORIA_CODE_2026-09-08_V2_LOTE1.md": "509f82a2a9340b57afbc2a11e60042bca2324bad43e4aec41f73ed88f2b388de",
+    "docs/AUDITORIA_CODE_2026-09-09_V2_LOTE2.md": "75c7c19ac7f05c3f269173eeca22cbff0e55f7c2e715003e2ed0633fba9ba5fd",
+    "docs/AUDITORIA_CODE_2026-09-09_V2_LOTE4.md": "0f8ae5a6065e1df0e6bf9bbb4f9761ff4bfe988645ecc525f184be11665f2eda",
+    "docs/OPCIONES_POST_LAB_2026-09-08.md": "34b3cbe34d9127e7bc6a28730f851439bdd1337d7cd7a897e3886bf6c8f97e17",
+    "docs/PARA_LA_MESA_2026-09-07_PUSH_CI_Y_V2_SUSTRACCION.md": "7ed561e737b33e2235ae97776aa6846bcb2129c075740f9efb5bf3e24a6fa606"
+  }
+}

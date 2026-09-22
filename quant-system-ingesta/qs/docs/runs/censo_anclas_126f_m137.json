@@ -1,0 +1,4945 @@
+{
+ "alcance": {
+  "filas": 706490194,
+  "n_ficheros": 126,
+  "patrones": [
+   "data_hist/cryptohft/*/*/*_orderbook.parquet",
+   "data_hist/cryptohft/*/*_orderbook.parquet"
+  ]
+ },
+ "anclas": [
+  {
+   "L": 10449920166176.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 897789,
+    "n": 1,
+    "sitio": 2,
+    "u": 10449920170958
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1777649863110,
+   "fila_fin": 897788,
+   "fila_ini": 895789,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/ATOMUSDT/2026-05-01_orderbook.parquet",
+   "sha256_fichero": "3a37bf17ad8fbfee32fa8547a66c22410f3ecd457bbef437af099408ed244782",
+   "sucesor": {
+    "U": 10449920166176,
+    "fila": 897789,
+    "pu": 10449920154874,
+    "u": 10449920170958
+   }
+  },
+  {
+   "L": 10788495601759.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 882022,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788495619784
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246455413,
+   "fila_fin": 882021,
+   "fila_ini": 880022,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fffd6a6266ef32d598d3e9d69deea855bb7f457c51ea0f2b4cfe5f65c8ab0fe2",
+   "sucesor": {
+    "U": 10788495619784,
+    "fila": 882022,
+    "pu": 10788495601759,
+    "u": 10788495619784
+   }
+  },
+  {
+   "L": 10790133264302.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1357138,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133309828
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263102977,
+   "fila_fin": 1357137,
+   "fila_ini": 1355138,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fffd6a6266ef32d598d3e9d69deea855bb7f457c51ea0f2b4cfe5f65c8ab0fe2",
+   "sucesor": {
+    "U": 10790133309828,
+    "fila": 1357138,
+    "pu": 10790133264302,
+    "u": 10790133309828
+   }
+  },
+  {
+   "L": 10797872400146.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 886980,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872494968
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348906631,
+   "fila_fin": 886979,
+   "fila_ini": 884980,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "46abe4fd13b7f444eb073742b0d7e0687f84b829e69cafcfee06df12ae2eb9b8",
+   "sucesor": {
+    "U": 10797872494968,
+    "fila": 886980,
+    "pu": 10797872400146,
+    "u": 10797872494968
+   }
+  },
+  {
+   "L": 10800601757012.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1461342,
+    "n": 1,
+    "sitio": 2,
+    "u": 10800601762630
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781384910633,
+   "fila_fin": 1461341,
+   "fila_ini": 1459342,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "46abe4fd13b7f444eb073742b0d7e0687f84b829e69cafcfee06df12ae2eb9b8",
+   "sucesor": {
+    "U": 10800601762485,
+    "fila": 1461342,
+    "pu": 10800601757012,
+    "u": 10800601762630
+   }
+  },
+  {
+   "L": 10805519615797.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 965317,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519633195
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452122199,
+   "fila_fin": 965316,
+   "fila_ini": 963317,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e8551e61cdb1f3080df35a833c1033adc403dbd6c78c44d524c378c58be62e62",
+   "sucesor": {
+    "U": 10805519632694,
+    "fila": 965317,
+    "pu": 10805519615797,
+    "u": 10805519633195
+   }
+  },
+  {
+   "L": 10813474731509.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1112928,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813474759651
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537878539,
+   "fila_fin": 1112927,
+   "fila_ini": 1110928,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "8087d9e174787393b85bda0a06a03187a8dcc2d8d0be86b9c074789f8db4bfea",
+   "sucesor": {
+    "U": 10813474759651,
+    "fila": 1112928,
+    "pu": 10813474731509,
+    "u": 10813474759651
+   }
+  },
+  {
+   "L": 10821772511405.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1206797,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821772545610
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623680120,
+   "fila_fin": 1206796,
+   "fila_ini": 1204797,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "f7efe17138de06074ca23053ca4e0260baaed9b02d227f4c6315dce2ad9f533b",
+   "sucesor": {
+    "U": 10821772542866,
+    "fila": 1206797,
+    "pu": 10821772511405,
+    "u": 10821772545610
+   }
+  },
+  {
+   "L": 10830040248634.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1116682,
+    "n": 1,
+    "sitio": 2,
+    "u": 10830040362731
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781709483568,
+   "fila_fin": 1116681,
+   "fila_ini": 1114682,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "85526e23864c3cd847a819bae5df18cc3414fe2c315000343fbc0e11bd3e65e2",
+   "sucesor": {
+    "U": 10830040362731,
+    "fila": 1116682,
+    "pu": 10830040248634,
+    "u": 10830040362731
+   }
+  },
+  {
+   "L": 10831295700306.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1394886,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831295713228
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781720043630,
+   "fila_fin": 1394885,
+   "fila_ini": 1392886,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "85526e23864c3cd847a819bae5df18cc3414fe2c315000343fbc0e11bd3e65e2",
+   "sucesor": {
+    "U": 10831295713228,
+    "fila": 1394886,
+    "pu": 10831295700306,
+    "u": 10831295713228
+   }
+  },
+  {
+   "L": 10840462599023.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1754513,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840462615080
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805846453,
+   "fila_fin": 1754512,
+   "fila_ini": 1752513,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "5939c585f8ca16ecd0af86aadfcc70904a6f9f4a58d105633e1d06ca652af3d4",
+   "sucesor": {
+    "U": 10840462615080,
+    "fila": 1754513,
+    "pu": 10840462599023,
+    "u": 10840462615080
+   }
+  },
+  {
+   "L": 10843278473706.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781838921572,
+   "fila_fin": 208589,
+   "fila_ini": 207590,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": null
+  },
+  {
+   "L": 10843278732898.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781838922339,
+   "fila_fin": 209589,
+   "fila_ini": 208590,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": null
+  },
+  {
+   "L": 10843279659101.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 211590,
+    "n": 1,
+    "sitio": 2,
+    "u": 10843279688055
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781838924758,
+   "fila_fin": 211589,
+   "fila_ini": 209590,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "a971c38fa5411a36a5bd2fcbab884e3d6b3ab1a598846e67109cf87775a2091c",
+   "sucesor": {
+    "U": 10843279665246,
+    "fila": 211590,
+    "pu": 10843279659101,
+    "u": 10843279688055
+   }
+  },
+  {
+   "L": 10850642770333.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 193294,
+    "n": 1,
+    "sitio": 2,
+    "u": 10850642778628
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781924724457,
+   "fila_fin": 193293,
+   "fila_ini": 191294,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "af59b390a4069de6d54dc3e08b5709c56eacb3cd7ed17e428baf278afb161e41",
+   "sucesor": {
+    "U": 10850642778495,
+    "fila": 193294,
+    "pu": 10850642770333,
+    "u": 10850642778628
+   }
+  },
+  {
+   "L": 10856927932268.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 147288,
+    "n": 1,
+    "sitio": 2,
+    "u": 10856927954902
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782010527779,
+   "fila_fin": 147287,
+   "fila_ini": 145288,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1f93a03de58ba8ee1cdc3d20aa9326f67de9a9eedcd8c3bf6d71528f16d76ea9",
+   "sucesor": {
+    "U": 10856927954902,
+    "fila": 147288,
+    "pu": 10856927932268,
+    "u": 10856927954902
+   }
+  },
+  {
+   "L": 10862169641302.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1081193,
+    "n": 1,
+    "sitio": 2,
+    "u": 10862169716839
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782082624205,
+   "fila_fin": 1081192,
+   "fila_ini": 1079209,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1984,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1f93a03de58ba8ee1cdc3d20aa9326f67de9a9eedcd8c3bf6d71528f16d76ea9",
+   "sucesor": {
+    "U": 10862169716675,
+    "fila": 1081193,
+    "pu": 10862169641302,
+    "u": 10862169716839
+   }
+  },
+  {
+   "L": 10869949379733.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1382845,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869949398908
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782168428816,
+   "fila_fin": 1382844,
+   "fila_ini": 1380845,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "af2e7e6b0ffed1c47717ce871bd276e86041a7bbc1d64ce553fb23c4275ad57d",
+   "sucesor": {
+    "U": 10869949397471,
+    "fila": 1382845,
+    "pu": 10869949379733,
+    "u": 10869949398908
+   }
+  },
+  {
+   "L": 10877695740020.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1505448,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877695753154
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782254231210,
+   "fila_fin": 1505447,
+   "fila_ini": 1503454,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1994,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "aa2bdacbe211a5f3b609bfbef9e6fd948945c31eb6c763cbbb6c3ab19ab25dc4",
+   "sucesor": {
+    "U": 10877695753154,
+    "fila": 1505448,
+    "pu": 10877695740020,
+    "u": 10877695753154
+   }
+  },
+  {
+   "L": 10879052489998.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 144953,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879052536863
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269598100,
+   "fila_fin": 144952,
+   "fila_ini": 142973,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1980,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "40135a044a84ac55e16b53efb72c8f62bf2748b097266042309adc3a5547a1ed",
+   "sucesor": {
+    "U": 10879052536219,
+    "fila": 144953,
+    "pu": 10879052489998,
+    "u": 10879052536863
+   }
+  },
+  {
+   "L": 10887519416946.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 191629,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887519418587
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782355401554,
+   "fila_fin": 191628,
+   "fila_ini": 189719,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1910,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "6cb6f9e2159115cfc26dbb2dda8e91da26a55a5b6b812f7736b75c93405c6112",
+   "sucesor": {
+    "U": 10887519417196,
+    "fila": 191629,
+    "pu": 10887519416946,
+    "u": 10887519418587
+   }
+  },
+  {
+   "L": 10894251227155.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1850930,
+    "n": 1,
+    "sitio": 2,
+    "u": 10894251229069
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782418191660,
+   "fila_fin": 1850929,
+   "fila_ini": 1849102,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1828,
+   "ruta": "data_hist/cryptohft/overlap/ATOMUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "6cb6f9e2159115cfc26dbb2dda8e91da26a55a5b6b812f7736b75c93405c6112",
+   "sucesor": {
+    "U": 10894251229069,
+    "fila": 1850930,
+    "pu": 10894251227155,
+    "u": 10894251229069
+   }
+  },
+  {
+   "L": 10788502181799.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1434847,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788502184960
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246515528,
+   "fila_fin": 1434846,
+   "fila_ini": 1432847,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "91e7dde0ef4b19cf87143f8b25ff7c05fb91831021446ac1a61a234375041043",
+   "sucesor": {
+    "U": 10788502184344,
+    "fila": 1434847,
+    "pu": 10788502181799,
+    "u": 10788502184960
+   }
+  },
+  {
+   "L": 10790132998075.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2462662,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133002767
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263099269,
+   "fila_fin": 2462661,
+   "fila_ini": 2460662,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "91e7dde0ef4b19cf87143f8b25ff7c05fb91831021446ac1a61a234375041043",
+   "sucesor": {
+    "U": 10790133001745,
+    "fila": 2462662,
+    "pu": 10790132998075,
+    "u": 10790133002767
+   }
+  },
+  {
+   "L": 10797872077148.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1892306,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872078288
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348902382,
+   "fila_fin": 1892305,
+   "fila_ini": 1890306,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b86478f75e96054a8d91330ea17ca64b3189eedff9cbe1b4b81b1a8a418f683d",
+   "sucesor": {
+    "U": 10797872077111,
+    "fila": 1892306,
+    "pu": 10797872070539,
+    "u": 10797872078288
+   }
+  },
+  {
+   "L": 10804119610686.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1534531,
+    "n": 1,
+    "sitio": 2,
+    "u": 10804119611242
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781434705237,
+   "fila_fin": 1534530,
+   "fila_ini": 1532531,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "142b4f10b243990351221059cb8a948a26318dc6bc14977f28886eaf08371ab8",
+   "sucesor": {
+    "U": 10804119607386,
+    "fila": 1534531,
+    "pu": 10804119603634,
+    "u": 10804119611242
+   }
+  },
+  {
+   "L": 10805519694352.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 2413124,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519694696
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452123783,
+   "fila_fin": 2413123,
+   "fila_ini": 2411124,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "142b4f10b243990351221059cb8a948a26318dc6bc14977f28886eaf08371ab8",
+   "sucesor": {
+    "U": 10805519694352,
+    "fila": 2413124,
+    "pu": 10805519691279,
+    "u": 10805519694696
+   }
+  },
+  {
+   "L": 10813481032610.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 4349965,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813481047219
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537925013,
+   "fila_fin": 4349964,
+   "fila_ini": 4347965,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "af23b5020d61e393af82496cabdce8fb77a0b98ff4812ed68bac586b28a2cbac",
+   "sucesor": {
+    "U": 10813481032230,
+    "fila": 4349965,
+    "pu": 10813481032086,
+    "u": 10813481047219
+   }
+  },
+  {
+   "L": 10821778019681.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4209694,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821778031805
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623724052,
+   "fila_fin": 4209693,
+   "fila_ini": 4207694,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "1838da0d431c30e29d68368ad822e74436b0187fb7ff74f6a06ca71dc7b73df7",
+   "sucesor": {
+    "U": 10821778031805,
+    "fila": 4209694,
+    "pu": 10821778019681,
+    "u": 10821778031805
+   }
+  },
+  {
+   "L": 10829779378425.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707654939,
+   "fila_fin": 4034359,
+   "fila_ini": 4033360,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": null
+  },
+  {
+   "L": 10829780058818.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781707657127,
+   "fila_fin": 4035359,
+   "fila_ini": 4034360,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": null
+  },
+  {
+   "L": 10829780668535.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 4037360,
+    "n": 1,
+    "sitio": 2,
+    "u": 10829780681045
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707659030,
+   "fila_fin": 4037359,
+   "fila_ini": 4035360,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": {
+    "U": 10829780666605,
+    "fila": 4037360,
+    "pu": 10829780663435,
+    "u": 10829780681045
+   }
+  },
+  {
+   "L": 10831286974976.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5388907,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831286990373
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781719987633,
+   "fila_fin": 5388906,
+   "fila_ini": 5386907,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "ac34b53146c38876d7696eb256364b65e055578a119ecea6f31a5e94a3e79623",
+   "sucesor": {
+    "U": 10831286990371,
+    "fila": 5388907,
+    "pu": 10831286974976,
+    "u": 10831286990373
+   }
+  },
+  {
+   "L": 10840456490786.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5769314,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840456501890
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805791093,
+   "fila_fin": 5769313,
+   "fila_ini": 5767314,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "d181774e8424de27b8cb7aaebaf5f19d997cf7c0f03f41733847dc1146bc196e",
+   "sucesor": {
+    "U": 10840456501818,
+    "fila": 5769314,
+    "pu": 10840456490786,
+    "u": 10840456501890
+   }
+  },
+  {
+   "L": 10841591092931.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 6659411,
+    "n": 1,
+    "sitio": 2,
+    "u": 10841591094480
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781817725951,
+   "fila_fin": 6659410,
+   "fila_ini": 6657411,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "d181774e8424de27b8cb7aaebaf5f19d997cf7c0f03f41733847dc1146bc196e",
+   "sucesor": {
+    "U": 10841591094480,
+    "fila": 6659411,
+    "pu": 10841591092931,
+    "u": 10841591094480
+   }
+  },
+  {
+   "L": 10849097224212.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 8464966,
+    "n": 1,
+    "sitio": 2,
+    "u": 10849097230573
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781903528354,
+   "fila_fin": 8464965,
+   "fila_ini": 8462966,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "3d1e1dd26a0d3b4b97843643998ff22e209d1e9988383580771454f094133581",
+   "sucesor": {
+    "U": 10849097230363,
+    "fila": 8464966,
+    "pu": 10849097224212,
+    "u": 10849097230573
+   }
+  },
+  {
+   "L": 10855512672686.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 6678874,
+    "n": 1,
+    "sitio": 2,
+    "u": 10855512673486
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781989331007,
+   "fila_fin": 6678873,
+   "fila_ini": 6676874,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "e7a82ebccddbc5a2b8314016070f5003e905dd1fefca84d8f5a3757d1f23da64",
+   "sucesor": {
+    "U": 10855512672368,
+    "fila": 6678874,
+    "pu": 10855512671589,
+    "u": 10855512673486
+   }
+  },
+  {
+   "L": 10861554485901.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5294927,
+    "n": 1,
+    "sitio": 2,
+    "u": 10861554489211
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782075134930,
+   "fila_fin": 5294926,
+   "fila_ini": 5292927,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "499fc219273f55f6a9db48a4467e6b384113d75ac6745f9d6fbb0a318c988b14",
+   "sucesor": {
+    "U": 10861554489033,
+    "fila": 5294927,
+    "pu": 10861554485901,
+    "u": 10861554489211
+   }
+  },
+  {
+   "L": 10869403519187.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 6573763,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869403520621
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782160937487,
+   "fila_fin": 6573762,
+   "fila_ini": 6571763,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b3901fc9399f791cb6a28363cb49415c9cd06768c6b10625d29b0acac34e41a1",
+   "sucesor": {
+    "U": 10869403519187,
+    "fila": 6573763,
+    "pu": 10869403516840,
+    "u": 10869403520621
+   }
+  },
+  {
+   "L": 10877185774883.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7612408,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877185778337
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782246739065,
+   "fila_fin": 7612407,
+   "fila_ini": 7610408,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "ff0f42320cafb0d0cc037fbabbbde176ab6e78f5509719a712389a8b6e97e832",
+   "sucesor": {
+    "U": 10877185777355,
+    "fila": 7612408,
+    "pu": 10877185774883,
+    "u": 10877185778337
+   }
+  },
+  {
+   "L": 10879045839790.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1041062,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879045845092
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269476854,
+   "fila_fin": 1041061,
+   "fila_ini": 1039062,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "df799c5d9d0ec5074eba9f83d8329c324506c746943507a437326946885db3e2",
+   "sucesor": {
+    "U": 10879045843393,
+    "fila": 1041062,
+    "pu": 10879045839790,
+    "u": 10879045845092
+   }
+  },
+  {
+   "L": 10879055771144.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1043329,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879055774805
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269654924,
+   "fila_fin": 1043328,
+   "fila_ini": 1041329,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "df799c5d9d0ec5074eba9f83d8329c324506c746943507a437326946885db3e2",
+   "sucesor": {
+    "U": 10879055773233,
+    "fila": 1043329,
+    "pu": 10879055771144,
+    "u": 10879055774805
+   }
+  },
+  {
+   "L": 10887568833749.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 752189,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887568851560
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782356009165,
+   "fila_fin": 752188,
+   "fila_ini": 750189,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/AVAXUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "f7d87eb662c0f573ee1b0f5785fb91b855a80f5153884ebcec0524b9dfb23300",
+   "sucesor": {
+    "U": 10887568851219,
+    "fila": 752189,
+    "pu": 10887568833749,
+    "u": 10887568851560
+   }
+  },
+  {
+   "L": 10788502178971.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 966503,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788502183120
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246515479,
+   "fila_fin": 966502,
+   "fila_ini": 964503,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "62e3598e7449d76e235d7da36c7980d756df9ec95b66738fb568538ad2eaf4dc",
+   "sucesor": {
+    "U": 10788502183120,
+    "fila": 966503,
+    "pu": 10788502178971,
+    "u": 10788502183120
+   }
+  },
+  {
+   "L": 10790133001397.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1667518,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133002510
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263099323,
+   "fila_fin": 1667517,
+   "fila_ini": 1665518,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "62e3598e7449d76e235d7da36c7980d756df9ec95b66738fb568538ad2eaf4dc",
+   "sucesor": {
+    "U": 10790133001397,
+    "fila": 1667518,
+    "pu": 10790132998885,
+    "u": 10790133002510
+   }
+  },
+  {
+   "L": 10797872076632.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1795542,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872090206
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348902377,
+   "fila_fin": 1795541,
+   "fila_ini": 1793544,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1998,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "d1eb4ce1cb39ed6dea9de753850233d6d46dfafa445a55a6d8ab780677fe59d0",
+   "sucesor": {
+    "U": 10797872090206,
+    "fila": 1795542,
+    "pu": 10797872076632,
+    "u": 10797872090206
+   }
+  },
+  {
+   "L": 10804119611014.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1529841,
+    "n": 1,
+    "sitio": 2,
+    "u": 10804119611148
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781434705236,
+   "fila_fin": 1529840,
+   "fila_ini": 1527877,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1964,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "ddce9e65c2f5c820a936d10a23dd62aae499eae8d081a1217cd124a370085bc0",
+   "sucesor": {
+    "U": 10804119608797,
+    "fila": 1529841,
+    "pu": 10804119607251,
+    "u": 10804119611148
+   }
+  },
+  {
+   "L": 10805519985915.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2206182,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519996258
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452128921,
+   "fila_fin": 2206181,
+   "fila_ini": 2204248,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1934,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "ddce9e65c2f5c820a936d10a23dd62aae499eae8d081a1217cd124a370085bc0",
+   "sucesor": {
+    "U": 10805519996258,
+    "fila": 2206182,
+    "pu": 10805519985915,
+    "u": 10805519996258
+   }
+  },
+  {
+   "L": 10813480890978.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2688503,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813480894600
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537923910,
+   "fila_fin": 2688502,
+   "fila_ini": 2686503,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "3d23c7936a17b8f409360804c88a52def37b34f02a6093885ab480e135511031",
+   "sucesor": {
+    "U": 10813480893911,
+    "fila": 2688503,
+    "pu": 10813480890978,
+    "u": 10813480894600
+   }
+  },
+  {
+   "L": 10821778026001.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 2420378,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821778026646
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623724127,
+   "fila_fin": 2420377,
+   "fila_ini": 2418402,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1976,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "4e5d31671d3c184c24c867d0580f34daff565a99bcbc7a482b8e06046f8e0c0c",
+   "sucesor": {
+    "U": 10821778026001,
+    "fila": 2420378,
+    "pu": 10821778021324,
+    "u": 10821778026646
+   }
+  },
+  {
+   "L": 10829779888208.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707656653,
+   "fila_fin": 2550897,
+   "fila_ini": 2549910,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 988,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": null
+  },
+  {
+   "L": 10829780664011.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781707659022,
+   "fila_fin": 2552871,
+   "fila_ini": 2550898,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1974,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": {
+    "U": 10829780669136,
+    "fila": 2552872,
+    "pu": 10829780664011,
+    "u": 10829780683317
+   }
+  },
+  {
+   "L": 10831286983128.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 3333571,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831286983273
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781719987718,
+   "fila_fin": 3333570,
+   "fila_ini": 3331571,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "885d419a6c93adb372de9b9e7ef129be572b9785cf0fb68eaa0e874bc3f0e77f",
+   "sucesor": {
+    "U": 10831286983128,
+    "fila": 3333571,
+    "pu": 10831286978843,
+    "u": 10831286983273
+   }
+  },
+  {
+   "L": 10840456493426.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3434737,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840456500852
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805791051,
+   "fila_fin": 3434736,
+   "fila_ini": 3432849,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1888,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "6ea7dbb3b6de8fbb19b218a6f39c720fc4d5c2f89e5f1fc7ea75a39196e39e21",
+   "sucesor": {
+    "U": 10840456500664,
+    "fila": 3434737,
+    "pu": 10840456493426,
+    "u": 10840456500852
+   }
+  },
+  {
+   "L": 10841591091510.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3981505,
+    "n": 1,
+    "sitio": 2,
+    "u": 10841591096367
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781817725921,
+   "fila_fin": 3981504,
+   "fila_ini": 3979593,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1912,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "6ea7dbb3b6de8fbb19b218a6f39c720fc4d5c2f89e5f1fc7ea75a39196e39e21",
+   "sucesor": {
+    "U": 10841591096367,
+    "fila": 3981505,
+    "pu": 10841591091510,
+    "u": 10841591096367
+   }
+  },
+  {
+   "L": 10849097227024.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 3287050,
+    "n": 1,
+    "sitio": 2,
+    "u": 10849097227557
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781903528416,
+   "fila_fin": 3287049,
+   "fila_ini": 3285166,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1884,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "c74ec46edf5db05d323c20bbf222966e9310c29bc6c2feb1c52476a451430297",
+   "sucesor": {
+    "U": 10849097226084,
+    "fila": 3287050,
+    "pu": 10849097224626,
+    "u": 10849097227557
+   }
+  },
+  {
+   "L": 10855512672485.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2508827,
+    "n": 1,
+    "sitio": 2,
+    "u": 10855512677272
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781989331006,
+   "fila_fin": 2508826,
+   "fila_ini": 2506939,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1888,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "5535010a1fc63d94eaa27df15038e004502f3e8807c006353d98eea45765c936",
+   "sucesor": {
+    "U": 10855512676640,
+    "fila": 2508827,
+    "pu": 10855512672485,
+    "u": 10855512677272
+   }
+  },
+  {
+   "L": 10861554419925.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2268667,
+    "n": 1,
+    "sitio": 2,
+    "u": 10861554425810
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782075133613,
+   "fila_fin": 2268666,
+   "fila_ini": 2266783,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1884,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "1bdd3ad65c54c2f636efea4ff4bb5eb4b3e9046f369e60e6f5d0d12d45b1fc37",
+   "sucesor": {
+    "U": 10861554425268,
+    "fila": 2268667,
+    "pu": 10861554419925,
+    "u": 10861554425810
+   }
+  },
+  {
+   "L": 10869403470525.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3133351,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869403475492
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782160936645,
+   "fila_fin": 3133350,
+   "fila_ini": 3131465,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "211f8ad29777c020eeda02e03277787b949c9f37772b901cac408338c6e2a64b",
+   "sucesor": {
+    "U": 10869403475019,
+    "fila": 3133351,
+    "pu": 10869403470525,
+    "u": 10869403475492
+   }
+  },
+  {
+   "L": 10877185772095.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3355422,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877185785490
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782246739010,
+   "fila_fin": 3355421,
+   "fila_ini": 3353604,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1818,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "b221c73fe7e67f49784056391bcd7112052c512b9fd5973502e01ebbf8de87bd",
+   "sucesor": {
+    "U": 10877185785490,
+    "fila": 3355422,
+    "pu": 10877185772095,
+    "u": 10877185785490
+   }
+  },
+  {
+   "L": 10879045660571.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 374619,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879045667434
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269474871,
+   "fila_fin": 374618,
+   "fila_ini": 371853,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2766,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "6d859220376c1d6218c9ae12e82b0a1002dfe48ed4222e46388410da68b2e655",
+   "sucesor": {
+    "U": 10879045666168,
+    "fila": 374619,
+    "pu": 10879045660571,
+    "u": 10879045667434
+   }
+  },
+  {
+   "L": 10879056169123.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 376625,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879056171915
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269659799,
+   "fila_fin": 376624,
+   "fila_ini": 374781,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1844,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "6d859220376c1d6218c9ae12e82b0a1002dfe48ed4222e46388410da68b2e655",
+   "sucesor": {
+    "U": 10879056170938,
+    "fila": 376625,
+    "pu": 10879056169123,
+    "u": 10879056171915
+   }
+  },
+  {
+   "L": 10887520199389.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 335174,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887520205845
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782355408865,
+   "fila_fin": 335173,
+   "fila_ini": 333352,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1822,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "8a51d4a755feac34d82bf9b8d77ac2a398d9e69eca3d503c10a84f8c3c55cda3",
+   "sucesor": {
+    "U": 10887520205845,
+    "fila": 335174,
+    "pu": 10887520199389,
+    "u": 10887520205845
+   }
+  },
+  {
+   "L": 10887568827757.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 342771,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887568847839
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782356009137,
+   "fila_fin": 342770,
+   "fila_ini": 340947,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1824,
+   "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "8a51d4a755feac34d82bf9b8d77ac2a398d9e69eca3d503c10a84f8c3c55cda3",
+   "sucesor": {
+    "U": 10887568844008,
+    "fila": 342771,
+    "pu": 10887568827757,
+    "u": 10887568847839
+   }
+  },
+  {
+   "L": 10788502182015.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 841940,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788502182870
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246515524,
+   "fila_fin": 841939,
+   "fila_ini": 840098,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1842,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "d17c5eb37a73aea83cf4dea3409ce5bf3f549f68daff453bb8a98c0b2ea29260",
+   "sucesor": {
+    "U": 10788502182015,
+    "fila": 841940,
+    "pu": 10788502179326,
+    "u": 10788502182870
+   }
+  },
+  {
+   "L": 10790133114191.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1473762,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133114828
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263100749,
+   "fila_fin": 1473761,
+   "fila_ini": 1471900,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1862,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "d17c5eb37a73aea83cf4dea3409ce5bf3f549f68daff453bb8a98c0b2ea29260",
+   "sucesor": {
+    "U": 10790133114098,
+    "fila": 1473762,
+    "pu": 10790133112363,
+    "u": 10790133114828
+   }
+  },
+  {
+   "L": 10797872074950.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1801358,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872080375
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348902354,
+   "fila_fin": 1801357,
+   "fila_ini": 1799438,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1920,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "16afbebff71ac9452a3e8e887b1cf6a89e6df1f3ea14f5440112994720dbb429",
+   "sucesor": {
+    "U": 10797872079106,
+    "fila": 1801358,
+    "pu": 10797872074950,
+    "u": 10797872080375
+   }
+  },
+  {
+   "L": 10804119610803.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1526526,
+    "n": 1,
+    "sitio": 2,
+    "u": 10804119616326
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781434705246,
+   "fila_fin": 1526525,
+   "fila_ini": 1524622,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1904,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e02d59f4ea0012405199fbcca1e907d0bacb42a1a4f08760521ef185dfbb2e86",
+   "sucesor": {
+    "U": 10804119616326,
+    "fila": 1526526,
+    "pu": 10804119610803,
+    "u": 10804119616326
+   }
+  },
+  {
+   "L": 10805519694665.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 2206765,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519695545
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452123787,
+   "fila_fin": 2206764,
+   "fila_ini": 2204917,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1848,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "e02d59f4ea0012405199fbcca1e907d0bacb42a1a4f08760521ef185dfbb2e86",
+   "sucesor": {
+    "U": 10805519694665,
+    "fila": 2206765,
+    "pu": 10805519690854,
+    "u": 10805519695545
+   }
+  },
+  {
+   "L": 10813480790409.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2708093,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813480793267
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537922794,
+   "fila_fin": 2708092,
+   "fila_ini": 2706191,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1902,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "c914c24fc2c98910715f93e60dbe9e0d2ab74641524aafb8db4fc652bce03ab6",
+   "sucesor": {
+    "U": 10813480792114,
+    "fila": 2708093,
+    "pu": 10813480790409,
+    "u": 10813480793267
+   }
+  },
+  {
+   "L": 10821778079727.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2551053,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821778117928
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623724617,
+   "fila_fin": 2551052,
+   "fila_ini": 2549197,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1856,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "228910c8d1f29c7e914d47a68c760167ec74c0925038641aa455ca094ac77576",
+   "sucesor": {
+    "U": 10821778117228,
+    "fila": 2551053,
+    "pu": 10821778079727,
+    "u": 10821778117928
+   }
+  },
+  {
+   "L": 10829779638691.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707655635,
+   "fila_fin": 3018861,
+   "fila_ini": 3017906,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 956,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": null
+  },
+  {
+   "L": 10829779952029.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781707656887,
+   "fila_fin": 3019816,
+   "fila_ini": 3018862,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 955,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": null
+  },
+  {
+   "L": 10829780713875.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 3021725,
+    "n": 1,
+    "sitio": 2,
+    "u": 10829780737498
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707659275,
+   "fila_fin": 3021724,
+   "fila_ini": 3019817,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 1908,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": {
+    "U": 10829780713875,
+    "fila": 3021725,
+    "pu": 10829780709127,
+    "u": 10829780737498
+   }
+  },
+  {
+   "L": 10831286978418.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3990780,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831286986547
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781719987669,
+   "fila_fin": 3990779,
+   "fila_ini": 3988862,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1918,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "a36d8dff2eb885ee91552e7986bff13bbe6ca0b6cd9f3a3cf9a96716a63e7435",
+   "sucesor": {
+    "U": 10831286986547,
+    "fila": 3990780,
+    "pu": 10831286978418,
+    "u": 10831286986547
+   }
+  },
+  {
+   "L": 10840456496297.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3628004,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840456498491
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805791105,
+   "fila_fin": 3628003,
+   "fila_ini": 3626170,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1834,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "12dee74a8a178d97072614385d5d60268fbefb4049c5711715889ca7cb8dbd72",
+   "sucesor": {
+    "U": 10840456497855,
+    "fila": 3628004,
+    "pu": 10840456496297,
+    "u": 10840456498491
+   }
+  },
+  {
+   "L": 10841591091536.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4406651,
+    "n": 1,
+    "sitio": 2,
+    "u": 10841591096839
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781817725919,
+   "fila_fin": 4406650,
+   "fila_ini": 4404759,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1892,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "12dee74a8a178d97072614385d5d60268fbefb4049c5711715889ca7cb8dbd72",
+   "sucesor": {
+    "U": 10841591096459,
+    "fila": 4406651,
+    "pu": 10841591091536,
+    "u": 10841591096839
+   }
+  },
+  {
+   "L": 10849097226558.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3821681,
+    "n": 1,
+    "sitio": 2,
+    "u": 10849097235418
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781903528402,
+   "fila_fin": 3821680,
+   "fila_ini": 3819773,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1908,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "450568b1a6ec4753a6f19a08755bc1d87a74f79f7be73f5fd472fccf4aba9ef3",
+   "sucesor": {
+    "U": 10849097234672,
+    "fila": 3821681,
+    "pu": 10849097226558,
+    "u": 10849097235418
+   }
+  },
+  {
+   "L": 10855512783568.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2362030,
+    "n": 1,
+    "sitio": 2,
+    "u": 10855512793249
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781989332886,
+   "fila_fin": 2362029,
+   "fila_ini": 2360144,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "d93dd1cc4878eecc66d4a3ff464867bc1d2301d2e7cfbd0239dd2d4ade2ca328",
+   "sucesor": {
+    "U": 10855512793100,
+    "fila": 2362030,
+    "pu": 10855512783568,
+    "u": 10855512793249
+   }
+  },
+  {
+   "L": 10861554420396.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2676102,
+    "n": 1,
+    "sitio": 2,
+    "u": 10861554428795
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782075133626,
+   "fila_fin": 2676101,
+   "fila_ini": 2674184,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1918,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "e60d4a96b1690220dadf269dfb67bf9b08a5fc28edc3345868769157782d1d2e",
+   "sucesor": {
+    "U": 10861554428795,
+    "fila": 2676102,
+    "pu": 10861554420396,
+    "u": 10861554428795
+   }
+  },
+  {
+   "L": 10869403469022.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3336290,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869403479420
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782160936614,
+   "fila_fin": 3336289,
+   "fila_ini": 3334404,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1886,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "dd7ab57d9ffdcad42f66d493e9a569ccc01bab888e977de8dba9281e00a1961a",
+   "sucesor": {
+    "U": 10869403479108,
+    "fila": 3336290,
+    "pu": 10869403469022,
+    "u": 10869403479420
+   }
+  },
+  {
+   "L": 10877185775581.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3707212,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877185779499
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782246739075,
+   "fila_fin": 3707211,
+   "fila_ini": 3705238,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1974,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "78a2067ed5665606052767a66eb30ffc63610fe0a43c37ba0061572bdf5b6dbe",
+   "sucesor": {
+    "U": 10877185778097,
+    "fila": 3707212,
+    "pu": 10877185775581,
+    "u": 10877185779499
+   }
+  },
+  {
+   "L": 10879049173858.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269534886,
+   "fila_fin": 417469,
+   "fila_ini": 415498,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1972,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "9d41b17b5d1fdef116ceeba0dff537323c8a3d1c6972a9fd11b35fe338d5d869",
+   "sucesor": null
+  },
+  {
+   "L": 10879055782119.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1782269655058,
+   "fila_fin": 419437,
+   "fila_ini": 417470,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1968,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "9d41b17b5d1fdef116ceeba0dff537323c8a3d1c6972a9fd11b35fe338d5d869",
+   "sucesor": {
+    "U": 10879055782119,
+    "fila": 419438,
+    "pu": 10879055779915,
+    "u": 10879055783501
+   }
+  },
+  {
+   "L": 10887568868894.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 425979,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887568879729
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782356009538,
+   "fila_fin": 425978,
+   "fila_ini": 424205,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 1774,
+   "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "ceb2bcd28e6d3dd84e5188f045d793738eca89c2209e91c29fb13fada239b6d0",
+   "sucesor": {
+    "U": 10887568879666,
+    "fila": 425979,
+    "pu": 10887568868894,
+    "u": 10887568879729
+   }
+  },
+  {
+   "L": 10788495608890.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1737800,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788495617599
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246455499,
+   "fila_fin": 1737799,
+   "fila_ini": 1735800,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "34affe0e568f2856109784e1c4cbd62521c3720394926c528f38bfc53f57010e",
+   "sucesor": {
+    "U": 10788495614189,
+    "fila": 1737800,
+    "pu": 10788495608890,
+    "u": 10788495617599
+   }
+  },
+  {
+   "L": 10790133286104.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 3037962,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133300275
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263103230,
+   "fila_fin": 3037961,
+   "fila_ini": 3035962,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "34affe0e568f2856109784e1c4cbd62521c3720394926c528f38bfc53f57010e",
+   "sucesor": {
+    "U": 10790133286006,
+    "fila": 3037962,
+    "pu": 10790133280834,
+    "u": 10790133300275
+   }
+  },
+  {
+   "L": 10797872346676.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2151852,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872349384
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348905527,
+   "fila_fin": 2151851,
+   "fila_ini": 2149852,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b6c915c6d5ba3cfee41e62683842eb1332dfc2c8941d06ac70d43c1009a2e3d5",
+   "sucesor": {
+    "U": 10797872347785,
+    "fila": 2151852,
+    "pu": 10797872346676,
+    "u": 10797872349384
+   }
+  },
+  {
+   "L": 10800601755983.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 4322439,
+    "n": 1,
+    "sitio": 2,
+    "u": 10800601757316
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781384910628,
+   "fila_fin": 4322438,
+   "fila_ini": 4320439,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "b6c915c6d5ba3cfee41e62683842eb1332dfc2c8941d06ac70d43c1009a2e3d5",
+   "sucesor": {
+    "U": 10800601755965,
+    "fila": 4322439,
+    "pu": 10800601755031,
+    "u": 10800601757316
+   }
+  },
+  {
+   "L": 10805519622601.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3118318,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519648500
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452122311,
+   "fila_fin": 3118317,
+   "fila_ini": 3116318,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "68846b2f1ead3f44ef06a5b1049680d7e4a8b52def6c5110e7abec12222dcf17",
+   "sucesor": {
+    "U": 10805519648500,
+    "fila": 3118318,
+    "pu": 10805519622601,
+    "u": 10805519648500
+   }
+  },
+  {
+   "L": 10813474626571.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 5497613,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813474627561
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537877769,
+   "fila_fin": 5497612,
+   "fila_ini": 5495613,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "10b305f461b7fc8adf258644ba27e6ad59e7589e3c1740f76443dfa4547a1708",
+   "sucesor": {
+    "U": 10813474626291,
+    "fila": 5497613,
+    "pu": 10813474625900,
+    "u": 10813474627561
+   }
+  },
+  {
+   "L": 10821772537863.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 5101999,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821772539366
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623680400,
+   "fila_fin": 5101998,
+   "fila_ini": 5099999,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "3f160cc8a42c9e157600d4e73d5c2fc668cc4271b0ccd8b8c2471d90afa10420",
+   "sucesor": {
+    "U": 10821772537863,
+    "fila": 5101999,
+    "pu": 10821772537582,
+    "u": 10821772539366
+   }
+  },
+  {
+   "L": 10830040300357.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5077797,
+    "n": 1,
+    "sitio": 2,
+    "u": 10830040311273
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781709484109,
+   "fila_fin": 5077796,
+   "fila_ini": 5075797,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "40cffea0dbe6c72c3efd23cacab097348968eead54a5cf56db8445ed04ec98f3",
+   "sucesor": {
+    "U": 10830040309936,
+    "fila": 5077797,
+    "pu": 10830040300357,
+    "u": 10830040311273
+   }
+  },
+  {
+   "L": 10831295322283.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 6415182,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831295330998
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781720041699,
+   "fila_fin": 6415181,
+   "fila_ini": 6413182,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "40cffea0dbe6c72c3efd23cacab097348968eead54a5cf56db8445ed04ec98f3",
+   "sucesor": {
+    "U": 10831295329021,
+    "fila": 6415182,
+    "pu": 10831295322283,
+    "u": 10831295330998
+   }
+  },
+  {
+   "L": 10840462607946.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 6559426,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840462609203
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805846529,
+   "fila_fin": 6559425,
+   "fila_ini": 6557426,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "752478202220ad5d233fec54cbdd9b3e0385ad2df39face93434c117de68d497",
+   "sucesor": {
+    "U": 10840462606924,
+    "fila": 6559426,
+    "pu": 10840462605200,
+    "u": 10840462609203
+   }
+  },
+  {
+   "L": 10843278747947.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781838922348,
+   "fila_fin": 827623,
+   "fila_ini": 826624,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9df9076443061f7bacc5d14693b03b5e76b0e7378d6ace500c5255f7ad03bf21",
+   "sucesor": null
+  },
+  {
+   "L": 10843279658832.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781838924746,
+   "fila_fin": 829623,
+   "fila_ini": 827624,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9df9076443061f7bacc5d14693b03b5e76b0e7378d6ace500c5255f7ad03bf21",
+   "sucesor": {
+    "U": 10843279634168,
+    "fila": 829624,
+    "pu": 10843279633124,
+    "u": 10843279659666
+   }
+  },
+  {
+   "L": 10850642771845.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 651440,
+    "n": 1,
+    "sitio": 2,
+    "u": 10850642779826
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781924724490,
+   "fila_fin": 651439,
+   "fila_ini": 649440,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "bd998410124b6dc7406c3f475f3732315689fe1af3fcca436cf946481c883a77",
+   "sucesor": {
+    "U": 10850642778092,
+    "fila": 651440,
+    "pu": 10850642771845,
+    "u": 10850642779826
+   }
+  },
+  {
+   "L": 10856927933953.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 421109,
+    "n": 1,
+    "sitio": 2,
+    "u": 10856927937809
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782010527822,
+   "fila_fin": 421108,
+   "fila_ini": 419109,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "3d6b248bdf664103e2f1a8988b18c919c40443e45016e78bf82af7bc2c590990",
+   "sucesor": {
+    "U": 10856927937573,
+    "fila": 421109,
+    "pu": 10856927933953,
+    "u": 10856927937809
+   }
+  },
+  {
+   "L": 10862169691696.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4434220,
+    "n": 1,
+    "sitio": 2,
+    "u": 10862169696216
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782082624615,
+   "fila_fin": 4434219,
+   "fila_ini": 4432220,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "3d6b248bdf664103e2f1a8988b18c919c40443e45016e78bf82af7bc2c590990",
+   "sucesor": {
+    "U": 10862169693323,
+    "fila": 4434220,
+    "pu": 10862169691696,
+    "u": 10862169696216
+   }
+  },
+  {
+   "L": 10869949248015.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7272517,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869949251082
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782168427301,
+   "fila_fin": 7272516,
+   "fila_ini": 7270517,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "7056940d8f6caf94d6302435e9fc1b1b4846410739b517bfa0817ffc2a37304c",
+   "sucesor": {
+    "U": 10869949250946,
+    "fila": 7272517,
+    "pu": 10869949248015,
+    "u": 10869949251082
+   }
+  },
+  {
+   "L": 10877695683455.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 7521583,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877695684311
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782254230218,
+   "fila_fin": 7521582,
+   "fila_ini": 7519583,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "d2eac66e6671632ff42d0004072145f3d7439b3d76c1bc643cc6fff8562f329e",
+   "sucesor": {
+    "U": 10877695683422,
+    "fila": 7521583,
+    "pu": 10877695682647,
+    "u": 10877695684311
+   }
+  },
+  {
+   "L": 10879045510732.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269473381,
+   "fila_fin": 887917,
+   "fila_ini": 885918,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "e06f406ab7cbb60f6a1003282cfe29160fa4de618938129052abcf24b407f6f1",
+   "sucesor": null
+  },
+  {
+   "L": 10879052496290.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1782269598190,
+   "fila_fin": 889917,
+   "fila_ini": 887918,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "e06f406ab7cbb60f6a1003282cfe29160fa4de618938129052abcf24b407f6f1",
+   "sucesor": {
+    "U": 10879052502017,
+    "fila": 889918,
+    "pu": 10879052496290,
+    "u": 10879052503139
+   }
+  },
+  {
+   "L": 10887519305144.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 670034,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887519310238
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782355400120,
+   "fila_fin": 670033,
+   "fila_ini": 668034,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "79cd5dbcf4a11f4a9b82d768e7f529c404e37c32f5c0338aee8de7ee98ec5eaf",
+   "sucesor": {
+    "U": 10887519310238,
+    "fila": 670034,
+    "pu": 10887519305144,
+    "u": 10887519310238
+   }
+  },
+  {
+   "L": 10894251169897.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 8152466,
+    "n": 1,
+    "sitio": 2,
+    "u": 10894251184893
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782418190687,
+   "fila_fin": 8152465,
+   "fila_ini": 8150466,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "79cd5dbcf4a11f4a9b82d768e7f529c404e37c32f5c0338aee8de7ee98ec5eaf",
+   "sucesor": {
+    "U": 10894251184351,
+    "fila": 8152466,
+    "pu": 10894251169897,
+    "u": 10894251184893
+   }
+  },
+  {
+   "L": 10788495610349.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 998438,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788495612522
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246455515,
+   "fila_fin": 998437,
+   "fila_ini": 996438,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "f01f43328da0b84797a354f3ad987db06425e5f8d028b32fd1429ada8d921c86",
+   "sucesor": {
+    "U": 10788495610349,
+    "fila": 998438,
+    "pu": 10788495602299,
+    "u": 10788495612522
+   }
+  },
+  {
+   "L": 10790133285276.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 1701806,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133298077
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263103226,
+   "fila_fin": 1701805,
+   "fila_ini": 1699806,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "f01f43328da0b84797a354f3ad987db06425e5f8d028b32fd1429ada8d921c86",
+   "sucesor": {
+    "U": 10790133284895,
+    "fila": 1701806,
+    "pu": 10790133277553,
+    "u": 10790133298077
+   }
+  },
+  {
+   "L": 10797872415922.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1379904,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872432152
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348906911,
+   "fila_fin": 1379903,
+   "fila_ini": 1377904,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "f82d220b5167e2dc6331713f2b983648dfb31c431b95c4243ad70ff158dba12d",
+   "sucesor": {
+    "U": 10797872432152,
+    "fila": 1379904,
+    "pu": 10797872415922,
+    "u": 10797872432152
+   }
+  },
+  {
+   "L": 10800601652048.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2658378,
+    "n": 1,
+    "sitio": 2,
+    "u": 10800601654444
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781384909436,
+   "fila_fin": 2658377,
+   "fila_ini": 2656378,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "f82d220b5167e2dc6331713f2b983648dfb31c431b95c4243ad70ff158dba12d",
+   "sucesor": {
+    "U": 10800601654444,
+    "fila": 2658378,
+    "pu": 10800601652048,
+    "u": 10800601654444
+   }
+  },
+  {
+   "L": 10805522804022.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1989477,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805522811291
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452180017,
+   "fila_fin": 1989476,
+   "fila_ini": 1987477,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "8e1daf6cb215774c4658a8304cb343eabca9f524de49e10286a0edd0234af449",
+   "sucesor": {
+    "U": 10805522811051,
+    "fila": 1989477,
+    "pu": 10805522804022,
+    "u": 10805522811291
+   }
+  },
+  {
+   "L": 10813474721061.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2942140,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813474735301
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537878424,
+   "fila_fin": 2942139,
+   "fila_ini": 2940140,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "96ef914966a7c727f7083736249539d57d6a2f06a0144c5fe3e6d8d96840b243",
+   "sucesor": {
+    "U": 10813474733959,
+    "fila": 2942140,
+    "pu": 10813474721061,
+    "u": 10813474735301
+   }
+  },
+  {
+   "L": 10821772673223.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 2901124,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821772673232
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623681179,
+   "fila_fin": 2901123,
+   "fila_ini": 2899124,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "163a3b5f4af11f06180aedc62c897ac290ecb2f66b8e2d4b0713bea6126de29f",
+   "sucesor": {
+    "U": 10821772669022,
+    "fila": 2901124,
+    "pu": 10821772664305,
+    "u": 10821772673232
+   }
+  },
+  {
+   "L": 10830040232555.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2558910,
+    "n": 1,
+    "sitio": 2,
+    "u": 10830040237956
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781709483395,
+   "fila_fin": 2558909,
+   "fila_ini": 2556910,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "55d20eb7008b9900df79522908a156f428ab5b6e64d20bddebb77a2163114660",
+   "sucesor": {
+    "U": 10830040237799,
+    "fila": 2558910,
+    "pu": 10830040232555,
+    "u": 10830040237956
+   }
+  },
+  {
+   "L": 10831295322614.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3186859,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831295335001
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781720041695,
+   "fila_fin": 3186858,
+   "fila_ini": 3184859,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "55d20eb7008b9900df79522908a156f428ab5b6e64d20bddebb77a2163114660",
+   "sucesor": {
+    "U": 10831295335001,
+    "fila": 3186859,
+    "pu": 10831295322614,
+    "u": 10831295335001
+   }
+  },
+  {
+   "L": 10840462607752.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3500379,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840462612962
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805846543,
+   "fila_fin": 3500378,
+   "fila_ini": 3498379,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "48f910df1e2adb548536e647e2c6cdc5d9888e3de0ad4abfe3a08aa67fcaa3f1",
+   "sucesor": {
+    "U": 10840462612962,
+    "fila": 3500379,
+    "pu": 10840462607752,
+    "u": 10840462612962
+   }
+  },
+  {
+   "L": 10843278743428.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781838922344,
+   "fila_fin": 411444,
+   "fila_ini": 410445,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "fced1c8b01f44245a1c5c48a5f53636bd956885c42c92f322429429108f3bde6",
+   "sucesor": null
+  },
+  {
+   "L": 10843279481962.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781838924303,
+   "fila_fin": 413444,
+   "fila_ini": 411445,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "fced1c8b01f44245a1c5c48a5f53636bd956885c42c92f322429429108f3bde6",
+   "sucesor": {
+    "U": 10843279481962,
+    "fila": 413445,
+    "pu": 10843279470929,
+    "u": 10843279493900
+   }
+  },
+  {
+   "L": 10850642775055.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 374954,
+    "n": 1,
+    "sitio": 2,
+    "u": 10850642778175
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781924724539,
+   "fila_fin": 374953,
+   "fila_ini": 372954,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "3f6135a7c1a7bc89c5e94bf99bed82a57b2b3540aae2a2493fba1cbf8b884638",
+   "sucesor": {
+    "U": 10850642778175,
+    "fila": 374954,
+    "pu": 10850642775055,
+    "u": 10850642778175
+   }
+  },
+  {
+   "L": 10856927921963.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 396428,
+    "n": 1,
+    "sitio": 2,
+    "u": 10856927937420
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782010527408,
+   "fila_fin": 396427,
+   "fila_ini": 394428,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "6f0f7e352bbc1c57b5603c3572a764ff878dc7523b6b53940feb54f558b80bef",
+   "sucesor": {
+    "U": 10856927937420,
+    "fila": 396428,
+    "pu": 10856927921963,
+    "u": 10856927937420
+   }
+  },
+  {
+   "L": 10862169689887.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3740058,
+    "n": 1,
+    "sitio": 2,
+    "u": 10862169693805
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782082624610,
+   "fila_fin": 3740057,
+   "fila_ini": 3738058,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "6f0f7e352bbc1c57b5603c3572a764ff878dc7523b6b53940feb54f558b80bef",
+   "sucesor": {
+    "U": 10862169692376,
+    "fila": 3740058,
+    "pu": 10862169689887,
+    "u": 10862169693805
+   }
+  },
+  {
+   "L": 10869949387933.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 4108434,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869949389299
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782168428995,
+   "fila_fin": 4108433,
+   "fila_ini": 4106434,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "222d0d466c634b6766e4f4438703fac963a16a9f5556a39d316f53d3c15ea2e1",
+   "sucesor": {
+    "U": 10869949387933,
+    "fila": 4108434,
+    "pu": 10869949386689,
+    "u": 10869949389299
+   }
+  },
+  {
+   "L": 10877695683452.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4213425,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877695684949
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782254230231,
+   "fila_fin": 4213424,
+   "fila_ini": 4211425,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "109b742b88018d5d1a83aecdeab811b561ef46802626f34a5a3665e199e95618",
+   "sucesor": {
+    "U": 10877695684871,
+    "fila": 4213425,
+    "pu": 10877695683452,
+    "u": 10877695684949
+   }
+  },
+  {
+   "L": 10879049155629.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269534498,
+   "fila_fin": 424285,
+   "fila_ini": 422286,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "5c131eb8bf454677ee332908d05ac86df59fbdc93999fec32f45b4135b364fb5",
+   "sucesor": null
+  },
+  {
+   "L": 10879052398027.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1782269596747,
+   "fila_fin": 426285,
+   "fila_ini": 424286,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "5c131eb8bf454677ee332908d05ac86df59fbdc93999fec32f45b4135b364fb5",
+   "sucesor": {
+    "U": 10879052400884,
+    "fila": 426286,
+    "pu": 10879052398027,
+    "u": 10879052400884
+   }
+  },
+  {
+   "L": 10887519300590.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 397862,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887519313410
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782355400062,
+   "fila_fin": 397861,
+   "fila_ini": 395862,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "73dda97246697a08c9d6ea97989ddf952a44367daf3c3228cbbb9472f6fa9e3e",
+   "sucesor": {
+    "U": 10887519313410,
+    "fila": 397862,
+    "pu": 10887519300590,
+    "u": 10887519313410
+   }
+  },
+  {
+   "L": 10894251169437.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4751132,
+    "n": 1,
+    "sitio": 2,
+    "u": 10894251177594
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782418190672,
+   "fila_fin": 4751131,
+   "fila_ini": 4749132,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "73dda97246697a08c9d6ea97989ddf952a44367daf3c3228cbbb9472f6fa9e3e",
+   "sucesor": {
+    "U": 10894251177594,
+    "fila": 4751132,
+    "pu": 10894251169437,
+    "u": 10894251177594
+   }
+  },
+  {
+   "L": 10788502181325.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2448831,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788502184188
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246515510,
+   "fila_fin": 2448830,
+   "fila_ini": 2446831,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "bb367c9e4ad89a620da9b59c1f7a191eda3ddcc72b570d26c0d02f29268e4dfb",
+   "sucesor": {
+    "U": 10788502183141,
+    "fila": 2448831,
+    "pu": 10788502181325,
+    "u": 10788502184188
+   }
+  },
+  {
+   "L": 10790133000738.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4917002,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133003415
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263099310,
+   "fila_fin": 4917001,
+   "fila_ini": 4915002,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "bb367c9e4ad89a620da9b59c1f7a191eda3ddcc72b570d26c0d02f29268e4dfb",
+   "sucesor": {
+    "U": 10790133003415,
+    "fila": 4917002,
+    "pu": 10790133000738,
+    "u": 10790133003415
+   }
+  },
+  {
+   "L": 10797872076509.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3057922,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872079364
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348902386,
+   "fila_fin": 3057921,
+   "fila_ini": 3055922,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "5181f809b312cfe282ca33877f7ef8300080cc99e2da2542366eb61ffb1a4b80",
+   "sucesor": {
+    "U": 10797872079364,
+    "fila": 3057922,
+    "pu": 10797872076509,
+    "u": 10797872079364
+   }
+  },
+  {
+   "L": 10804119611316.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3642754,
+    "n": 1,
+    "sitio": 2,
+    "u": 10804119620416
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781434705251,
+   "fila_fin": 3642753,
+   "fila_ini": 3640754,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "845d7e1d950265421d2e6290b823f4334faf9e1a64290d938d06f8c7ecf8e70c",
+   "sucesor": {
+    "U": 10804119617643,
+    "fila": 3642754,
+    "pu": 10804119611316,
+    "u": 10804119620416
+   }
+  },
+  {
+   "L": 10805519694133.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5141571,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519694531
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452123775,
+   "fila_fin": 5141570,
+   "fila_ini": 5139571,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "845d7e1d950265421d2e6290b823f4334faf9e1a64290d938d06f8c7ecf8e70c",
+   "sucesor": {
+    "U": 10805519694531,
+    "fila": 5141571,
+    "pu": 10805519694133,
+    "u": 10805519694531
+   }
+  },
+  {
+   "L": 10813481102151.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 9769732,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813481105143
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537925239,
+   "fila_fin": 9769731,
+   "fila_ini": 9767732,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "fe8c1762d6727b1c160fb5089317634254492496446d03a8fb2619aa39363b86",
+   "sucesor": {
+    "U": 10813481105143,
+    "fila": 9769732,
+    "pu": 10813481102151,
+    "u": 10813481105143
+   }
+  },
+  {
+   "L": 10821778025544.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7820811,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821778028602
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623724135,
+   "fila_fin": 7820810,
+   "fila_ini": 7818811,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "02dae581667d5b33d695a4c56d5227d06476aec3b8a5e68ee245e3c7cb69add9",
+   "sucesor": {
+    "U": 10821778028602,
+    "fila": 7820811,
+    "pu": 10821778025544,
+    "u": 10821778028602
+   }
+  },
+  {
+   "L": 10829779383026.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707654946,
+   "fila_fin": 5773358,
+   "fila_ini": 5772359,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": null
+  },
+  {
+   "L": 10829779947203.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781707656869,
+   "fila_fin": 5774358,
+   "fila_ini": 5773359,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": null
+  },
+  {
+   "L": 10829780710567.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 5776359,
+    "n": 1,
+    "sitio": 2,
+    "u": 10829780713283
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707659263,
+   "fila_fin": 5776358,
+   "fila_ini": 5774359,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": {
+    "U": 10829780703814,
+    "fila": 5776359,
+    "pu": 10829780702253,
+    "u": 10829780713283
+   }
+  },
+  {
+   "L": 10831286982548.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 7761032,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831286983317
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781719987719,
+   "fila_fin": 7761031,
+   "fila_ini": 7759032,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "3ad56d4620b9a7dc0ba75229609490f02f57317467ea4110bf9dcee9f78f2a4c",
+   "sucesor": {
+    "U": 10831286981218,
+    "fila": 7761032,
+    "pu": 10831286969733,
+    "u": 10831286983317
+   }
+  },
+  {
+   "L": 10840456495399.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7346000,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840456498867
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805791082,
+   "fila_fin": 7345999,
+   "fila_ini": 7344000,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "95ec0e82043b7f47d51d9e9d4e027271114a762d7e8ece4be490009417a6a7b0",
+   "sucesor": {
+    "U": 10840456498384,
+    "fila": 7346000,
+    "pu": 10840456495399,
+    "u": 10840456498867
+   }
+  },
+  {
+   "L": 10841591070757.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 8842357,
+    "n": 1,
+    "sitio": 2,
+    "u": 10841591070781
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781817725499,
+   "fila_fin": 8842356,
+   "fila_ini": 8840357,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "95ec0e82043b7f47d51d9e9d4e027271114a762d7e8ece4be490009417a6a7b0",
+   "sucesor": {
+    "U": 10841591070757,
+    "fila": 8842357,
+    "pu": 10841591068750,
+    "u": 10841591070781
+   }
+  },
+  {
+   "L": 10849097225967.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7750097,
+    "n": 1,
+    "sitio": 2,
+    "u": 10849097229365
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781903528402,
+   "fila_fin": 7750096,
+   "fila_ini": 7748097,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "9dbb78fc432ad694d7ac73a4bc19e4c4aba8074dfdf6cd07944b2f54d8fbe2c4",
+   "sucesor": {
+    "U": 10849097228272,
+    "fila": 7750097,
+    "pu": 10849097225967,
+    "u": 10849097229365
+   }
+  },
+  {
+   "L": 10855512757542.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5140528,
+    "n": 1,
+    "sitio": 2,
+    "u": 10855512762714
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781989332410,
+   "fila_fin": 5140527,
+   "fila_ini": 5138528,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "7cef3e654a9b1f7b2ca0bb0d0afa26534802002da3c5288b35016ce4b377c9c8",
+   "sucesor": {
+    "U": 10855512762714,
+    "fila": 5140528,
+    "pu": 10855512757542,
+    "u": 10855512762714
+   }
+  },
+  {
+   "L": 10861554421521.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5887099,
+    "n": 1,
+    "sitio": 2,
+    "u": 10861554424872
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782075133673,
+   "fila_fin": 5887098,
+   "fila_ini": 5885099,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "81042e0af3ea8161e48d1a04c5eea48803c9e8b6bfffe7e1fc1153cf558c9b91",
+   "sucesor": {
+    "U": 10861554424872,
+    "fila": 5887099,
+    "pu": 10861554421521,
+    "u": 10861554424872
+   }
+  },
+  {
+   "L": 10869403469077.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 6271050,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869403475680
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782160936623,
+   "fila_fin": 6271049,
+   "fila_ini": 6269050,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b24223f9791997649bb95e4b726b276de80087c3cdab0cdbc47ce1da15e64585",
+   "sucesor": {
+    "U": 10869403475030,
+    "fila": 6271050,
+    "pu": 10869403469077,
+    "u": 10869403475680
+   }
+  },
+  {
+   "L": 10877185770681.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 6041315,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877185777037
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782246738983,
+   "fila_fin": 6041314,
+   "fila_ini": 6039315,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "968a02897366b607d09afbccc693ebd2327a50552a672a22aff3047458c09934",
+   "sucesor": {
+    "U": 10877185776412,
+    "fila": 6041315,
+    "pu": 10877185770681,
+    "u": 10877185777037
+   }
+  },
+  {
+   "L": 10879049222488.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269535700,
+   "fila_fin": 671250,
+   "fila_ini": 669251,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "109a1c3a354425a4c1c88805e7348b17efdff250f550b8e80b858c729d6f7e60",
+   "sucesor": null
+  },
+  {
+   "L": 10879055769763.0,
+   "causa_no_evaluada": "SUSTITUIDA",
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1782269654889,
+   "fila_fin": 673250,
+   "fila_ini": 671251,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "109a1c3a354425a4c1c88805e7348b17efdff250f550b8e80b858c729d6f7e60",
+   "sucesor": {
+    "U": 10879055773672,
+    "fila": 673251,
+    "pu": 10879055769763,
+    "u": 10879055774975
+   }
+  },
+  {
+   "L": 10887568877207.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 556089,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887568877588
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782356009637,
+   "fila_fin": 556088,
+   "fila_ini": 554089,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "4d1dabff20e410942f6cd9ccca0bd1fa291c2e906de4cead10f30da7b4343539",
+   "sucesor": {
+    "U": 10887568877588,
+    "fila": 556089,
+    "pu": 10887568877207,
+    "u": 10887568877588
+   }
+  },
+  {
+   "L": 10788503374800.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 893289,
+    "n": 1,
+    "sitio": 2,
+    "u": 10788503390181
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781246525430,
+   "fila_fin": 893288,
+   "fila_ini": 891289,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fdbdf8d532157ab764f6f9adb97e617b32760d83a0361a1add042866cf8d846c",
+   "sucesor": {
+    "U": 10788503390003,
+    "fila": 893289,
+    "pu": 10788503374800,
+    "u": 10788503390181
+   }
+  },
+  {
+   "L": 10790133084765.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1499187,
+    "n": 1,
+    "sitio": 2,
+    "u": 10790133115014
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781263100457,
+   "fila_fin": 1499186,
+   "fila_ini": 1497187,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-12_orderbook.parquet",
+   "sha256_fichero": "fdbdf8d532157ab764f6f9adb97e617b32760d83a0361a1add042866cf8d846c",
+   "sucesor": {
+    "U": 10790133115014,
+    "fila": 1499187,
+    "pu": 10790133084765,
+    "u": 10790133115014
+   }
+  },
+  {
+   "L": 10797872068746.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1125878,
+    "n": 1,
+    "sitio": 2,
+    "u": 10797872079067
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781348902282,
+   "fila_fin": 1125877,
+   "fila_ini": 1123878,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-13_orderbook.parquet",
+   "sha256_fichero": "5ba13690f06a67ebd3f58ff0efbc589174497d757c9d470a21c245d3588e9186",
+   "sucesor": {
+    "U": 10797872078773,
+    "fila": 1125878,
+    "pu": 10797872068746,
+    "u": 10797872079067
+   }
+  },
+  {
+   "L": 10804119609666.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 953348,
+    "n": 1,
+    "sitio": 2,
+    "u": 10804119611322
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781434705241,
+   "fila_fin": 953347,
+   "fila_ini": 951348,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "9167d173db0393a153970a5af933ffad32ddafe4daf171cef9897c2a385203a4",
+   "sucesor": {
+    "U": 10804119607569,
+    "fila": 953348,
+    "pu": 10804119605639,
+    "u": 10804119611322
+   }
+  },
+  {
+   "L": 10805519680311.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 1463992,
+    "n": 1,
+    "sitio": 2,
+    "u": 10805519695647
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781452123458,
+   "fila_fin": 1463991,
+   "fila_ini": 1461992,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-14_orderbook.parquet",
+   "sha256_fichero": "9167d173db0393a153970a5af933ffad32ddafe4daf171cef9897c2a385203a4",
+   "sucesor": {
+    "U": 10805519695647,
+    "fila": 1463992,
+    "pu": 10805519680311,
+    "u": 10805519695647
+   }
+  },
+  {
+   "L": 10813480744598.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 2741072,
+    "n": 1,
+    "sitio": 2,
+    "u": 10813480759713
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781537922253,
+   "fila_fin": 2741071,
+   "fila_ini": 2739072,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-15_orderbook.parquet",
+   "sha256_fichero": "2228ed4ef5905568d14eb3dcdbc6d0d8b0d71d69b6175770b300d36f0057e963",
+   "sucesor": {
+    "U": 10813480757191,
+    "fila": 2741072,
+    "pu": 10813480744598,
+    "u": 10813480759713
+   }
+  },
+  {
+   "L": 10821778015787.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7409320,
+    "n": 1,
+    "sitio": 2,
+    "u": 10821778029718
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781623724002,
+   "fila_fin": 7409319,
+   "fila_ini": 7407320,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-16_orderbook.parquet",
+   "sha256_fichero": "d461f1f4e5a8c3ece0701f4e73a2708076282e89a00d2f8d2ad24f227aa53c4e",
+   "sucesor": {
+    "U": 10821778029718,
+    "fila": 7409320,
+    "pu": 10821778015787,
+    "u": 10821778029718
+   }
+  },
+  {
+   "L": 10829779378765.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707654942,
+   "fila_fin": 12539999,
+   "fila_ini": 12539000,
+   "historial_maquina": [
+    "CANDIDATA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": null
+  },
+  {
+   "L": 10829780063262.0,
+   "clase_bruta": null,
+   "disposicion": "SEGUIDA_DE_ANCLA",
+   "empalme_maquina": null,
+   "estado_maquina": "SUSTITUIDA",
+   "event_time": 1781707657127,
+   "fila_fin": 12540999,
+   "fila_ini": 12540000,
+   "historial_maquina": [
+    "SUSTITUIDA"
+   ],
+   "n_filas": 1000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": null
+  },
+  {
+   "L": 10829780766462.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 12543000,
+    "n": 1,
+    "sitio": 2,
+    "u": 10829780777151
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781707659483,
+   "fila_fin": 12542999,
+   "fila_ini": 12541000,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": {
+    "U": 10829780762575,
+    "fila": 12543000,
+    "pu": 10829780760711,
+    "u": 10829780777151
+   }
+  },
+  {
+   "L": 10831286981747.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 14408654,
+    "n": 1,
+    "sitio": 2,
+    "u": 10831286984145
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781719987719,
+   "fila_fin": 14408653,
+   "fila_ini": 14406654,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-17_orderbook.parquet",
+   "sha256_fichero": "d569329c55f93f440b84bb6ebd3cba0d8c5b2ce5941b7f313aaae588388f5200",
+   "sucesor": {
+    "U": 10831286984145,
+    "fila": 14408654,
+    "pu": 10831286981747,
+    "u": 10831286984145
+   }
+  },
+  {
+   "L": 10840456497500.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 7307712,
+    "n": 1,
+    "sitio": 2,
+    "u": 10840456499344
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781805791111,
+   "fila_fin": 7307711,
+   "fila_ini": 7305712,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "ecc4a916829dd21cad8dfef3f8dd3115548f88106919a9738c3518b2d5a72655",
+   "sucesor": {
+    "U": 10840456499180,
+    "fila": 7307712,
+    "pu": 10840456497500,
+    "u": 10840456499344
+   }
+  },
+  {
+   "L": 10841591070486.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 8133449,
+    "n": 1,
+    "sitio": 2,
+    "u": 10841591071755
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781817725495,
+   "fila_fin": 8133448,
+   "fila_ini": 8131449,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-18_orderbook.parquet",
+   "sha256_fichero": "ecc4a916829dd21cad8dfef3f8dd3115548f88106919a9738c3518b2d5a72655",
+   "sucesor": {
+    "U": 10841591070304,
+    "fila": 8133449,
+    "pu": 10841591068025,
+    "u": 10841591071755
+   }
+  },
+  {
+   "L": 10849097299564.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 5805223,
+    "n": 1,
+    "sitio": 2,
+    "u": 10849097302589
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781903529636,
+   "fila_fin": 5805222,
+   "fila_ini": 5803223,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-19_orderbook.parquet",
+   "sha256_fichero": "524151c06414bd1d57c62f84f4f509811004927f5c773c813f7813c856759f61",
+   "sucesor": {
+    "U": 10849097302589,
+    "fila": 5805223,
+    "pu": 10849097299564,
+    "u": 10849097302589
+   }
+  },
+  {
+   "L": 10855512672571.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 4034672,
+    "n": 1,
+    "sitio": 2,
+    "u": 10855512673112
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1781989330999,
+   "fila_fin": 4034671,
+   "fila_ini": 4032672,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-20_orderbook.parquet",
+   "sha256_fichero": "1827cfec36aaec8e32351e07cbccd6df08756cb090cccb7594bd41d3b854d112",
+   "sucesor": {
+    "U": 10855512671930,
+    "fila": 4034672,
+    "pu": 10855512668326,
+    "u": 10855512673112
+   }
+  },
+  {
+   "L": 10861554485288.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 3532678,
+    "n": 1,
+    "sitio": 2,
+    "u": 10861554489737
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782075134909,
+   "fila_fin": 3532677,
+   "fila_ini": 3530678,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-21_orderbook.parquet",
+   "sha256_fichero": "8c52627af42f42c44d097ff463e418b912c3204096d18ebdfdbdd0abdba18217",
+   "sucesor": {
+    "U": 10861554489279,
+    "fila": 3532678,
+    "pu": 10861554485288,
+    "u": 10861554489737
+   }
+  },
+  {
+   "L": 10869403470215.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4990423,
+    "n": 1,
+    "sitio": 2,
+    "u": 10869403477589
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782160936637,
+   "fila_fin": 4990422,
+   "fila_ini": 4988423,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-22_orderbook.parquet",
+   "sha256_fichero": "b089caa7bbd8af5461ee7daa37921aab9081dea63a3122eb1bcb5714cf903b3a",
+   "sucesor": {
+    "U": 10869403477589,
+    "fila": 4990423,
+    "pu": 10869403470215,
+    "u": 10869403477589
+   }
+  },
+  {
+   "L": 10877185772764.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 4547916,
+    "n": 1,
+    "sitio": 2,
+    "u": 10877185776991
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782246739022,
+   "fila_fin": 4547915,
+   "fila_ini": 4545916,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-23_orderbook.parquet",
+   "sha256_fichero": "f671535a50e11cda0c4b02b8cbeeb8b7e5e440b62ba292ca2bb5ab2cb4bc70b9",
+   "sucesor": {
+    "U": 10877185776887,
+    "fila": 4547916,
+    "pu": 10877185772764,
+    "u": 10877185776991
+   }
+  },
+  {
+   "L": 10879045566006.0,
+   "clase_bruta": "OOB_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "OOB_ONLY",
+    "disposicion": "EMPALME_OOB_ONLY",
+    "idx_update": 482392,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879045567921
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269474026,
+   "fila_fin": 482391,
+   "fila_ini": 480392,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_OOB_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "cc02ddb95399d389eed841df7bdf2857787f40df10d529601b1898298cc40894",
+   "sucesor": {
+    "U": 10879045566006,
+    "fila": 482392,
+    "pu": 10879045565891,
+    "u": 10879045567921
+   }
+  },
+  {
+   "L": 10879056221440.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 484766,
+    "n": 1,
+    "sitio": 2,
+    "u": 10879056226511
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782269660481,
+   "fila_fin": 484765,
+   "fila_ini": 482766,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-24_orderbook.parquet",
+   "sha256_fichero": "cc02ddb95399d389eed841df7bdf2857787f40df10d529601b1898298cc40894",
+   "sucesor": {
+    "U": 10879056225529,
+    "fila": 484766,
+    "pu": 10879056221440,
+    "u": 10879056226511
+   }
+  },
+  {
+   "L": 10887568943782.0,
+   "clase_bruta": "INLINE_ONLY",
+   "disposicion": "CLASIFICABLE",
+   "empalme_maquina": {
+    "clase": "INLINE_ONLY",
+    "disposicion": "EMPALME_INLINE_ONLY",
+    "idx_update": 544725,
+    "n": 1,
+    "sitio": 2,
+    "u": 10887568949269
+   },
+   "estado_maquina": "CANDIDATA",
+   "event_time": 1782356010650,
+   "fila_fin": 544724,
+   "fila_ini": 542725,
+   "historial_maquina": [
+    "CANDIDATA",
+    "EMPALME_INLINE_ONLY"
+   ],
+   "n_filas": 2000,
+   "ruta": "data_hist/cryptohft/overlap/UNIUSDT/2026-06-25_orderbook.parquet",
+   "sha256_fichero": "34269c2dfa336128ff20fb8066a8456fbfe02f9f6a0e969e2a76935a0effbaad",
+   "sucesor": {
+    "U": 10887568948405,
+    "fila": 544725,
+    "pu": 10887568943782,
+    "u": 10887568949269
+   }
+  }
+ ],
+ "contexto": {
+  "head": "54a3de850f9a210f2bc2ffca9587ac2e82c7f35d",
+  "versiones": {
+   "numpy": "2.5.1",
+   "pyarrow": "24.0.0",
+   "python": "3.14.5"
+  }
+ },
+ "cruce_con_la_maquina": {
+  "censo_anclas": 169,
+  "censo_clasificables": 152,
+  "empalmes_trazados_por_ancla": 145,
+  "maquina_empalmes_evaluados": 145,
+  "maquina_n_eventos_snapshot": 169,
+  "no_evaluadas_por_clase": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 4,
+   "NINGUNA": 0,
+   "OOB_ONLY": 3
+  },
+  "no_evaluadas_por_la_maquina": 7,
+  "por_clase_censo": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 114,
+   "NINGUNA": 0,
+   "OOB_ONLY": 38
+  },
+  "por_clase_maquina": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 110,
+   "NINGUNA": 0,
+   "OOB_ONLY": 35
+  }
+ },
+ "esquema": 3,
+ "instrumento": {
+  "blob_en_disco": "ccac57bbc87058a1e8667ed3c92a75dc7541ff71",
+  "blob_en_head": "ccac57bbc87058a1e8667ed3c92a75dc7541ff71",
+  "coincide_con_head": true,
+  "maquina_blob_en_head": "7d1218e4afa3331dca3f670b7a127cb2f791ba00",
+  "maquina_sha256": "6a57fa973765afd09ad9be3213b754f6d8f5fb760313ef1b14079a3d2e916aa6",
+  "ruta": "tools/censo_anclas.py",
+  "sha256": "622c808d71651a46f370f5cb03714f056a72dc9f30db80bd9edb2910d737ec04"
+ },
+ "limite_declarado": "este censo IMPORTA `clasificar_empalme` del instrumento que audita, así que NO puede detectar que esa función esté mal. Duplica la AGRUPACIÓN, que falla cerrada a través del cruce, y no la CLASIFICACIÓN, que mentiría en silencio.",
+ "reconciliacion": {
+  "evaluadas_maquina": 145,
+  "no_evaluadas_por_la_maquina": {
+   "anclas": [
+    {
+     "L": 10829780664011.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "INLINE_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 2550898,
+     "ruta": "data_hist/cryptohft/overlap/DOTUSDT/2026-06-17_orderbook.parquet"
+    },
+    {
+     "L": 10879055782119.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "OOB_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 417470,
+     "ruta": "data_hist/cryptohft/overlap/FILUSDT/2026-06-24_orderbook.parquet"
+    },
+    {
+     "L": 10843279658832.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "OOB_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 827624,
+     "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-19_orderbook.parquet"
+    },
+    {
+     "L": 10879052496290.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "INLINE_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 887918,
+     "ruta": "data_hist/cryptohft/overlap/LINKUSDT/2026-06-24_orderbook.parquet"
+    },
+    {
+     "L": 10843279481962.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "OOB_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 411445,
+     "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-19_orderbook.parquet"
+    },
+    {
+     "L": 10879052398027.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "INLINE_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 424286,
+     "ruta": "data_hist/cryptohft/overlap/LTCUSDT/2026-06-24_orderbook.parquet"
+    },
+    {
+     "L": 10879055769763.0,
+     "causa": "SUSTITUIDA",
+     "clase_bruta": "INLINE_ONLY",
+     "estado_maquina": "SUSTITUIDA",
+     "fila_ini": 671251,
+     "ruta": "data_hist/cryptohft/overlap/NEARUSDT/2026-06-24_orderbook.parquet"
+    }
+   ],
+   "por_causa": {
+    "SUSTITUIDA": 7
+   },
+   "total": 7
+  },
+  "por_clase": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 114,
+   "NINGUNA": 0,
+   "OOB_ONLY": 38
+  },
+  "por_clase_maquina": {
+   "AMBAS": 0,
+   "INLINE_ONLY": 110,
+   "NINGUNA": 0,
+   "OOB_ONLY": 35
+  },
+  "por_disposicion": {
+   "CLASIFICABLE": 152,
+   "SEGUIDA_DE_ANCLA": 17,
+   "ULTIMA_DEL_FICHERO": 0
+  },
+  "roturas": [],
+  "validas": 152
+ },
+ "sello": "4eaa3f41af08314fccb85ad873fdfc43d3890d3992b9d65b6d8d644ef0b2bf56",
+ "sello_alcance": "detecta edicion accidental del censo; NO es inmutabilidad. La ligadura dura la da `instrumento.blob_en_head` cuando existe."
+}

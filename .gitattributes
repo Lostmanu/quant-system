@@ -1,0 +1,7 @@
+# MANIFEST.md publishes the SHA-256 of every file as it left the builder, with LF line endings.
+# A checkout that converted them to CRLF would make every one of those hashes fail on Windows, and
+# a manifest that fails for a reason unrelated to tampering teaches its reader to ignore it.
+# The private tree already forced LF on its sealed evidence for the same reason (M-09.1).
+* text=auto eol=lf
+*.docx binary
+*.png binary

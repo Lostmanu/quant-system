@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="quant-system — the machinery of a search for a trading edge in crypto perpetual futures, versioned from June to September 2026, and the record of what it found instead.">
+  <rect width="1200" height="320" fill="#12161C"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#2E7D32"/>
+
+  <text x="60" y="96" font-family="Georgia, serif" font-size="46" fill="#F2F4F7">quant-system</text>
+  <text x="60" y="136" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#8B98A8">A one-person laboratory that looked for a trading edge in crypto perpetual futures,</text>
+  <text x="60" y="160" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#8B98A8">did not find one, and built the machinery that says so out loud.</text>
+
+  <line x1="60" y1="196" x2="1140" y2="196" stroke="#2A323D" stroke-width="1"/>
+
+  <g font-family="'SF Mono', Consolas, monospace" fill="#6B7888" font-size="11" letter-spacing="2">
+    <text x="60"  y="228">COMMITS</text>
+    <text x="270" y="228">TESTS</text>
+    <text x="450" y="228">MUTATION ROWS</text>
+    <text x="700" y="228">CHECKS IN CI</text>
+    <text x="920" y="228">EDGE FOUND</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="34" fill="#F2F4F7">
+    <text x="60"  y="270">457</text>
+    <text x="270" y="270">476</text>
+    <text x="450" y="270">49</text>
+    <text x="700" y="270">6</text>
+    <text x="920" y="270" fill="#C0392B">none</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#6B7888">
+    <text x="60"  y="292">versioned 12 Jun – 9 Sep 2026</text>
+    <text x="270" y="292">green on 9 Sep 2026</text>
+    <text x="450" y="292">49/49 bite</text>
+    <text x="700" y="292">each one independent</text>
+    <text x="920" y="292">and that is the result</text>
+  </g>
+</svg>

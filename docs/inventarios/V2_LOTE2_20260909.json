@@ -1,0 +1,795 @@
+{
+  "schema": 1,
+  "date": "2026-09-09",
+  "base_commit": "f0fd1aa4cd54a48328c662a5278174c14aa6e52e",
+  "state": "PREPARED_FOR_CODE_AUDIT",
+  "retired": [
+    {
+      "path": "quant-system-ingesta/qs/analysis/h2_staking.py",
+      "purpose": "analysis/h2_staking.py — ejecución del test discriminante de H2 (LEDGER, pre-registro",
+      "last_change_commit": "a5fdcd2360f59fe9205d442494fc68de7e2150c7",
+      "blob_oid": "d9e2dbc70b926460f2f95fdd5c6680ad5beba762",
+      "git_blob_sha256": "e3f8ccdfd8c7b9c962c34c9f6ec531e70730755e775cd9878eaaf1acc966f39e",
+      "worktree_sha256": "e3f8ccdfd8c7b9c962c34c9f6ec531e70730755e775cd9878eaaf1acc966f39e",
+      "lines": 213,
+      "test_functions": 0,
+      "reason": "Campaña H2 retirada; get_funding y daily_funding se trasladan literalmente a fetch_funding."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/oxa_tick_gate2.py",
+      "purpose": "analysis/oxa_tick_gate2.py — GATE 2 de la ruta tick-L2 de 0xArchive (orden de la mesa 2026-07-06).",
+      "last_change_commit": "14b8d7c2af3a18ceb8a19f17b5047c669f224937",
+      "blob_oid": "d3f8d6a5cab4efd6ac9da2872055603be1d01743",
+      "git_blob_sha256": "c41250912e6e9f9f3765b89561fce6191cf03059dcc7b9eca3f15a66fe4469c0",
+      "worktree_sha256": "c41250912e6e9f9f3765b89561fce6191cf03059dcc7b9eca3f15a66fe4469c0",
+      "lines": 151,
+      "test_functions": 0,
+      "reason": "Herramienta histórica concluida; sin consumidores operativos conservados."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/recompute_s5_neff.py",
+      "purpose": "analysis/recompute_s5_neff.py — CORRECCIÓN H1 (auditoría A11): recomputar §5 (minoría estable) con",
+      "last_change_commit": "7bc8d1f5231d0aba9a619c179da0d39262cc6f4b",
+      "blob_oid": "ab7c358a0202d4646043770438404b8f1356b5f3",
+      "git_blob_sha256": "5a47daf9f789d6834907165e379af2ba3a631cbeddd609b06ea1c7b0d370bffa",
+      "worktree_sha256": "5a47daf9f789d6834907165e379af2ba3a631cbeddd609b06ea1c7b0d370bffa",
+      "lines": 101,
+      "test_functions": 0,
+      "reason": "Herramienta histórica concluida; sin consumidores operativos conservados."
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/verify_pilot_bhy_oriented.py",
+      "purpose": "analysis/verify_pilot_bhy_oriented.py — ERRATA-CHECK N2 (auditoría A11): la familia BHY del piloto",
+      "last_change_commit": "7e4da1134f8680766b872e418303cb5c6c67eb39",
+      "blob_oid": "6787346323c36d20d479101d4eca851b2152977f",
+      "git_blob_sha256": "5cdf017fdbd8f5e850720c514d7752f82350f25acf306f4cf2d37464572f713d",
+      "worktree_sha256": "5cdf017fdbd8f5e850720c514d7752f82350f25acf306f4cf2d37464572f713d",
+      "lines": 64,
+      "test_functions": 0,
+      "reason": "Herramienta histórica concluida; sin consumidores operativos conservados."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/i5_sdk_fixtures.py",
+      "purpose": "Synthetic provenance inputs for CHD unit tests; never a historical SDK substitute.",
+      "last_change_commit": "1d8390818fab4b17f3e7ee85623546944e26571a",
+      "blob_oid": "48034708fa9890fb618eedb8bd2512d212e1d0cd",
+      "git_blob_sha256": "b7dca42653d25359d5a06720772b09244663baee92b5db939f13d549fcf1d477",
+      "worktree_sha256": "b7dca42653d25359d5a06720772b09244663baee92b5db939f13d549fcf1d477",
+      "lines": 30,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_acceso.py",
+      "purpose": "Short offline tests for account separation and one-page I5 access. No real keys.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "8b9205ac1a592279640d7efed657587534dc880a",
+      "git_blob_sha256": "008814fc37f0fe62b36400dbd8fa592d16b6d3996c3e4581335a45f55ae22fa8",
+      "worktree_sha256": "008814fc37f0fe62b36400dbd8fa592d16b6d3996c3e4581335a45f55ae22fa8",
+      "lines": 103,
+      "test_functions": 8,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas. Las aserciones del maker sobre la clave se conservan en test_lighter_maker_key.py."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_censo_cobertura.py",
+      "purpose": "Offline contract checks for fixed scope, missing data and census receipts.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "67dc6a70609b9b0f0cd0006f96755468e8b4b5c0",
+      "git_blob_sha256": "e9638903c54573822742667d0053999a45f318dd6e71e45d498510dcb0c9426f",
+      "worktree_sha256": "e9638903c54573822742667d0053999a45f318dd6e71e45d498510dcb0c9426f",
+      "lines": 249,
+      "test_functions": 12,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+      "purpose": "Focal checks for the new hourly CHD instrument; no network or real trade inputs.",
+      "last_change_commit": "1d8390818fab4b17f3e7ee85623546944e26571a",
+      "blob_oid": "cec6e00e859fe43c4e0b345d5f9a4eb3483491ee",
+      "git_blob_sha256": "5b4a851ac46fe0d0b515a53043cb242603d831ef8ecd5b7495903ed95f1fc52a",
+      "worktree_sha256": "5b4a851ac46fe0d0b515a53043cb242603d831ef8ecd5b7495903ed95f1fc52a",
+      "lines": 417,
+      "test_functions": 19,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+      "purpose": "Bounded redirect transport regressions. Synthetic HTTPS responses only.",
+      "last_change_commit": "1d8390818fab4b17f3e7ee85623546944e26571a",
+      "blob_oid": "3bef8d2854b9ba7b9dd7adf5ee998eb34b794176",
+      "git_blob_sha256": "37159c96efc7c62f43e5106cfac15d425bd65965bfcb88f7840fded716bc6120",
+      "worktree_sha256": "37159c96efc7c62f43e5106cfac15d425bd65965bfcb88f7840fded716bc6120",
+      "lines": 180,
+      "test_functions": 9,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_d1.py",
+      "purpose": "Synthetic D1 oracles, supports and custody boundaries. Never read real NPZ/trade bodies.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "f4b6761f9af629003bd112b6ef3ded0a2799a949",
+      "git_blob_sha256": "dba4d8e933641d38a0d686ac4b57316f4cc51a5bdf0e42bdce68ac50990bf588",
+      "worktree_sha256": "dba4d8e933641d38a0d686ac4b57316f4cc51a5bdf0e42bdce68ac50990bf588",
+      "lines": 404,
+      "test_functions": 25,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+      "purpose": "Offline custody, pagination, restart, gap comparison and account tests. No real credentials.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "83b24d9b5a0190a90dc4637bf604ad2d5c32c03a",
+      "git_blob_sha256": "132078661d70da5e80be2e62c9bc24ce1bef74d59962cd6b9fcc2a0e613bcef2",
+      "worktree_sha256": "132078661d70da5e80be2e62c9bc24ce1bef74d59962cd6b9fcc2a0e613bcef2",
+      "lines": 367,
+      "test_functions": 21,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_insumos_ocho.py",
+      "purpose": "test_i5_insumos_ocho",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "70d41acd08bd5879fd8d6c831347ad45e3c19fa7",
+      "git_blob_sha256": "9a0f53fa3852ebeca1e2ea269936b22164172fa86284c2f9b6b3a995793a6bc4",
+      "worktree_sha256": "9a0f53fa3852ebeca1e2ea269936b22164172fa86284c2f9b6b3a995793a6bc4",
+      "lines": 69,
+      "test_functions": 5,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_productor_forense.py",
+      "purpose": "Only synthetic market data. The git recipe is the independent uninstrumented oracle.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "f5d1d532e3ef545b4d381f1892715856674b560c",
+      "git_blob_sha256": "d9533619090b0a0f41e7fc4bde3ce495fc284482566ee51e7c1291735d4721c7",
+      "worktree_sha256": "d9533619090b0a0f41e7fc4bde3ce495fc284482566ee51e7c1291735d4721c7",
+      "lines": 258,
+      "test_functions": 12,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_productor_resto.py",
+      "purpose": "Synthetic custody and outputs only; no historical market body or credential is opened.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "b8ec402e8aa7571c4bf4cdf587bb2ade55ba8e56",
+      "git_blob_sha256": "ad422d30905b5dcaed4c789c1065fa57f58b4530c50be40fc82d449c8192b89d",
+      "worktree_sha256": "ad422d30905b5dcaed4c789c1065fa57f58b4530c50be40fc82d449c8192b89d",
+      "lines": 326,
+      "test_functions": 13,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_i5_resto_chd.py",
+      "purpose": "New-scope/orchestration checks; shared transport suites are not rerun.",
+      "last_change_commit": "1d8390818fab4b17f3e7ee85623546944e26571a",
+      "blob_oid": "78fb002b0cc3b6840966b931b87fc02713a5b9fe",
+      "git_blob_sha256": "23a1f24ab364ad095fce8f5a21c29137cbee23075705c79c0ca08bf5384594d8",
+      "worktree_sha256": "23a1f24ab364ad095fce8f5a21c29137cbee23075705c79c0ca08bf5384594d8",
+      "lines": 220,
+      "test_functions": 11,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/anatomia_del_18_24.py",
+      "purpose": "¿QUE ES, EXACTAMENTE, EL +18,24? — anatomia del unico resultado positivo del programa.",
+      "last_change_commit": "546148ea35f2501de265d77509cdb4797bd08a49",
+      "blob_oid": "b6393e01205fd6527db012194139b5d68c1c9c03",
+      "git_blob_sha256": "a64a0b4babe35e145427aabbbb177800266cfda6de450e6425c60b6c8cb8b7ca",
+      "worktree_sha256": "a64a0b4babe35e145427aabbbb177800266cfda6de450e6425c60b6c8cb8b7ca",
+      "lines": 410,
+      "test_functions": 0,
+      "reason": "Herramienta histórica concluida; sin consumidores operativos conservados."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_celdas_20260906.json",
+      "purpose": "Manifiesto de las 149 celdas I5",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "248616ef0c09258987ac08a9f1598d9b0fe66044",
+      "git_blob_sha256": "0d913aae3a16365501e9a60cdc74fc473c58526496bc53a55f97d6f0285ab0ce",
+      "worktree_sha256": "0d913aae3a16365501e9a60cdc74fc473c58526496bc53a55f97d6f0285ab0ce",
+      "lines": 757,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_censo_cobertura.py",
+      "purpose": "Fixed metadata census: 149 spent cells, checkpoint/tick presence and generic coverage.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "7bae469ae1c044348510dca5c820301410e7683c",
+      "git_blob_sha256": "b4409cdf73b423ddfe3175bb40f33ae49e3a54840ab0f266e8503076955cc3ca",
+      "worktree_sha256": "b4409cdf73b423ddfe3175bb40f33ae49e3a54840ab0f266e8503076955cc3ca",
+      "lines": 340,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_chd_custodia.py",
+      "purpose": "Hourly CHD custody for the eight fixed forensic days; no differ or result reads.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "eec2c2f8284d5e25fd9e2b864aee725e594c7237",
+      "git_blob_sha256": "d39234b2ea6b10edfc990732079eb1c6f77bd2b620233a0c2bfec28d538f2ff5",
+      "worktree_sha256": "d39234b2ea6b10edfc990732079eb1c6f77bd2b620233a0c2bfec28d538f2ff5",
+      "lines": 569,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_d1.py",
+      "purpose": "Hash-bound, offline D1 analysis of the closed 79-day forensic panel.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "6914a8013ad2421b6c7b65626791b8a68c98f55b",
+      "git_blob_sha256": "8713b171632e75a88001e34c22fdf2264f54c132a8e8a3741a8c9a495d7279f1",
+      "worktree_sha256": "8713b171632e75a88001e34c22fdf2264f54c132a8e8a3741a8c9a495d7279f1",
+      "lines": 310,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_d1_math.py",
+      "purpose": "Pure retrospective D1 branches and daily estimators. No IO, discovery or market access.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "751c8717c26358680ad2268ec32e6982fa77a2c1",
+      "git_blob_sha256": "9f916017ba17229c91a39a03b19fe13690bac5faa416c504ed3f341e6bc2c950",
+      "worktree_sha256": "9f916017ba17229c91a39a03b19fe13690bac5faa416c504ed3f341e6bc2c950",
+      "lines": 375,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_descarga_l3.py",
+      "purpose": "Explicit staged custody within the 149 spent cells. No markouts.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "f1c1318d7f8fb04206df9d7fa41cb8e2c9578145",
+      "git_blob_sha256": "fcc6f6fa19cd47317e82b82da70984162b70af8f6359f1376513dacb04c1dfc6",
+      "worktree_sha256": "fcc6f6fa19cd47317e82b82da70984162b70af8f6359f1376513dacb04c1dfc6",
+      "lines": 510,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_etapa0.py",
+      "purpose": "One minimal LIT 2026-03-06 checkpoint page with a parameterized Build account.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "73ce057e0cc1e52330ffb5eaef9aaf5f994876d8",
+      "git_blob_sha256": "503f766514f138c016e5be6ef7396d696bbc0fff76b1d835198b4a803548166d",
+      "worktree_sha256": "503f766514f138c016e5be6ef7396d696bbc0fff76b1d835198b4a803548166d",
+      "lines": 110,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_insumos_ocho.py",
+      "purpose": "Local input contract for the eight fixed forensic days. No network, keys or markouts.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "f92d566f224b98d8209756f7a0bb2da8f5bf7b17",
+      "git_blob_sha256": "e7b582f696000ba3b8c72274f801112b2e409ab78e8dddb70ff1fa34eb39d4a8",
+      "worktree_sha256": "e7b582f696000ba3b8c72274f801112b2e409ab78e8dddb70ff1fa34eb39d4a8",
+      "lines": 192,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_oxa_io.py",
+      "purpose": "Small read-only 0xArchive client for I5 jobs. No retries, redirects or key logging.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "8e36a3473a8546a0561d28b54742b124dcdf1086",
+      "git_blob_sha256": "9a96fecbb9c5cbdb2b64b2476cd7971453650540ed6cac0ab110c543f8a68f17",
+      "worktree_sha256": "9a96fecbb9c5cbdb2b64b2476cd7971453650540ed6cac0ab110c543f8a68f17",
+      "lines": 123,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_productor_forense.py",
+      "purpose": "Offline eight-day reproduction of the frozen July recipe. Code audits before running.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "c9dc2c89d6e8b72b423f97c3f757a574af179fb3",
+      "git_blob_sha256": "e4011fc691d5610fd02c116d3f067a94edf5431afaec56391a5f2b583bf3878e",
+      "worktree_sha256": "e4011fc691d5610fd02c116d3f067a94edf5431afaec56391a5f2b583bf3878e",
+      "lines": 417,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_productor_resto.py",
+      "purpose": "Offline reproduction of the remaining 71 LIT days; reuse the eight closed outputs.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "03f8a0c83c1bd8125fe896d697cd5c48ffafe311",
+      "git_blob_sha256": "74a83faecc0a7c71767088f24155c8a3cde120464f617da8142122eb13bae155",
+      "worktree_sha256": "74a83faecc0a7c71767088f24155c8a3cde120464f617da8142122eb13bae155",
+      "lines": 347,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/i5_resto_chd.py",
+      "purpose": "Custody of the 3,408 NEW CHD hour keys after the successful eight-day reproduction.",
+      "last_change_commit": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e",
+      "blob_oid": "63d4eb28aa7b72e7bf5836aa026a4f6cec9575d5",
+      "git_blob_sha256": "dba1a31aa5b1f4aaf7d6c573cce36bc3d4d854cf886d1b7d4fcb8e3a2b6fc470",
+      "worktree_sha256": "dba1a31aa5b1f4aaf7d6c573cce36bc3d4d854cf886d1b7d4fcb8e3a2b6fc470",
+      "lines": 267,
+      "test_functions": 0,
+      "reason": "Expediente I5 cerrado; retiro conjunto de instrumentos, manifiesto y pruebas exclusivas."
+    }
+  ],
+  "d1_boundary": [
+    {
+      "path": "analysis/artefacto.py",
+      "sha256": "f248b3450813323728707f4d5dfaf20c71eb5dc0c2c9e28f4ce3b57b5087ffe3",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "analysis/carril.py",
+      "sha256": "626d6e83e2aa51d7365ddb89c3622b1e1898dee95274b02d4f0a2b7d8ef8e98e",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "analysis/lighter_maker_capa1.py",
+      "sha256": "dc58d80517211e4430195a39c372c5cf30e357fa3dda350bf00f1fa06fde7632",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "analysis/pilot_observer.py",
+      "sha256": "38be990f564314ff0527ceb4536ed3a70db86f497db653c1fb0318c346939833",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "analysis/ref_valida.py",
+      "sha256": "09de672ee0448b2e4e6dc569a344300bd593357fa24b29ad1ad8ab6a4f867c14",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "analysis/screen.py",
+      "sha256": "d7e20e1bd90233326f38e22730201de1f8d485bc24c49dfd2c9f3c60d8243687",
+      "disposition": "retained_unchanged",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_censo_cobertura.py",
+      "sha256": "b4409cdf73b423ddfe3175bb40f33ae49e3a54840ab0f266e8503076955cc3ca",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_chd_custodia.py",
+      "sha256": "d39234b2ea6b10edfc990732079eb1c6f77bd2b620233a0c2bfec28d538f2ff5",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_d1.py",
+      "sha256": "8713b171632e75a88001e34c22fdf2264f54c132a8e8a3741a8c9a495d7279f1",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_d1_math.py",
+      "sha256": "9f916017ba17229c91a39a03b19fe13690bac5faa416c504ed3f341e6bc2c950",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_descarga_l3.py",
+      "sha256": "fcc6f6fa19cd47317e82b82da70984162b70af8f6359f1376513dacb04c1dfc6",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_insumos_ocho.py",
+      "sha256": "e7b582f696000ba3b8c72274f801112b2e409ab78e8dddb70ff1fa34eb39d4a8",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_oxa_io.py",
+      "sha256": "9a96fecbb9c5cbdb2b64b2476cd7971453650540ed6cac0ab110c543f8a68f17",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_productor_forense.py",
+      "sha256": "e4011fc691d5610fd02c116d3f067a94edf5431afaec56391a5f2b583bf3878e",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_productor_resto.py",
+      "sha256": "74a83faecc0a7c71767088f24155c8a3cde120464f617da8142122eb13bae155",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    },
+    {
+      "path": "tools/i5_resto_chd.py",
+      "sha256": "dba1a31aa5b1f4aaf7d6c573cce36bc3d4d854cf886d1b7d4fcb8e3a2b6fc470",
+      "disposition": "retired",
+      "restored_from": "1ca5ca6674ce55ad0aca149b7b5757a87f83f25e"
+    }
+  ],
+  "d1_spec_sha256": "6e358b9c5f127819b8a8b805ade726f1f0bc6d8934b9279d8aa3d574fc5b91d7",
+  "imports_to_retired_before": [
+    {
+      "source": "quant-system-ingesta/qs/analysis/fetch_funding.py",
+      "line": 13,
+      "statement": "from analysis.h2_staking import get_funding, daily_funding",
+      "source_retired": false
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/i5_sdk_fixtures.py",
+      "line": 11,
+      "statement": "from tools import i5_chd_custodia as chd",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_acceso.py",
+      "line": 5,
+      "statement": "from tools import i5_etapa0 as stage",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_acceso.py",
+      "line": 6,
+      "statement": "from tools import i5_oxa_io as io",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_censo_cobertura.py",
+      "line": 10,
+      "statement": "from tools import i5_censo_cobertura as census",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+      "line": 15,
+      "statement": "from tools import i5_chd_custodia as chd",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+      "line": 16,
+      "statement": "from tests.i5_sdk_fixtures import synthetic_sdk_sources",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+      "line": 54,
+      "statement": "from tools.i5_insumos_ocho import DAYS",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+      "line": 7,
+      "statement": "from tools import i5_chd_custodia as chd",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+      "line": 8,
+      "statement": "from tests.test_i5_chd_custodia import Opener, Response, jwt_body, parquet_bytes",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+      "line": 9,
+      "statement": "from tests.i5_sdk_fixtures import synthetic_sdk_sources",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_d1.py",
+      "line": 13,
+      "statement": "from tools import i5_d1 as d",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_d1.py",
+      "line": 14,
+      "statement": "from tools import i5_d1_math as m",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+      "line": 10,
+      "statement": "from tools import i5_censo_cobertura as census",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+      "line": 11,
+      "statement": "from tools import i5_descarga_l3 as download",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+      "line": 12,
+      "statement": "from tools import i5_oxa_io as io",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_insumos_ocho.py",
+      "line": 7,
+      "statement": "from tools import i5_insumos_ocho as inputs",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_productor_forense.py",
+      "line": 13,
+      "statement": "from tools import i5_productor_forense as f",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_productor_resto.py",
+      "line": 16,
+      "statement": "from tools import i5_productor_resto as p",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_resto_chd.py",
+      "line": 9,
+      "statement": "from tools import i5_resto_chd as rest",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tests/test_i5_resto_chd.py",
+      "line": 10,
+      "statement": "from tests.test_i5_chd_custodia import Opener, Response, jwt_body, parquet_bytes",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_censo_cobertura.py",
+      "line": 22,
+      "statement": "from tools import i5_oxa_io as io",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_chd_custodia.py",
+      "line": 27,
+      "statement": "from tools import i5_descarga_l3 as custody",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_d1.py",
+      "line": 20,
+      "statement": "from tools import i5_productor_resto as producer",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_d1.py",
+      "line": 21,
+      "statement": "from tools import i5_d1_math as M",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_descarga_l3.py",
+      "line": 23,
+      "statement": "from tools import i5_censo_cobertura as census",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_descarga_l3.py",
+      "line": 24,
+      "statement": "from tools import i5_oxa_io as io",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_etapa0.py",
+      "line": 15,
+      "statement": "from tools import i5_oxa_io as io",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_insumos_ocho.py",
+      "line": 20,
+      "statement": "from tools import i5_censo_cobertura as census",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_insumos_ocho.py",
+      "line": 21,
+      "statement": "from tools import i5_descarga_l3 as custody",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_productor_forense.py",
+      "line": 27,
+      "statement": "from tools import i5_chd_custodia as chd",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_productor_forense.py",
+      "line": 28,
+      "statement": "from tools import i5_insumos_ocho as inputs",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_productor_resto.py",
+      "line": 18,
+      "statement": "from tools import i5_productor_forense as f",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_productor_resto.py",
+      "line": 19,
+      "statement": "from tools import i5_resto_chd as rest",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_resto_chd.py",
+      "line": 18,
+      "statement": "from tools import i5_chd_custodia as chd",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_resto_chd.py",
+      "line": 19,
+      "statement": "from tools import i5_insumos_ocho as inputs",
+      "source_retired": true
+    },
+    {
+      "source": "quant-system-ingesta/qs/tools/i5_resto_chd.py",
+      "line": 20,
+      "statement": "from tools import i5_productor_forense as forensic",
+      "source_retired": true
+    }
+  ],
+  "retained_references_before": [
+    {
+      "path": "quant-system-ingesta/qs/analysis/fetch_funding.py",
+      "line": 2,
+      "text": "reutilizando get_funding/daily_funding de h2_staking. Formato [day, funding_annual] = el ya existente"
+    },
+    {
+      "path": "quant-system-ingesta/qs/analysis/fetch_funding.py",
+      "line": 13,
+      "text": "from analysis.h2_staking import get_funding, daily_funding"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "line": 232,
+      "text": "r = _corre_tool(\"tools/anatomia_del_18_24.py\")"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+      "line": 240,
+      "text": "r = _corre_tool(\"tools/anatomia_del_18_24.py\", \"--forense\")"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+      "line": 299,
+      "text": "\"tools/anatomia_del_18_24.py::_cargar::np.load\","
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+      "line": 305,
+      "text": "\"tools/i5_d1.py::load_base::np.load\","
+    },
+    {
+      "path": "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+      "line": 306,
+      "text": "\"tools/i5_d1.py::save_annex::np.savez\","
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 15,
+      "text": "que `anatomia_del_18_24.py`, para poder comparar las dos mitades:"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 57,
+      "text": "MIN_FILLS_DIA_PILOTO = 3    # `tools/anatomia_del_18_24.py::_estimador` — la receta del piloto"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 64,
+      "text": "capa 2 exige >=5 fills/dia (`maker_capa2_screen.py:77`) y el piloto >=3 (`anatomia_del_18_24.py`)."
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 111,
+      "text": "\"tools/anatomia_del_18_24.py::_cargar::np.load\": (1, \"forense sobre bloques heredados\"),"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 132,
+      "text": "\"tools/i5_d1.py::load_base::np.load\": ("
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 135,
+      "text": "\"tools/i5_d1.py::save_annex::np.savez\": ("
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/guardia_completitud.py",
+      "line": 140,
+      "text": "\"tools/i5_productor_forense.py::execute::publicar\": ("
+    }
+  ],
+  "scan_count": 328,
+  "scan_limits": "Código y texto versionado; se excluyen datos, recibos y los inventarios históricos. Búsqueda estática; no prueba universal de imports dinámicos ni inspección remota.",
+  "deferred": {
+    "screen.py y H1/H3/H8": "screen también está pinado en eco_gate_b.CIERRE_DECISORIO; corrige el aplazamiento insuficiente del lote 1. Esperan al lote 3.",
+    "confirm_runner, wallet_atlas, pilot_observer, lighter_maker_capa1, hl_maker_capa1, maker_capa2_runner": "Dependencias operativas y pinadas del eco. Permanecen sin cambios.",
+    "confirm_screen, maker_capa2_screen, pilot_runner, pilot_screen, careo_capa2_vs_piloto, censo_ref_invalida": "Lectores/productores o consumidores conservados y pruebas de referencia asociadas. Retiro conjunto pendiente.",
+    "estructura_chd_local": "Censo de anclas, consumo y arnés de referencia aún dependen de él."
+  },
+  "preserved_test": "tests/test_i5_acceso.py::test_key_override_keeps_existing_default -> tests/test_lighter_maker_key.py (solo aserciones maker; Client de I5 se retira)",
+  "partial_test_retirements": [
+    "tests/test_compuertas_ref_invalida.py::test_anatomia_PARA_con_rc3_al_detectar_contaminacion",
+    "tests/test_compuertas_ref_invalida.py::test_anatomia_con_forense_SIGUE_pero_rotulado"
+  ],
+  "commit_paths": [
+    "ARCHIVO.md",
+    "docs/RELEVO_CODEX_2026-09-09_V2_LOTE2.md",
+    "docs/inventarios/V2_LOTE2_20260909.json",
+    "quant-system-ingesta/qs/analysis/fetch_funding.py",
+    "quant-system-ingesta/qs/analysis/h2_staking.py",
+    "quant-system-ingesta/qs/analysis/oxa_tick_gate2.py",
+    "quant-system-ingesta/qs/analysis/recompute_s5_neff.py",
+    "quant-system-ingesta/qs/analysis/verify_pilot_bhy_oriented.py",
+    "quant-system-ingesta/qs/tests/i5_sdk_fixtures.py",
+    "quant-system-ingesta/qs/tests/test_compuertas_ref_invalida.py",
+    "quant-system-ingesta/qs/tests/test_guardia_completitud.py",
+    "quant-system-ingesta/qs/tests/test_i5_acceso.py",
+    "quant-system-ingesta/qs/tests/test_i5_censo_cobertura.py",
+    "quant-system-ingesta/qs/tests/test_i5_chd_custodia.py",
+    "quant-system-ingesta/qs/tests/test_i5_chd_redirect.py",
+    "quant-system-ingesta/qs/tests/test_i5_d1.py",
+    "quant-system-ingesta/qs/tests/test_i5_descarga_l3.py",
+    "quant-system-ingesta/qs/tests/test_i5_insumos_ocho.py",
+    "quant-system-ingesta/qs/tests/test_i5_productor_forense.py",
+    "quant-system-ingesta/qs/tests/test_i5_productor_resto.py",
+    "quant-system-ingesta/qs/tests/test_i5_resto_chd.py",
+    "quant-system-ingesta/qs/tests/test_lighter_maker_key.py",
+    "quant-system-ingesta/qs/tools/anatomia_del_18_24.py",
+    "quant-system-ingesta/qs/tools/guardia_completitud.py",
+    "quant-system-ingesta/qs/tools/i5_celdas_20260906.json",
+    "quant-system-ingesta/qs/tools/i5_censo_cobertura.py",
+    "quant-system-ingesta/qs/tools/i5_chd_custodia.py",
+    "quant-system-ingesta/qs/tools/i5_d1.py",
+    "quant-system-ingesta/qs/tools/i5_d1_math.py",
+    "quant-system-ingesta/qs/tools/i5_descarga_l3.py",
+    "quant-system-ingesta/qs/tools/i5_etapa0.py",
+    "quant-system-ingesta/qs/tools/i5_insumos_ocho.py",
+    "quant-system-ingesta/qs/tools/i5_oxa_io.py",
+    "quant-system-ingesta/qs/tools/i5_productor_forense.py",
+    "quant-system-ingesta/qs/tools/i5_productor_resto.py",
+    "quant-system-ingesta/qs/tools/i5_resto_chd.py"
+  ],
+  "retained_imports_to_retired_after": [],
+  "residual_source_references_after": [
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 15,
+      "classification": "historical_comment_or_docstring"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 57,
+      "classification": "historical_comment_or_docstring"
+    },
+    {
+      "path": "quant-system-ingesta/qs/tools/careo_capa2_vs_piloto.py",
+      "line": 64,
+      "classification": "historical_comment_or_docstring"
+    }
+  ],
+  "verification_summary": {
+    "collection": 1699,
+    "focals_passed": 147,
+    "focals_deselected_real_data": 2,
+    "mutation_subset_passed": 32,
+    "mutation_table_size": 202,
+    "full_harness_pending": true,
+    "preflight_rows": [
+      23,
+      187,
+      202
+    ],
+    "funding_functions_literal_transfer": true,
+    "retained_shared_test_functions_literal": 16
+  }
+}

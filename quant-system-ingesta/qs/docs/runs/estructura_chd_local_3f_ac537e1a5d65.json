@@ -1,0 +1,252 @@
+{
+ "alcance": {
+  "n_ficheros": 3,
+  "patron": "data_hist/cryptohft/probe1/*/*_orderbook.parquet",
+  "simbolos": [
+   "AVAXUSDT"
+  ]
+ },
+ "apto_para_reconstruccion": false,
+ "contexto": {
+  "argumentos": {
+   "limite": 3,
+   "recibo": "docs/runs/estructura_chd_local.json"
+  },
+  "head": "567e4481f92bde0905b71c68fa278475e3d88040",
+  "sample_ms": 100,
+  "utc": "2026-08-30T08:49:38+00:00",
+  "versiones": {
+   "numpy": "2.5.1",
+   "pyarrow": "24.0.0",
+   "python": "3.14.5"
+  }
+ },
+ "esquema": 3,
+ "ficheros": [
+  {
+   "L_no_nulos": 0,
+   "apto_para_reconstruccion": false,
+   "bytes": 119576169,
+   "cadena_ok": 1258111,
+   "cadena_total": 1258112,
+   "causas": [
+    "hueco_hacia_delante",
+    "sin_estado_certificado"
+   ],
+   "cruzan_rejilla": 0,
+   "derrame_ms": 87,
+   "disc_adelante": 1,
+   "disc_atras": 0,
+   "empalmes": 0,
+   "empalmes_malos": 0,
+   "estado_saliente": {
+    "candidato": null,
+    "candidato_ids_ok": false,
+    "causa": null,
+    "id_maximo_visto": 10222850787333,
+    "id_valido": null,
+    "snapshots_vistos": [],
+    "tramo_valido": false,
+    "ultimo_u": 10222850787333
+   },
+   "et_no_constante": 0,
+   "event_type": {
+    "update": 9610709
+   },
+   "eventos": 1258113,
+   "eventos_multifila": 1127905,
+   "fecha_max_utc": "2026-03-30",
+   "fecha_min_utc": "2026-03-29",
+   "filas": 9610709,
+   "filas_por_evento_max": 427,
+   "filas_por_evento_mediana": 5,
+   "huecos_tras_invalidar": 0,
+   "incoherencias": [],
+   "n_eventos_snapshot": 0,
+   "primer_L": null,
+   "primer_final_update_id": 10215929911864,
+   "primer_first_update_id": 10215929907766,
+   "primer_prev_final_update_id": 10215929901739,
+   "primer_tipo": "update",
+   "reapariciones_no_contiguas": 0,
+   "reapariciones_snapshot": 0,
+   "ruta": "data_hist/cryptohft/probe1/AVAXUSDT/2026-03-30_orderbook.parquet",
+   "sha256": "e2984be92b012a7b1078e2bef11a3f811c792bcc86f1741f567aa60966fe431b",
+   "simbolos_en_contenido": [
+    "AVAXUSDT"
+   ],
+   "snapshots_candidatos": 0,
+   "snapshots_igual_L": 0,
+   "snapshots_obsoletos": 0,
+   "ultimo_L": null,
+   "ultimo_final_update_id": 10222850787333,
+   "ultimo_tipo": "update",
+   "updates_sin_estado": 1258113,
+   "veredicto": "ok"
+  },
+  {
+   "L_no_nulos": 0,
+   "apto_para_reconstruccion": false,
+   "bytes": 122053210,
+   "cadena_ok": 1270461,
+   "cadena_total": 1270462,
+   "causas": [
+    "sin_estado_certificado",
+    "solape_hacia_atras"
+   ],
+   "cruzan_rejilla": 0,
+   "derrame_ms": 48,
+   "disc_adelante": 0,
+   "disc_atras": 1,
+   "empalmes": 0,
+   "empalmes_malos": 0,
+   "estado_saliente": {
+    "candidato": null,
+    "candidato_ids_ok": false,
+    "causa": null,
+    "id_maximo_visto": 10230342412619,
+    "id_valido": null,
+    "snapshots_vistos": [],
+    "tramo_valido": false,
+    "ultimo_u": 10230342412619
+   },
+   "et_no_constante": 0,
+   "event_type": {
+    "update": 10483651
+   },
+   "eventos": 1270463,
+   "eventos_multifila": 1146890,
+   "fecha_max_utc": "2026-03-31",
+   "fecha_min_utc": "2026-03-30",
+   "filas": 10483651,
+   "filas_por_evento_max": 409,
+   "filas_por_evento_mediana": 5,
+   "huecos_tras_invalidar": 0,
+   "incoherencias": [],
+   "n_eventos_snapshot": 0,
+   "primer_L": null,
+   "primer_final_update_id": 10222850789544,
+   "primer_first_update_id": 10222850789037,
+   "primer_prev_final_update_id": 10222850787333,
+   "primer_tipo": "update",
+   "reapariciones_no_contiguas": 0,
+   "reapariciones_snapshot": 0,
+   "ruta": "data_hist/cryptohft/probe1/AVAXUSDT/2026-03-31_orderbook.parquet",
+   "sha256": "ab51b1173293ecc0caeb25a6e9946d3c0810f8c02aba7894cdd2942f8a11b47a",
+   "simbolos_en_contenido": [
+    "AVAXUSDT"
+   ],
+   "snapshots_candidatos": 0,
+   "snapshots_igual_L": 0,
+   "snapshots_obsoletos": 0,
+   "ultimo_L": null,
+   "ultimo_final_update_id": 10230342412619,
+   "ultimo_tipo": "update",
+   "updates_sin_estado": 1270463,
+   "veredicto": "ok"
+  },
+  {
+   "L_no_nulos": 0,
+   "apto_para_reconstruccion": false,
+   "bytes": 121379602,
+   "cadena_ok": 1277852,
+   "cadena_total": 1277852,
+   "causas": [
+    "sin_estado_certificado"
+   ],
+   "cruzan_rejilla": 0,
+   "derrame_ms": 0,
+   "disc_adelante": 0,
+   "disc_atras": 0,
+   "empalmes": 0,
+   "empalmes_malos": 0,
+   "estado_saliente": {
+    "candidato": null,
+    "candidato_ids_ok": false,
+    "causa": null,
+    "id_maximo_visto": 10245746831654,
+    "id_valido": null,
+    "snapshots_vistos": [],
+    "tramo_valido": false,
+    "ultimo_u": 10245746831654
+   },
+   "et_no_constante": 0,
+   "event_type": {
+    "update": 10121768
+   },
+   "eventos": 1277853,
+   "eventos_multifila": 1156551,
+   "fecha_max_utc": "2026-04-02",
+   "fecha_min_utc": "2026-04-02",
+   "filas": 10121768,
+   "filas_por_evento_max": 387,
+   "filas_por_evento_mediana": 5,
+   "huecos_tras_invalidar": 0,
+   "incoherencias": [],
+   "n_eventos_snapshot": 0,
+   "primer_L": null,
+   "primer_final_update_id": 10237701414722,
+   "primer_first_update_id": 10237701404988,
+   "primer_prev_final_update_id": 10237701394052,
+   "primer_tipo": "update",
+   "reapariciones_no_contiguas": 0,
+   "reapariciones_snapshot": 0,
+   "ruta": "data_hist/cryptohft/probe1/AVAXUSDT/2026-04-02_orderbook.parquet",
+   "sha256": "23cbd711bb85065151a9706e99ee665f6e5de6a1c0b2983781e9a4eaa1bea7f0",
+   "simbolos_en_contenido": [
+    "AVAXUSDT"
+   ],
+   "snapshots_candidatos": 0,
+   "snapshots_igual_L": 0,
+   "snapshots_obsoletos": 0,
+   "ultimo_L": null,
+   "ultimo_final_update_id": 10245746831654,
+   "ultimo_tipo": "update",
+   "updates_sin_estado": 1277853,
+   "veredicto": "ok"
+  }
+ ],
+ "ficheros_no_aptos": [
+  "data_hist/cryptohft/probe1/AVAXUSDT/2026-03-30_orderbook.parquet",
+  "data_hist/cryptohft/probe1/AVAXUSDT/2026-03-31_orderbook.parquet",
+  "data_hist/cryptohft/probe1/AVAXUSDT/2026-04-02_orderbook.parquet"
+ ],
+ "instrumento": {
+  "blob_en_disco_al_terminar": "959109b9bc83f711df0bdabad9c6093733b410d0",
+  "blob_en_head": "",
+  "blob_git_de_lo_ejecutado": "959109b9bc83f711df0bdabad9c6093733b410d0",
+  "coincide_con_head": false,
+  "el_fichero_cambio_mientras_corria": false,
+  "ruta": "tools/estructura_chd_local.py",
+  "sha256": "e81b43aca8e041e4378d1f2e3c131f228ea548b5062e6157c55e8a4c43d79e80"
+ },
+ "sello": "ac537e1a5d651215034e832efeeafe689137f95d52f2a79c2091d7726c00ca7b",
+ "sello_alcance": "detecta edición accidental del recibo; NO es inmutabilidad: fichero y sello se pueden recalcular juntos. La ligadura dura la da `instrumento.blob_en_head` cuando existe.",
+ "totales": {
+  "L_no_nulos": 0,
+  "cadena_ok": 3806424,
+  "cadena_total": 3806426,
+  "cruzan_rejilla": 0,
+  "disc_adelante": 1,
+  "disc_atras": 1,
+  "empalmes": 0,
+  "empalmes_malos": 0,
+  "et_no_constante": 0,
+  "eventos": 3806429,
+  "eventos_multifila": 3431346,
+  "filas": 30216128,
+  "filas_no_update": 0,
+  "fronteras_no_contiguas": 1,
+  "fronteras_no_evaluables": 0,
+  "fronteras_ok": 1,
+  "fronteras_reinicio": 0,
+  "fronteras_rotas": 0,
+  "huecos_tras_invalidar": 0,
+  "reapariciones_no_contiguas": 0,
+  "reapariciones_snapshot": 0,
+  "snapshots_candidatos": 0,
+  "snapshots_igual_L": 0,
+  "snapshots_obsoletos": 0,
+  "updates_sin_estado": 3806429
+ }
+}
