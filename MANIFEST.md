@@ -9,8 +9,9 @@ que cada fichero de la copia es el que dice ser.
 - los bytes de partida son los del blob en ese commit (`git show <commit>:<ruta>`); después se aplican
   las sustituciones y se calcula el hash
 - ficheros del repositorio original: 344
-- ficheros del original en esta copia: 173 (la portada, las figuras, la cita y la licencia son de la
-  publicación y no están en esta lista)
+- ficheros del original en esta copia: 173. Los ficheros añadidos para publicarla no están en esta lista:
+  `README.md`, `docs/README.md`, `EXCLUIDO.md`, `MANIFEST.md`, `CITATION.cff`, `LICENSE`, `.gitattributes`,
+  `.github/workflows/figures.yml` y todo lo que hay bajo `assets/`
 - ficheros con al menos una sustitución: 35
 - ficheros cambiados después de la copia: `quant-system-ingesta/qs/tests/test_collector.py`; el hash
   de abajo es el del fichero tal como se exportó, y su historial en este repositorio explica el cambio

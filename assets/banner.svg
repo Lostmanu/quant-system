@@ -1,32 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="quant-system: a one-person research programme on crypto perpetual-futures microstructure, June to September 2026. It found no trading edge.">
-  <rect width="1200" height="320" fill="#12161C"/>
-  <rect x="0" y="0" width="1200" height="4" fill="#2E7D32"/>
-
-  <text x="60" y="96" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#F2F4F7">quant-system</text>
-  <text x="60" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#8B98A8">A one-person research programme on crypto perpetual-futures microstructure,</text>
-  <text x="60" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#8B98A8">June to September 2026. It found no trading edge.</text>
-
-  <line x1="60" y1="196" x2="1140" y2="196" stroke="#2A323D" stroke-width="1"/>
-
-  <g font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" fill="#8B98A8" font-size="11" letter-spacing="2">
-    <text x="60"  y="228">COMMITS</text>
-    <text x="270" y="228">TESTS</text>
-    <text x="450" y="228">MUTATION ROWS</text>
-    <text x="680" y="228">DAYS REBUILT</text>
-    <text x="920" y="228">EDGE FOUND</text>
-  </g>
-  <g font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7">
-    <text x="60"  y="270">457</text>
-    <text x="270" y="270">476</text>
-    <text x="450" y="270">49</text>
-    <text x="680" y="270">79</text>
-    <text x="920" y="270" fill="#C0392B">none</text>
-  </g>
-  <g font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#8B98A8">
-    <text x="60"  y="292">12 Jun to 9 Sep 2026</text>
-    <text x="270" y="292">passing in CI</text>
-    <text x="450" y="292">each makes a named test fail</text>
-    <text x="680" y="292">632 of 632 numbers matched</text>
-    <text x="920" y="292">+18.24 bps withdrawn on 7 Sep</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 290" width="1000" height="290" role="img" aria-label="quant-system: a one-person research programme on crypto perpetual-futures microstructure, June to September 2026. It found no trading edge.">
+  <rect width="1000" height="290" fill="#12161C"/>
+  <rect x="0" y="0" width="1000" height="4" fill="#2E7D32"/>
+  <text x="40" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#F2F4F7" text-anchor="start">quant-system</text>
+  <text x="40" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#8B98A8" text-anchor="start" font-style="italic">A one-person research programme on crypto perpetual-futures microstructure,</text>
+  <text x="40" y="147" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#8B98A8" text-anchor="start" font-style="italic">June to September 2026. It found no trading edge.</text>
+  <line x1="40" y1="178" x2="960" y2="178" stroke="#2A323D"/>
+  <text x="40" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">COMMITS</text>
+  <text x="40" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">457</text>
+  <text x="40" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">12 Jun to 9 Sep 2026</text>
+  <text x="200" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">TESTS</text>
+  <text x="200" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">476</text>
+  <text x="200" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">passing in CI</text>
+  <text x="340" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">MUTATION ROWS</text>
+  <text x="340" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">49</text>
+  <text x="340" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">each makes a named test fail</text>
+  <text x="560" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">DAYS REBUILT</text>
+  <text x="560" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">79</text>
+  <text x="560" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">632 of 632 numbers matched</text>
+  <text x="770" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">EDGE FOUND</text>
+  <text x="770" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#C0392B" text-anchor="start">none</text>
+  <text x="770" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">+18.24 bps withdrawn on 7 Sep</text>
 </svg>

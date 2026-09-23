@@ -18,6 +18,26 @@ byte.
 7. [`AUDITORIA_DEL_METODO.md`](AUDITORIA_DEL_METODO.md): Register of 93 false claims, each with who caught it; none was caught by its author's judgement when made.
 8. [`.claude/agents/quant-reviewer.md`](../.claude/agents/quant-reviewer.md): Frozen adversarial reviewer prompt: eight threats (preregistration, look-ahead, survivorship, snooping, leakage, effective n, post-hoc story, confounding); verdict SUSTAINED/TOUCHED/DESTROYED.
 
+## The attack letter, in English
+
+On 5 July 2026 the programme wrote the strongest case against itself, with its answer to each attack and a plain
+"no answer today" where it had none; a refinement to A6 was added on 6 July. The table translates each row. The
+numbers link to the Spanish text.
+
+| | attack | the letter's answer | what it left open |
+|---|---|---|---|
+| [A1](testigos/CARTA_DE_ATAQUE.md?plain=1#L10) | Forking paths across the whole programme: about ten attempts in a row, and no correction spans them. | The count of attempts is in the ledger so a reader can apply a haircut; the slow cohort and the agitated tercile were named in advance; the confirmation ran on untouched held-out days. | No statistic combines the evidence across chapters. The real defence would be a forward replication, still pending. |
+| [A2](testigos/CARTA_DE_ATAQUE.md?plain=1#L27) | One symbol carries the result, and it is the venue's own token, so the effect may be a subsidy. | Declared as a caution from the pilot onwards. After an erratum, DOGE, the only corroborating symbol, fell away. | With the data seen, a venue subsidy cannot be told apart from a skill of the patient trader. |
+| [A3](testigos/CARTA_DE_ATAQUE.md?plain=1#L44) | The 5 s horizon did not agree, so the 25 s effect may be basis reversion rather than skill. | That is why the formal verdict was inconclusive. The falsifying test is named: the markout conditional on the Lighter-Binance deviation at the fill. | Unanswered: the instrument and the test are named, not run. |
+| [A4](testigos/CARTA_DE_ATAQUE.md?plain=1#L61) | Fills are inferences from snapshots 2.9 minutes apart; 90 % of an order's life between them is invisible. | Without a compatible trade an event is ambiguous, never a fill, so errors go towards false negatives; the identity estimator was calibrated on BTC. | The bias of the inference against the true stream is not quantified. |
+| [A5](testigos/CARTA_DE_ATAQUE.md?plain=1#L75) | The Binance reference mixes edge with basis, and the basis may move with volatility inside the agitated tercile. | Every threshold has a positive control, and uncertified symbols are marked against the venue's own trades. | Basis conditional on regime is not modelled; the recomputation against the venue's own trades is pending. |
+| [A6](testigos/CARTA_DE_ATAQUE.md?plain=1#L87) | Survivorship has a third head: surviving the 2.9-minute interval already selects orders that were not swept. | Correct, with no full answer. A refinement added on 6 July names the mechanism, the exclusion of through-with-at orders, and makes a sensitivity test mandatory. | The test ran on 7 September; the front page reports what it found. |
+| [A7](testigos/CARTA_DE_ATAQUE.md?plain=1#L117) | The regime is not stationary, and the window measured may already have expired. | The regime window was frozen before the data, with a re-check at every freeze; the forward test measures the current regime. | The letter treats this as design rather than residue. |
+| [A8](testigos/CARTA_DE_ATAQUE.md?plain=1#L127) | The 'external verification' is the same person with two hats: the review role is another model voiced by the same operator. | True. The ledger scores the review role's hits and misses; the mirror, the manifest and this letter exist so that a real third party can check. | Self-discipline becomes auditable; it will be audited when someone audits it. |
+| [A9](testigos/CARTA_DE_ATAQUE.md?plain=1#L139) | Even if true it would not pay: about $288k a day of slow volume across 266 wallets. | Existence is not edge. The layer that would measure size, capacity and execution was never run, on purpose. | If an appeal confirmed the effect and capacity came to cents, the programme would write that down. |
+| [A10](testigos/CARTA_DE_ATAQUE.md?plain=1#L151) | The vendors' data was audited late and unevenly. | Certification grew stricter with each lesson, and measurement noise attenuates an estimate towards zero: it could hide an edge but not fabricate a t of −26. | An argument about the direction of the bias, not a full re-certification. |
+| [A11](testigos/CARTA_DE_ATAQUE.md?plain=1#L168) | The statistical code was written by AI models; the paper trail proves discipline of process, not correctness of implementation. | Tests, positive controls, and calibration end to end against known results. An internal two-layer audit found a real erratum: a t statistic computed as independent, inflated 7 to 30 times. | No outside line-by-line audit exists, and agreement among AI reviewers that share an architecture is not an independent audit. |
+
 ## Rulings
 
 | date | document | what it says |

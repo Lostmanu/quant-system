@@ -1,57 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="The six steps of the CI job, what each checks, and the failure or review behind it. One of them cannot fail today.">
-  <rect width="1200" height="560" fill="#12161C"/>
-
-  <text x="60" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#F2F4F7">The six steps that run on every push</text>
-  <text x="60" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#8B98A8">One CI job on every push. Each step runs even when an earlier one has failed, so each reports its own result.</text>
-
-  <g font-family="Georgia, 'Times New Roman', serif">
-    <!-- row 1 -->
-    <rect x="60" y="106" width="340" height="150" rx="4" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
-    <text x="82" y="136" font-size="17" fill="#F2F4F7">Test suite</text>
-    <text x="82" y="160" font-size="13" fill="#C9D2DD">476 tests. An autouse fixture takes a</text>
-    <text x="82" y="179" font-size="13" fill="#C9D2DD">fingerprint of two protected state folders</text>
-    <text x="82" y="198" font-size="13" fill="#C9D2DD">under .git after every test.</text>
-    <text x="82" y="236" font-size="12" font-style="italic" fill="#8B98A8">Tests wrote into the repo three times, once in .git.</text>
-
-    <rect x="430" y="106" width="340" height="150" rx="4" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
-    <text x="452" y="136" font-size="17" fill="#F2F4F7">Mutation harness</text>
-    <text x="452" y="160" font-size="13" fill="#C9D2DD">49 rows. Each disables one check and</text>
-    <text x="452" y="179" font-size="13" fill="#C9D2DD">requires a named test to fail with the</text>
-    <text x="452" y="198" font-size="13" fill="#C9D2DD">marker declared for it.</text>
-    <text x="452" y="236" font-size="12" font-style="italic" fill="#8B98A8">Twice, a green test was hiding a dead guard.</text>
-
-    <rect x="800" y="106" width="340" height="150" rx="4" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
-    <text x="822" y="136" font-size="17" fill="#F2F4F7">Documentation guard</text>
-    <text x="822" y="160" font-size="13" fill="#C9D2DD">A preregistration is dated by the commit</text>
-    <text x="822" y="179" font-size="13" fill="#C9D2DD">of its current text; every rule declared</text>
-    <text x="822" y="198" font-size="13" fill="#C9D2DD">implemented must name a symbol that exists.</text>
-    <text x="822" y="236" font-size="12" font-style="italic" fill="#8B98A8">Added after a PREREG was written after the result.</text>
-
-    <!-- row 2 -->
-    <rect x="60" y="276" width="340" height="150" rx="4" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
-    <text x="82" y="306" font-size="17" fill="#F2F4F7">Completeness census</text>
-    <text x="82" y="330" font-size="13" fill="#C9D2DD">numpy load and save may appear only in</text>
-    <text x="82" y="349" font-size="13" fill="#C9D2DD">the artefact module. Checked on the AST,</text>
-    <text x="82" y="368" font-size="13" fill="#C9D2DD">with exemptions declared per call site.</text>
-    <text x="82" y="406" font-size="12" font-style="italic" fill="#8B98A8">Four times, a fix covered one path of several.</text>
-
-    <rect x="430" y="276" width="340" height="150" rx="4" fill="#1A2029" stroke="#3A4450" stroke-width="2"/>
-    <text x="452" y="306" font-size="17" fill="#F2F4F7">Probe registry</text>
-    <text x="748" y="304" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="10" fill="#E8A33D" text-anchor="end">CANNOT FAIL TODAY</text>
-    <text x="452" y="330" font-size="13" fill="#C9D2DD">Each declared probe rule must resolve to</text>
-    <text x="452" y="349" font-size="13" fill="#C9D2DD">a function that imports and can be called.</text>
-    <text x="452" y="368" font-size="13" fill="#C9D2DD">The registry is empty, so the step passes.</text>
-    <text x="452" y="406" font-size="12" font-style="italic" fill="#8B98A8">Added in review, to check names resolve to code.</text>
-
-    <rect x="800" y="276" width="340" height="150" rx="4" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
-    <text x="822" y="306" font-size="17" fill="#F2F4F7">Register count</text>
-    <text x="822" y="330" font-size="13" fill="#C9D2DD">The tally of the 93-entry register is rebuilt</text>
-    <text x="822" y="349" font-size="13" fill="#C9D2DD">from its tables. The step fails if it is stale</text>
-    <text x="822" y="368" font-size="13" fill="#C9D2DD">or if two entries share an id.</text>
-    <text x="822" y="406" font-size="12" font-style="italic" fill="#8B98A8">In CI since a stale tally was published for 44 rows.</text>
-  </g>
-
-  <line x1="60" y1="460" x2="1140" y2="460" stroke="#2A323D"/>
-  <text x="60" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C9D2DD">None of these steps looks at an estimate. The +18.24 was withdrawn after a checklist review on 24 August, an incident</text>
-  <text x="60" y="512" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#C9D2DD">report on 26 August and a post hoc re-analysis on 7 September 2026, none of which runs in CI.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660" role="img" aria-label="The six steps of the CI job, what each checks, and the failure or review behind it. One of them cannot fail today.">
+  <rect width="1000" height="660" fill="#12161C"/>
+  <text x="40" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#F2F4F7" text-anchor="start">The six steps that run on every push</text>
+  <text x="40" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#8B98A8" text-anchor="start" font-style="italic">One CI job. Each step runs even when an earlier one has failed, so each reports its own result.</text>
+  <rect x="40" y="100" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
+  <text x="62" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Test suite</text>
+  <text x="62" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">476 tests. An autouse fixture takes a fingerprint</text>
+  <text x="62" y="186" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">of two protected state folders under .git after</text>
+  <text x="62" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">every test.</text>
+  <text x="62" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Tests wrote into the repo three times, once in .git.</text>
+  <rect x="510" y="100" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
+  <text x="532" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Mutation harness</text>
+  <text x="532" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">49 rows. Each disables one check and requires a</text>
+  <text x="532" y="186" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">named test to fail with the marker declared</text>
+  <text x="532" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">for it.</text>
+  <text x="532" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Twice, a green test was hiding a dead guard.</text>
+  <rect x="40" y="280" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
+  <text x="62" y="314" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Documentation guard</text>
+  <text x="62" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">A preregistration is dated by the commit of its</text>
+  <text x="62" y="366" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">current text, and every rule declared as</text>
+  <text x="62" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">implemented must name a symbol that exists.</text>
+  <text x="62" y="426" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Added after a PREREG was written after the result.</text>
+  <rect x="510" y="280" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
+  <text x="532" y="314" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Completeness census</text>
+  <text x="532" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">numpy load and save may appear only in the</text>
+  <text x="532" y="366" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">artefact module. Checked on the AST, with</text>
+  <text x="532" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">exemptions declared per call site.</text>
+  <text x="532" y="426" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Four times, a fix covered one path of several.</text>
+  <rect x="40" y="460" width="450" height="162" rx="5" fill="#1A2029" stroke="#3A4450" stroke-width="2"/>
+  <text x="62" y="494" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Probe registry</text>
+  <text x="468" y="492" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E8A33D" text-anchor="end" letter-spacing="1">CANNOT FAIL TODAY</text>
+  <text x="62" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">Each declared probe rule must resolve to a</text>
+  <text x="62" y="546" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">function that imports and can be called. The</text>
+  <text x="62" y="568" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">registry is empty, so the step passes.</text>
+  <text x="62" y="606" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Added in review, to check names resolve to code.</text>
+  <rect x="510" y="460" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
+  <text x="532" y="494" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Register count</text>
+  <text x="532" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">The tally of the 93-entry register is rebuilt from</text>
+  <text x="532" y="546" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">its tables. The step fails if it is stale or if</text>
+  <text x="532" y="568" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">two entries share an id.</text>
+  <text x="532" y="606" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">In CI since a stale tally was published for 44 rows.</text>
 </svg>
