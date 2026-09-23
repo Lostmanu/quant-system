@@ -11,8 +11,8 @@
   <rect x="510" y="100" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
   <text x="532" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Mutation harness</text>
   <text x="532" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">49 rows. Each disables one check and requires a</text>
-  <text x="532" y="186" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">named test to fail with the marker declared</text>
-  <text x="532" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">for it.</text>
+  <text x="532" y="186" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">named test to fail with the failure message</text>
+  <text x="532" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">declared for it.</text>
   <text x="532" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Twice, a green test was hiding a dead guard.</text>
   <rect x="40" y="280" width="450" height="162" rx="5" fill="#1A2029" stroke="#2E7D32" stroke-width="2"/>
   <text x="62" y="314" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Documentation guard</text>
@@ -28,7 +28,7 @@
   <text x="532" y="426" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#8B98A8" text-anchor="start" font-style="italic">Four times, a fix covered one path of several.</text>
   <rect x="40" y="460" width="450" height="162" rx="5" fill="#1A2029" stroke="#3A4450" stroke-width="2"/>
   <text x="62" y="494" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#F2F4F7" text-anchor="start">Probe registry</text>
-  <text x="468" y="492" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E8A33D" text-anchor="end" letter-spacing="1">CANNOT FAIL TODAY</text>
+  <text x="468" y="492" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E8A33D" text-anchor="end" letter-spacing="1">CANNOT FAIL TODAY</text>
   <text x="62" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">Each declared probe rule must resolve to a</text>
   <text x="62" y="546" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">function that imports and can be called. The</text>
   <text x="62" y="568" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#C9D2DD" text-anchor="start">registry is empty, so the step passes.</text>

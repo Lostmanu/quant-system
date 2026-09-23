@@ -96,7 +96,7 @@ def result_svg():
     s = Svg(W, 560, f"Per-day markouts at 25 seconds for {n} days under the July fill rule and the wider rule, "
                     f"and the mean at five horizons under both rules.")
     s.text(40, 44, "The +18.24 basis points, day by day, under the two fill rules", 26, TEXT)
-    s.text(40, 72, f"Slow orders, agitated tercile, 25 s. Lighter LIT perpetual, {n} days with data between "
+    s.text(40, 72, f"Slow orders, most volatile third, 25 s. Lighter LIT perpetual, {n} days between "
                    f"{first.day} {month(first)} and {lastd.day} {month(lastd)} 2026.", 16, MUTED,
            extra=' font-style="italic"')
 
@@ -180,7 +180,7 @@ def timeline_svg():
             continue
         a, b = X(day(e["date"])), X(day(e["end"]))
         if e["kind"] == "outage":
-            yb, col, lab = top + 6, RED, "no data captured"
+            yb, col, lab = top + 6, "#F85149", "no data captured"   # 5.4:1 on the background
         else:
             yb, col, lab = top - 20, DIM, "ledger silent"
         s.add(f'<path d="M{a:.1f} {yb + 7:.1f} V{yb:.1f} H{b:.1f} V{yb + 7:.1f}" fill="none" stroke="{col}" '
@@ -257,7 +257,7 @@ def code_svg():
         s.line(X(m), y1, X(m), y1 + 6, AXIS)
         s.text(X(m) + 4, y1 + 25, month(m), 15, DIM, MONO)
         m = m.replace(month=m.month + 1) if m.month < 12 else m.replace(year=m.year + 1, month=1)
-    for key, col in ((1, AMBER), (2, BLUE)):
+    for key, col in ((2, BLUE), (1, AMBER)):          # analysis/tools on top: its drop is the headline
         path = " ".join(f"{X(p[0]):.1f},{Y(p[key]):.1f}" for p in pts)
         s.add(f'<polyline points="{path}" fill="none" stroke="{col}" stroke-width="2.2" stroke-linejoin="round"/>')
     s.add(f'<circle cx="{X(peak[0]):.1f}" cy="{Y(peak[1]):.1f}" r="5" fill="{AMBER}"/>')

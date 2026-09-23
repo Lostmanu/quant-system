@@ -7,8 +7,9 @@ from what these files produce, and a workflow runs that check on every push.
 ## d1_per_day_25s.csv
 
 One row per day for the 79 days of the September re-analysis (6 March to 29 June 2026, Lighter LIT
-perpetual, slow cohort, agitated tercile): the day's mean markout in basis points under the July fill
-rule (`H`), under the wider rule (`A`), and their difference.
+perpetual, slow cohort, most volatile third): the day's mean markout in basis points under the July fill
+rule (`H`), under the wider rule (`A`), their difference, and `n_H`, the number of July-rule markouts
+that day.
 
 They were copied from the run's output file `results.json`, key
 `paired_contrasts['A-H|slow|agitado|25000']`, which is kept with the raw data outside
@@ -23,8 +24,10 @@ The chart marks 1 May (`H` +223) as the day with the zero-price reference. The r
 day, but it follows from its numbers. At 25 seconds there is one non-positive reference, and validating it
 changes the mean by −2.6332 bps ([ruling](../../../docs/DICTAMEN_MESA_2026-09-07_I5_D1_79.md), lines
 153-155), with t −1.00 over 79 days (RESULTADO_CODE_2026-09-07_I5_D1_79.md, line 70), which only one
-changed day can produce. That day moved by 79 × 2.6332 ≈ 208 bps. 1 May is the only day above +37, and
-taking 208.02 from it gives a mean of +15.6036, the validated value exactly.
+changed day can produce. That day's mean therefore moved by 79 × 2.6332 = 208.02 bps. A zero reference
+gives a markout of +10,000 bps on an ask. On 1 May the run recorded `n_H` = 48 markouts; removing one
++10,000 from them changes that day's mean by exactly 208.02. No other day comes within 4 bps of that
+figure: the next closest, with 50 markouts, gives 203.91.
 
 These are daily averages of inferred markouts. The programme publishes summary statistics of its own
 analysis like these, and keeps out anything closer to market data, such as per-symbol volatility, trade

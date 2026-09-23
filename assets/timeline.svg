@@ -4,8 +4,8 @@
   <text x="40.0" y="72.0" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#8B98A8" text-anchor="start" font-style="italic">Commits per week in the private repository. The numbered events are listed under the figure.</text>
   <path d="M320.0 119.0 V112.0 H895.7 V119.0" fill="none" stroke="#8B98A8" stroke-width="1.5"/>
   <text x="607.9" y="105.0" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">ledger silent</text>
-  <path d="M672.9 145.0 V138.0 H756.4 V145.0" fill="none" stroke="#C0392B" stroke-width="1.5"/>
-  <text x="714.6" y="131.0" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#C0392B" text-anchor="middle">no data captured</text>
+  <path d="M672.9 145.0 V138.0 H756.4 V145.0" fill="none" stroke="#F85149" stroke-width="1.5"/>
+  <text x="714.6" y="131.0" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#F85149" text-anchor="middle">no data captured</text>
   <line x1="60.0" y1="270.3" x2="970.0" y2="270.3" stroke="#232B35" stroke-width="1"/>
   <text x="52.0" y="275.3" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="end">20</text>
   <line x1="60.0" y1="220.6" x2="970.0" y2="220.6" stroke="#232B35" stroke-width="1"/>

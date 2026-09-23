@@ -5,19 +5,19 @@
   <text x="40" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#8B98A8" text-anchor="start" font-style="italic">A one-person research programme on crypto perpetual-futures microstructure,</text>
   <text x="40" y="147" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#8B98A8" text-anchor="start" font-style="italic">June to September 2026. It found no trading edge.</text>
   <line x1="40" y1="178" x2="960" y2="178" stroke="#2A323D"/>
-  <text x="40" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">COMMITS</text>
+  <text x="40" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.2">COMMITS</text>
   <text x="40" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">457</text>
   <text x="40" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">12 Jun to 9 Sep 2026</text>
-  <text x="200" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">TESTS</text>
+  <text x="200" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.2">TESTS</text>
   <text x="200" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">476</text>
   <text x="200" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">passing in CI</text>
-  <text x="340" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">MUTATION ROWS</text>
+  <text x="340" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.2">MUTATION ROWS</text>
   <text x="340" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">49</text>
   <text x="340" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">each makes a named test fail</text>
-  <text x="560" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">DAYS REBUILT</text>
+  <text x="560" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.2">DAYS REBUILT</text>
   <text x="560" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F2F4F7" text-anchor="start">79</text>
   <text x="560" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">632 of 632 numbers matched</text>
-  <text x="770" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">EDGE FOUND</text>
+  <text x="770" y="208" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.2">EDGE FOUND</text>
   <text x="770" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#C0392B" text-anchor="start">none</text>
   <text x="770" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start">+18.24 bps withdrawn on 7 Sep</text>
 </svg>

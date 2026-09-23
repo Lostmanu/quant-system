@@ -2,11 +2,11 @@
   <rect width="1000" height="560" fill="#12161C"/>
   <text x="40" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#F2F4F7" text-anchor="start">How a fill was inferred, and what the wider rule changed</text>
   <text x="40" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#8B98A8" text-anchor="start" font-style="italic">A resting bid at price p, followed across two snapshots of the order book about 2.9 minutes apart.</text>
-  <text x="40" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">CASE</text>
-  <text x="330" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="middle">snapshot 1</text>
-  <text x="590" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="middle">snapshot 2</text>
-  <text x="735" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">JULY RULE</text>
-  <text x="895" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">WIDER RULE</text>
+  <text x="40" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">CASE</text>
+  <text x="330" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">snapshot 1</text>
+  <text x="590" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">snapshot 2</text>
+  <text x="735" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">JULY RULE</text>
+  <text x="895" y="122" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">WIDER RULE</text>
   <line x1="40" y1="136" x2="960" y2="136" stroke="#232B35"/>
   <text x="46" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F2F4F7" text-anchor="start">Filled</text>
   <text x="46" y="198" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B98A8" text-anchor="start">gone; trades at p, none below</text>
@@ -51,7 +51,7 @@
   <text x="735" y="414" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8B98A8" text-anchor="middle">left out</text>
   <text x="895" y="414" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8B98A8" text-anchor="middle">left out</text>
   <text x="46" y="478" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F2F4F7" text-anchor="start">Cancelled</text>
-  <text x="46" y="502" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B98A8" text-anchor="start">gone; no trade at p</text>
+  <text x="46" y="502" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8B98A8" text-anchor="start">gone; no trade at or below p</text>
   <line x1="330" y1="460" x2="330" y2="508" stroke="#3A4450"/>
   <line x1="590" y1="460" x2="590" y2="508" stroke="#3A4450"/>
   <line x1="330" y1="478" x2="546" y2="478" stroke="#C9D2DD" stroke-width="3.5" stroke-linecap="round"/>
