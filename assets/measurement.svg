@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" role="img" aria-label="Diagram of how a fill was inferred from two order-book snapshots and the trades between them, which cases each fill rule counts, and how a fill was scored.">
+<rect width="1200" height="780" fill="#12161C"/>
+<text x="60" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#F2F4F7" text-anchor="start">How a fill was inferred, and what the wider rule changed</text>
+<text x="60" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start" font-style="italic">The programme placed no orders. It followed other traders' resting orders through snapshots of the Lighter order book</text>
+<text x="60" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8B98A8" text-anchor="start" font-style="italic">taken about 2.9 minutes apart, and read the trades printed in between. The example is a resting bid at price p.</text>
+<text x="60" y="146" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">CASE</text>
+<text x="330" y="146" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="middle">snapshot 1</text>
+<text x="700" y="146" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="middle">snapshot 2</text>
+<text x="850" y="146" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">HISTORICAL RULE</text>
+<text x="1010" y="146" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="middle" letter-spacing="1.5">WIDER RULE</text>
+<line x1="60" y1="158" x2="1140" y2="158" stroke="#232B35" stroke-width="1"/>
+<text x="64" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#F2F4F7" text-anchor="start">Filled</text>
+<text x="64" y="216" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="start">gone; trades at p, none below p</text>
+<line x1="330" y1="178" x2="330" y2="222" stroke="#3A4450" stroke-width="1"/>
+<line x1="700" y1="178" x2="700" y2="222" stroke="#3A4450" stroke-width="1"/>
+<line x1="330" y1="194" x2="650" y2="194" stroke="#C9D2DD" stroke-width="3" stroke-linecap="round"/>
+<text x="320" y="198" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="end">p</text>
+<circle cx="470" cy="194" r="5" fill="#3FB950"/>
+<circle cx="540" cy="194" r="5" fill="#3FB950"/>
+<text x="850" y="206" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#3FB950" text-anchor="middle">counted</text>
+<text x="1010" y="206" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#3FB950" text-anchor="middle">counted</text>
+<text x="64" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#F2F4F7" text-anchor="start">Partly filled</text>
+<text x="64" y="288" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="start">still there, smaller; a trade at p</text>
+<line x1="330" y1="250" x2="330" y2="294" stroke="#3A4450" stroke-width="1"/>
+<line x1="700" y1="250" x2="700" y2="294" stroke="#3A4450" stroke-width="1"/>
+<line x1="330" y1="266" x2="700" y2="266" stroke="#C9D2DD" stroke-width="3" stroke-linecap="round"/>
+<line x1="515" y1="266" x2="700" y2="266" stroke="#12161C" stroke-width="1.6"/>
+<text x="320" y="270" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="end">p</text>
+<circle cx="510" cy="266" r="5" fill="#3FB950"/>
+<text x="850" y="278" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#3FB950" text-anchor="middle">counted</text>
+<text x="1010" y="278" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#3FB950" text-anchor="middle">counted</text>
+<rect x="50" y="314" width="1100" height="62" rx="4" fill="#1A2029" stroke="#E8A33D" stroke-width="1.5"/>
+<text x="64" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#F2F4F7" text-anchor="start">Through, with at</text>
+<text x="64" y="360" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="start">gone; trades at p and below p</text>
+<line x1="330" y1="322" x2="330" y2="366" stroke="#3A4450" stroke-width="1"/>
+<line x1="700" y1="322" x2="700" y2="366" stroke="#3A4450" stroke-width="1"/>
+<line x1="330" y1="338" x2="650" y2="338" stroke="#C9D2DD" stroke-width="3" stroke-linecap="round"/>
+<text x="320" y="342" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="end">p</text>
+<circle cx="455" cy="338" r="5" fill="#3FB950"/>
+<circle cx="560" cy="338" r="5" fill="#3FB950"/>
+<circle cx="600" cy="358" r="5" fill="#C0392B"/>
+<text x="850" y="350" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">left out</text>
+<text x="1010" y="350" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#4A90D9" text-anchor="middle">counted</text>
+<text x="1140" y="330" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#E8A33D" text-anchor="end">the difference</text>
+<text x="64" y="412" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#F2F4F7" text-anchor="start">Through</text>
+<text x="64" y="432" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="start">gone; trades only below p</text>
+<line x1="330" y1="394" x2="330" y2="438" stroke="#3A4450" stroke-width="1"/>
+<line x1="700" y1="394" x2="700" y2="438" stroke="#3A4450" stroke-width="1"/>
+<line x1="330" y1="410" x2="650" y2="410" stroke="#C9D2DD" stroke-width="3" stroke-linecap="round"/>
+<text x="320" y="414" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="end">p</text>
+<circle cx="520" cy="430" r="5" fill="#C0392B"/>
+<circle cx="590" cy="430" r="5" fill="#C0392B"/>
+<text x="850" y="422" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">left out</text>
+<text x="1010" y="422" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">left out</text>
+<text x="64" y="484" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#F2F4F7" text-anchor="start">Cancelled</text>
+<text x="64" y="504" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="start">gone; no trade at p</text>
+<line x1="330" y1="466" x2="330" y2="510" stroke="#3A4450" stroke-width="1"/>
+<line x1="700" y1="466" x2="700" y2="510" stroke="#3A4450" stroke-width="1"/>
+<line x1="330" y1="482" x2="650" y2="482" stroke="#C9D2DD" stroke-width="3" stroke-linecap="round"/>
+<text x="320" y="486" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B98A8" text-anchor="end">p</text>
+<text x="850" y="494" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">left out</text>
+<text x="1010" y="494" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8B98A8" text-anchor="middle">left out</text>
+<circle cx="336" cy="540" r="5" fill="#3FB950"/>
+<text x="348" y="544" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#8B98A8" text-anchor="start">trade printed at p</text>
+<circle cx="516" cy="540" r="5" fill="#C0392B"/>
+<text x="528" y="544" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#8B98A8" text-anchor="start">trade printed below p (through the bid)</text>
+<line x1="60" y1="566" x2="1140" y2="566" stroke="#232B35" stroke-width="1"/>
+<text x="60" y="602" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A8" text-anchor="start" letter-spacing="1.5">HOW A FILL WAS SCORED</text>
+<text x="60" y="632" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" fill="#F2F4F7" text-anchor="start">markout  =  side × (reference − p) / p × 10,000   basis points</text>
+<text x="60" y="660" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C9D2DD" text-anchor="start">side is +1 for a bid and −1 for an ask. The reference is the trade on Binance's LIT perpetual nearest to the fill time plus 5 or 25 seconds.</text>
+<text x="60" y="680" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C9D2DD" text-anchor="start">The fill time is the first trade at p (for through events, the first trade below it). The plan asked for the Binance mid price; the code used the nearest trade.</text>
+<text x="60" y="710" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#C9D2DD" text-anchor="start">Slow: the order was already in an earlier snapshot, so it had rested at least one full interval. Agitated: the top third of 20-minute volatility.</text>
+<text x="60" y="740" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F2F4F7" text-anchor="start">Over the 79 days there were 132,876 slow-order events with a trade at or through the order's price; cancellations are not among them.</text>
+<text x="60" y="760" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F2F4F7" text-anchor="start">The historical rule counted 13,368 of those events (10.1 %) and the wider rule 115,302 (86.8 %).</text>
+</svg>

@@ -1,33 +1,34 @@
-# Lo que este espejo NO contiene, y por que
+# Lo que esta copia no contiene
 
-La regla de curacion es una sola: **entra la ciencia y la maquinaria; queda fuera la operacion de
-una maquina que sigue corriendo y el trafico interno entre las partes.** Con una excepcion que la
-gobierna: **si un documento que SI viaja lo ENLAZA, viaja tambien** — un expediente publicado con
-enlaces colgando no es verificable. Por eso `quant-system-ingesta/qs/docs/` conserva sus 7 ordenes
-de trabajo y sus 21 recibos de ejecucion, mientras que los de la raiz del expediente se quedan fuera.
+Esta copia incluye el código, las pruebas, las comprobaciones y el expediente del laboratorio. Deja fuera
+lo que servía para operar la máquina del colector, los mensajes de trabajo entre las partes y los
+planes y guías internas del proyecto, con una excepción: si un documento incluido enlaza a otro fichero, ese fichero también se incluye, para que ningún
+enlace del expediente quede roto. Por eso `quant-system-ingesta/qs/docs/` conserva sus 7 órdenes de
+trabajo y sus 21 recibos de ejecución, y los de la raíz del expediente se quedan fuera.
 
-La excepcion se enuncia por ENLACES y no por menciones a proposito: 103 de los ficheros ausentes
-aparecen NOMBRADOS en algun documento de aqui —casi todos en un inventario que enumera el arbol
-entero—, y arrastrarlos por eso habria traido el arbol completo. Lo que se comprueba, y se comprueba
-con un verificador sobre los .md del espejo, es que ningun enlace apunte a un fichero que no esta.
+La regla se aplica a enlaces y no a menciones, porque 105 de los 171 ficheros ausentes aparecen
+nombrados en algún documento incluido, casi todos en un inventario que enumera el árbol completo, y
+seguir las menciones habría traído el repositorio entero. El constructor de la copia, que no se publica, comprueba que ningún
+enlace de los `.md` apunte a un fichero ausente; queda uno a propósito, hacia una carpeta de custodia que
+no está en el repositorio.
 
-El arbol original tiene 344 ficheros bajo control de versiones; aqui hay 173.
-Faltan 171, y cada uno cae en una categoria y solo una:
+El repositorio original tiene 344 ficheros bajo control de versiones y aquí hay 173. Los 171 restantes se
+reparten así:
 
-| categoria | ficheros | por que |
+| categoría | ficheros | motivo |
 |---|---:|---|
-| `infra/ (salvo collector.py)` | 10 | unidades systemd, latido y el script de replica, que lleva la cuenta del almacenamiento externo |
-| `quant-system-ingesta/qs/deploy/` | 9 | unidades systemd e instalador de una maquina que sigue corriendo |
-| `quant-system-ingesta/qs/data_hist/` | 14 | agregados derivados; fuera por prudencia de licencia, no por contenido |
-| `.claude/ (salvo la checklist congelada)` | 7 | configuracion de los agentes; la checklist adversarial congelada SI viaja, porque es evidencia |
-| `docs/runs/` | 63 | recibos de ejecucion de la raiz del expediente, demasiado granulares para un lector externo |
-| `docs/PARA_*` | 26 | ordenes de trabajo entre las partes, en la raiz del expediente |
+| `infra/ (salvo collector.py)` | 10 | unidades systemd, latido y el script de réplica, que contiene la cuenta del almacenamiento externo |
+| `quant-system-ingesta/qs/deploy/` | 9 | unidades systemd e instalador de la máquina del colector |
+| `quant-system-ingesta/qs/data_hist/` | 14 | agregados derivados; fuera por prudencia con la licencia de los datos |
+| `.claude/ (salvo la checklist congelada)` | 7 | configuración de los agentes; la checklist adversarial congelada sí se incluye, porque es evidencia |
+| `docs/runs/` | 63 | recibos de ejecución de la raíz del expediente, demasiado detallados para un lector externo |
+| `docs/PARA_*` | 26 | órdenes de trabajo entre las partes, en la raíz del expediente |
 | `docs/bitacoras/` | 2 | montaje de la infraestructura, con sus identificadores |
-| `docs/CONTINUAR_AQUI.md` | 1 | estado operativo con rutas y modo de acceso a la maquina |
-| `otros documentos de proceso` | 29 | estados, planes, encargos y notas de trabajo que ningun documento de aqui enlaza |
-| `README.md` | 1 | pagina de navegacion del arbol original, con enlaces a documentos que no viajan; la sustituye el README de este espejo |
-| `resto del arbol` | 9 | ficheros sueltos que no son ni ciencia ni maquinaria: binarios antiguos, plantillas y scripts de arranque |
+| `docs/CONTINUAR_AQUI.md` | 1 | estado operativo, con rutas y modo de acceso a la máquina |
+| `otros documentos de proceso` | 29 | estados, planes, encargos y notas de trabajo que ningún documento incluido enlaza |
+| `README.md` | 1 | página de navegación del repositorio original, con enlaces a documentos que no se incluyen; la sustituye el README de esta copia |
+| `resto del árbol` | 9 | el plan maestro (docx), la especificación de ingesta, la guía y las notas de configuración de los agentes, una orden de trabajo, un log de ejecución, un CSV de comprobación y el `.gitattributes` original, sustituido por el de esta copia |
 | **total** | **171** | |
 
-El recuento de esta tabla lo genera el constructor del espejo y falla si no cuadra con
-`git ls-files` del arbol original. Los SHA-256 de lo que si viaja estan en `MANIFEST.md`.
+El constructor de la copia genera esta tabla y se detiene si la suma no coincide con `git ls-files` del
+repositorio original. Los SHA-256 de los ficheros incluidos están en [`MANIFEST.md`](MANIFEST.md).

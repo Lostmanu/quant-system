@@ -1,17 +1,21 @@
-# MANIFEST — espejo saneado de quant-system
+# MANIFEST
 
-Snapshot SIN historia del arbol original, con las redacciones del acta
-`docs/testigos/SANEAMIENTO.md` (2026-07-05) aplicadas. La historia completa queda como
-notario del arbol original; este manifiesto es el puente verificable entre ambos.
+Copia sin historia del repositorio original, con las sustituciones que fija el acta
+[`docs/testigos/SANEAMIENTO.md`](docs/testigos/SANEAMIENTO.md) del 5 de julio de 2026. La historia
+completa sigue en el repositorio original, que es privado. Con esta lista se puede comprobar desde allí
+que cada fichero de la copia es el que dice ser.
 
-- commit del arbol original del que sale este espejo: `93f3e35560f07b4debc74e8e6e631775d5dd04f4`
-- los bytes de partida son los del BLOB en ese commit (`git show <commit>:<ruta>`), no los de
-  ningun arbol de trabajo; despues se aplican las redacciones del acta y se calcula el hash
-- ficheros del arbol original: 344
-- ficheros en el espejo: 173
-- ficheros con al menos una redaccion: 35
+- commit del repositorio original: `93f3e35560f07b4debc74e8e6e631775d5dd04f4`
+- los bytes de partida son los del blob en ese commit (`git show <commit>:<ruta>`); después se aplican
+  las sustituciones y se calcula el hash
+- ficheros del repositorio original: 344
+- ficheros del original en esta copia: 173 (la portada, las figuras, la cita y la licencia son de la
+  publicación y no están en esta lista)
+- ficheros con al menos una sustitución: 35
+- ficheros cambiados después de la copia: `quant-system-ingesta/qs/tests/test_collector.py`; el hash
+  de abajo es el del fichero tal como se exportó, y su historial en este repositorio explica el cambio
 
-## SHA-256 de cada fichero del espejo (tras redactar)
+## SHA-256 de cada fichero, después de las sustituciones
 
 ```
 017aa38bce99474ab8ef2219c0c1bdb488611ee3a43a7b606d56383bae8de8b0  .claude/agents/quant-reviewer.md

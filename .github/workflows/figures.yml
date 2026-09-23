@@ -1,0 +1,19 @@
+name: figures
+on:
+  push:
+  pull_request:
+
+# The charts on the front page are drawn from the CSV files in assets/figures/data/. This step fails
+# if a published chart is not the one those files produce.
+permissions:
+  contents: read
+
+jobs:
+  charts-match-their-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python assets/figures/make_figures.py --check

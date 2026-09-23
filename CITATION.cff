@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you refer to this repository, please cite it as below."
+title: "quant-system: a one-person research programme on crypto perpetual-futures microstructure"
+type: software
+authors:
+  - family-names: "Beardo Campo"
+    given-names: "Manuel"
+repository-code: "https://github.com/Lostmanu/quant-system"
+license: Apache-2.0
+date-released: "2026-09-22"
+abstract: >-
+  The laboratory of a research programme that ran from June to September 2026 and found no trading
+  edge in crypto perpetual futures. It contains the code that survived the final cleanup, its tests,
+  six checks that run in continuous integration, and the written record of the programme.
+keywords:
+  - market microstructure
+  - cryptocurrency
+  - negative results
+  - mutation testing
+  - research engineering
