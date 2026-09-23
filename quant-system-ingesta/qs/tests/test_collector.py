@@ -4,11 +4,24 @@ zstd concatenado decodificable, flush por umbral, y — el bug cazado — que el
 buffer sin flushear. Se salta si falta zstandard (dep de infra, no del core)."""
 import importlib.util
 import os
+import shutil
 import sys
 
 import pytest
 
 zstd = pytest.importorskip("zstandard")
+
+
+@pytest.fixture(autouse=True)
+def _disco_sano(monkeypatch):
+    """(2026-09-23, publicación) `flush()` consulta el disco REAL después de escribir. Dos tests de este
+    fichero pasaban o fallaban según lo lleno que estuviera el temporal de la máquina: por encima del 85 %
+    el watchdog salía con código 3 (lo midió una revisión externa: 474 passed, 2 failed). El resultado
+    dependía de la máquina, no del código. Aquí el disco se fija al 50 %; el test del watchdog lo
+    sobrescribe con su disco lleno, que es lo que quiere probar."""
+    class _Sano:
+        total, free = 100, 50
+    monkeypatch.setattr(shutil, "disk_usage", lambda _p: _Sano())
 
 # collector.py vive en infra/lighter_collector (fuera de qs/); se carga por ruta.
 _COLLECTOR = os.path.abspath(os.path.join(
